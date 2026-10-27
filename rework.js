@@ -64,10 +64,23 @@
   const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),25000);
   try{
    const response=await fetch(form.action.replace('formsubmit.co/','formsubmit.co/ajax/'),{method:'POST',body:data,headers:{Accept:'application/json'},signal:controller.signal});
-   const result=await response.json();if(!response.ok||!(result.success===true||result.success==='true'))throw Error('Not accepted');
+   const raw=await response.text();let result;
+   try{result=JSON.parse(raw);}catch{throw Error('unconfirmed');}
+   if(!(result.success===true||result.success==='true')||!response.ok){
+    const message=String(result.message||'');
+    if(/needs? activation|activate (?:this |the )?form|form.{0,30}activat/i.test(message))throw Error('activation');
+    if(response.status===429||/rate limit|too many/i.test(message))throw Error('rate-limit');
+    throw Error('rejected');
+   }
    status.textContent='Zapytanie zostało przyjęte do wysyłki. Dziękuję za wiadomość.';form.reset();photos=[];version++;uploadStatus.textContent='';files.setCustomValidity('');window.dispatchEvent(new CustomEvent('effkowe:conversion',{detail:{name:'inquiry_accepted'}}));
-  }catch{
-   status.replaceChildren(document.createTextNode('Nie udało się potwierdzić wysyłki. Dane zostały w formularzu. Spróbuj ponownie lub '));const mail=document.createElement('a');mail.href='mailto:ewa.katrycz@gmail.com';mail.textContent='napisz bezpośrednio e-mail';status.append(mail);
+  }catch(error){
+   const messages={
+    activation:'Formularz oczekuje na aktywację przez właścicielkę strony. Twoje dane pozostały w formularzu. W tej chwili ',
+    'rate-limit':'Usługa wysyłkowa jest chwilowo przeciążona. Twoje dane pozostały w formularzu. Spróbuj później lub ',
+    rejected:'Usługa nie przyjęła zapytania. Twoje dane pozostały w formularzu. '
+   };
+   status.replaceChildren(document.createTextNode(messages[error.message]||'Nie otrzymaliśmy potwierdzenia wysyłki. Wiadomość mogła zostać przyjęta — unikaj ponownego wysyłania tego samego zgłoszenia. Twoje dane pozostały w formularzu. W razie potrzeby '));
+   const mail=document.createElement('a');mail.href='mailto:ewa.katrycz@gmail.com';mail.textContent='napisz bezpośrednio e-mail';status.append(mail);
   }finally{clearTimeout(timeout);sending=false;files.disabled=false;syncButton();submit.removeAttribute('aria-busy');}
  });
  document.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{const name=link.href.startsWith('mailto:')?'email_click':link.href.startsWith('tel:')?'phone_click':link.textContent.includes('Zapytaj o projekt ogrodu')?'project_cta_click':null;if(name)window.dispatchEvent(new CustomEvent('effkowe:conversion',{detail:{name}}));}));

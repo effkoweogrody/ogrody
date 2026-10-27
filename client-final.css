@@ -126,3 +126,28 @@ body.page-scroll-locked{position:fixed;top:var(--locked-scroll-top);left:0;right
 }
 
 .article-byline{font:400 13px/1.7 var(--sans);color:#455648;margin:0 0 22px}.article-byline a{text-decoration:underline;text-underline-offset:3px}
+
+/* Two complete paper cards on small screens, with no overlap. */
+@media(max-width:780px){
+ .landing-v2 .social-card{grid-template-columns:1fr;overflow:hidden}
+ .landing-v2 .social-copy{padding:28px 24px 8px}
+ .landing-v2 .social-copy h2{font-size:48px;margin-bottom:16px}
+ .landing-v2 .social-copy>p:not(.eyebrow){font-size:15px;line-height:1.75;margin-bottom:8px}
+ .landing-v2 .social-actions{display:none}
+ .landing-v2 .social-visual{height:auto;min-height:0;padding:0;background:none}
+ .landing-v2 .social-visual::before,.landing-v2 .social-visual::after{display:none}
+ .landing-v2 .social-stack{display:grid;gap:16px;min-height:0;height:auto;padding:20px 16px 24px;perspective:none}
+ .landing-v2 .social-stack .social-paper{position:relative;inset:auto;display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);grid-template-rows:auto 124px auto;gap:14px 12px;width:100%;max-width:520px;height:auto;min-height:0;margin:0 auto;padding:18px;border-radius:12px;background:#fffefa;box-shadow:0 8px 24px #1d30250d;transform:none;will-change:auto}
+ .landing-v2 .social-stack .social-paper:hover{transform:none}
+ .landing-v2 .social-paper-top{grid-column:1/-1;margin:0}
+ .landing-v2 .social-paper-label{font-size:11px;letter-spacing:.1em}
+ .landing-v2 .social-paper-dots{display:none}
+ .landing-v2 .social-paper-brand{min-width:0;min-height:0;margin:0;align-content:center}
+ .landing-v2 .social-paper-brand img{width:116px;max-width:100%;height:auto}
+ .landing-v2 .social-paper-grid,.landing-v2 .social-paper-strip{height:124px;min-height:0;margin:0;gap:6px;grid-template-rows:repeat(2,minmax(0,1fr))}
+ .landing-v2 .social-paper-strip{grid-template-rows:minmax(0,1fr)}
+ .landing-v2 .social-paper-grid img,.landing-v2 .social-paper-strip img{height:100%;min-height:0;border-radius:7px}
+ .landing-v2 .social-paper-bottom{grid-column:1/-1;gap:10px;min-width:0;padding-top:12px;margin:0;align-items:center}
+ .landing-v2 .social-paper-bottom strong{font-size:10px;letter-spacing:.02em;overflow-wrap:normal}
+ .landing-v2 .social-paper-bottom>span{font-size:11px;white-space:nowrap;text-decoration:underline;text-underline-offset:4px}
+}

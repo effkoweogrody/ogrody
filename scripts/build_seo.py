@@ -151,7 +151,7 @@ def structured_data(config, origin, filename, page, source, images, projects):
 def render_page(config, origin, filename, page, projects):
     source = (ROOT / filename).read_text(encoding='utf-8')
     source = source.replace('href="../index.html', 'href="../').replace('href="index.html', 'href="./')
-    source = re.sub(r'client-final\.css\?v=[^"\s>]+', 'client-final.css?v=20261027-seo', source)
+    source = re.sub(r'client-final\.css\?v=[^"\s>]+', 'client-final.css?v=20261027-form-social', source)
     source = re.sub(r'<!-- SEO:generated -->.*?<!-- /SEO:generated -->', '', source, flags=re.S)
     head_end = source.index('</head>'); head, body = source[:head_end], source[head_end:]
     head = re.sub(r'<title>.*?</title>', '', head, flags=re.S)
