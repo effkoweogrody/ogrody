@@ -3,7 +3,7 @@ Uses Python's standard library. It never changes DNS or repository Pages setting
 """
 from pathlib import Path
 from html.parser import HTMLParser
-from urllib.parse import urlsplit, unquote
+from urllib.parse import urlsplit, unquote, urljoin
 import argparse
 import html
 import json
@@ -33,8 +33,71 @@ class Facts(HTMLParser):
 def attrs(tag):
     p = Facts(); p.feed(tag); return p.attrs
 
+def public_path(path):
+    parts = urlsplit(path)
+    filename = parts.path.lstrip('/')
+    if filename == 'index.html': filename = ''
+    elif filename.endswith('.html') and filename not in (*ARCHIVES, '404.html'):
+        filename = filename[:-5] + '/'
+    return filename + ('?' + parts.query if parts.query else '') + ('#' + parts.fragment if parts.fragment else '')
+
+
 def absolute(origin, path=''):
-    return origin.rstrip('/') + '/' + path.lstrip('/')
+    return origin.rstrip('/') + '/' + public_path(path)
+
+
+def output_file(filename):
+    return 'index.html' if filename == 'index.html' else filename[:-5] + '/index.html'
+
+
+def rewrite_urls(source, filename, origin, config):
+    # Keep resources relative to the site root so an extra route directory
+    # does not change image, script, gallery or navigation destinations.
+    prefix = urlsplit(origin).path.rstrip('/')
+    preview_prefix = urlsplit(config['preview_url']).path.rstrip('/')
+    hosts = {urlsplit(config[key]).netloc for key in ('preview_url', 'production_url')}
+    def rewrite(value):
+        value = html.unescape(value)
+        if not value or value.startswith(('#', 'data:', 'mailto:', 'tel:', 'javascript:')): return value
+        u = urlsplit(value)
+        if u.scheme or u.netloc:
+            if u.netloc not in hosts: return value
+            path = u.path.lstrip('/')
+        elif value.startswith('/'):
+            path = u.path.lstrip('/')
+        else:
+            path = urlsplit(urljoin('https://local/' + filename, value)).path.lstrip('/')
+        if preview_prefix and path.startswith(preview_prefix.lstrip('/') + '/'):
+            path = path[len(preview_prefix.lstrip('/')) + 1:]
+        path = public_path(path)
+        return prefix + '/' + path + ('?' + u.query if u.query else '') + ('#' + u.fragment if u.fragment else '')
+    def attribute(match):
+        key, quote, value = match.groups()
+        if key.lower() == 'srcset':
+            value = ', '.join(' '.join([rewrite(item.split()[0]), *item.split()[1:]]) for item in value.split(',') if item.strip())
+        else: value = rewrite(value)
+        return key + '=' + quote + html.escape(value, quote=True) + quote
+    source = re.sub(r'\b(href|src|srcset|poster)=([' + "\"'" + r'])(.*?)\2', attribute, source, flags=re.I)
+    def inline_script(match):
+        if 'src=' in match[1] or 'application/ld+json' in match[1]: return match[0]
+        def resource(m):
+            value = m[2]
+            if value.startswith(('../', './', 'assets/', '/assets/', '/ogrody/assets/')) and re.search(r'\.(webp|png|jpe?g|svg|pdf|html)(?:[?#].*)?$', value, re.I):
+                return m[1] + rewrite(value) + m[1]
+            return m[0]
+        return match[1] + re.sub(r'(["\'])([^"\'<>\n]+)\1', resource, match[2]) + '</script>'
+    return re.sub(r'(<script\b[^>]*>)(.*?)</script>', inline_script, source, flags=re.S|re.I)
+
+
+def legacy_redirect(source, origin, filename):
+    destination = urlsplit(canonical(origin, filename)).path
+    if filename == 'index.html':
+        script = 'if(location.pathname.endsWith("/index.html"))location.replace(' + json.dumps(destination) + '+location.search+location.hash);'
+        block = '<script>' + script + '</script>'
+    else:
+        script = 'location.replace(' + json.dumps(destination) + '+location.search+location.hash);'
+        block = '<script>' + script + '</script><meta http-equiv="refresh" content="0;url=' + html.escape(destination, quote=True) + '">'
+    return source.replace('</head>', '<!-- ROUTE:redirect -->' + block + '<!-- /ROUTE:redirect --></head>')
 
 def canonical(origin, filename):
     return absolute(origin, '' if filename == 'index.html' else filename)
@@ -53,11 +116,18 @@ def load_pages(config):
         }
     return pages, projects
 
+def resource_file(filename, src):
+    path = unquote(urlsplit(src).path)
+    prefix = urlsplit(json.loads((ROOT / 'seo-config.json').read_text(encoding='utf-8'))['preview_url']).path.rstrip('/')
+    if prefix and path.startswith(prefix + '/'): path = path[len(prefix):]
+    return ROOT / path.lstrip('/') if path.startswith('/') else (ROOT / filename).parent / path
+
+
 def page_images(filename, source):
     p = Facts(); p.feed(source); paths = []
     for src in p.images:
         if urlsplit(src).scheme: continue
-        path = (ROOT / filename).parent / unquote(urlsplit(src).path)
+        path = resource_file(filename, src)
         if path.name.startswith('card-'): continue
         full = path.with_name(path.name.replace('-display.webp', '.webp'))
         if full.is_file(): path = full
@@ -68,7 +138,7 @@ def page_images(filename, source):
         gallery_json=re.sub(r',\s*([}\]])',r'\1',gallery_json)
         for group in json.loads(gallery_json).values():
             for src in group:
-                path = ((ROOT / filename).parent / unquote(urlsplit(src).path)).resolve()
+                path = resource_file(filename, src).resolve()
                 if path.is_file(): paths.append(path.relative_to(ROOT).as_posix())
     return list(dict.fromkeys(paths))
 
@@ -150,9 +220,11 @@ def structured_data(config, origin, filename, page, source, images, projects):
 
 def render_page(config, origin, filename, page, projects):
     source = (ROOT / filename).read_text(encoding='utf-8')
+    source = re.sub(r'<!-- ROUTE:redirect -->.*?<!-- /ROUTE:redirect -->', '', source, flags=re.S)
     source = source.replace('href="../index.html', 'href="../').replace('href="index.html', 'href="./')
     source = re.sub(r'client-final\.css\?v=[^"\s>]+', 'client-final.css?v=20261027-form-social', source)
     source = re.sub(r'<!-- SEO:generated -->.*?<!-- /SEO:generated -->', '', source, flags=re.S)
+    source = rewrite_urls(source, filename, origin, config)
     head_end = source.index('</head>'); head, body = source[:head_end], source[head_end:]
     head = re.sub(r'<title>.*?</title>', '', head, flags=re.S)
     def remove_meta(match):
@@ -210,7 +282,8 @@ def build(origin, output, copy_assets=False, write_cname=False):
     pages, projects = load_pages(config); images_by_page = {}
     for filename, page in pages.items():
         source, images = render_page(config, origin, filename, page, projects)
-        target = output / filename; target.parent.mkdir(parents=True, exist_ok=True); target.write_bytes(source.encode('utf-8'))
+        target = output / output_file(filename); target.parent.mkdir(parents=True, exist_ok=True); target.write_bytes(source.encode('utf-8'))
+        legacy = output / filename; legacy.parent.mkdir(parents=True, exist_ok=True); legacy.write_bytes(legacy_redirect(source, origin, filename).encode('utf-8'))
         if page.get('index', True): images_by_page[filename] = images
     if output == ROOT:
         for filename in ARCHIVES:
@@ -227,6 +300,7 @@ def build(origin, output, copy_assets=False, write_cname=False):
             child = ET.SubElement(node, f'{{{IMAGE_NS}}}image'); ET.SubElement(child, f'{{{IMAGE_NS}}}loc').text = absolute(origin, image)
     ET.indent(sitemap, space='  '); (output / 'sitemap.xml').write_bytes(ET.tostring(sitemap,encoding='utf-8',xml_declaration=True)+b'\n')
     (output / 'robots.txt').write_bytes(robots(origin).encode('utf-8'))
+    (output / 'adresy-do-indeksowania.txt').write_bytes(('\n'.join(canonical(origin, f) for f in images_by_page) + '\n').encode('utf-8'))
     (output / 'llms.txt').write_bytes(llms(config, origin, pages).encode('utf-8'))
     (output / '404.html').write_bytes(not_found(origin).encode('utf-8'))
     (output / '.nojekyll').write_bytes(b'')

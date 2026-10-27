@@ -6,8 +6,11 @@
 - 20 stron jest przeznaczonych do indeksowania. Robocza polityka prywatności oraz strony archiwalne/testowe mają `noindex,follow`.
 - Sitemap zawiera adresy stron i zdjęć; daty `lastmod` oznaczają rzeczywistą zmianę treści/metadanych, nie każde uruchomienie skryptu.
 - Canonicale, Open Graph, JSON-LD, robots.txt, llms.txt i linki 404 korzystają z jednego adresu bazowego.
-- Podgląd nadal działa na GitHub Pages. Plik CNAME pozostaje pusty, dopóki nie uruchamiamy domeny.
-- Dnia 27.10.2026 domena docelowa nie rozwiązywała się w sprawdzanym DNS. Samo przygotowanie plików nie podpina domeny ani nie weryfikuje Search Console.
+- Domena produkcyjna to `effkoweogrody.pl`; plik `CNAME` zawiera tę domenę. Dostępność HTTPS należy sprawdzić niezależnie od generowania plików.
+- Adresy publiczne mają postać `/oferta/`, `/projekty/projekt-ogrodu-01/`, `/artykuly/co-zawiera-projekt-ogrodu/`.
+- Źródłem treści są dotychczasowe pliki `.html`. Generator zachowuje w nich treść i dodaje przekierowanie, a wersje publiczne zapisuje do odpowiadających katalogów `index.html`. Edytuj źródła i uruchom generator, zamiast ręcznie zmieniać pliki wygenerowane.
+- GitHub Pages nie udostępnia konfiguracji własnych odpowiedzi HTTP 301. Stare adresy otrzymują natychmiastowe przekierowanie `meta refresh` i `location.replace`, z zachowaniem parametrów i fragmentów w JavaScript. Canonicale, linki, JSON-LD i sitemap wskazują nowe adresy.
+- `adresy-do-indeksowania.txt` zawiera pełną listę 20 publicznych adresów do Search Console. Polityka prywatności pozostaje robocza i ma `noindex`.
 
 ## Generowanie
 
