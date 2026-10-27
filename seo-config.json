@@ -27,25 +27,25 @@
       "kind": "home"
     },
     "oferta.html": {
-      "title": "Projekt ogrodu Wrocław — oferta | Effkowe Ogrody",
+      "title": "Projekt ogrodu Wrocław - oferta | Effkowe Ogrody",
       "description": "Indywidualny projekt ogrodu we Wrocławiu i okolicach: koncepcja 2D, plan nasadzeń i dokumentacja. Opcjonalnie wizualizacje 3D i nawadnianie. Poznaj zakres.",
       "label": "Oferta",
       "kind": "offer"
     },
     "kontakt.html": {
-      "title": "Projektantka ogrodów Wrocław — kontakt | Effkowe Ogrody",
+      "title": "Projektantka ogrodów Wrocław - kontakt | Effkowe Ogrody",
       "description": "Szukasz projektantki ogrodów we Wrocławiu? Skontaktuj się z Ewą Katrycz: 608 370 324, ewa.katrycz@gmail.com. Opisz działkę i zapytaj o indywidualny projekt.",
       "label": "Kontakt",
       "kind": "contact"
     },
     "projekty.html": {
-      "title": "Projekty ogrodów — Wrocław i okolice | Effkowe Ogrody",
+      "title": "Projekty ogrodów - Wrocław i okolice | Effkowe Ogrody",
       "description": "Zobacz projekty ogrodów Ewy Katrycz: ogrody we Wrocławiu, okolicach i innych miejscowościach. Poznaj układy, nasadzenia, wizualizacje i zdjęcia realizacji.",
       "label": "Projekty",
       "kind": "projects"
     },
     "moj-ogrod.html": {
-      "title": "Mój ogród we Wrocławiu — Ewa Katrycz | Effkowe Ogrody",
+      "title": "Mój ogród we Wrocławiu - Ewa Katrycz | Effkowe Ogrody",
       "description": "Odwiedź ogród Ewy Katrycz we Wrocławiu. Zobacz zdjęcia, zmiany na przestrzeni lat i inspiracje, z których korzysta podczas projektowania ogrodów klientów.",
       "label": "Mój ogród",
       "kind": "garden"
@@ -76,7 +76,7 @@
       "kind": "article"
     },
     "artykuly/projekt-ogrodu-zdalnie.html": {
-      "title": "Projektowanie ogrodu zdalnie — jak to działa? | Effkowe Ogrody",
+      "title": "Projektowanie ogrodu zdalnie - jak to działa? | Effkowe Ogrody",
       "description": "Jak wygląda zdalne projektowanie ogrodu? Poznaj rolę zdjęć, planu działki i rozmowy o potrzebach. Ewa Katrycz wyjaśnia, jak przygotować materiały do współpracy.",
       "label": "Jak wygląda projektowanie ogrodu zdalnie?",
       "kind": "article"
@@ -84,16 +84,16 @@
   },
   "project_titles": {
     "1": "Mały ogród z balią w Oławie | Effkowe Ogrody",
-    "2": "Projekt ogrodu Wrocław — leśna kompozycja | Effkowe Ogrody",
+    "2": "Projekt ogrodu Wrocław - leśna kompozycja | Effkowe Ogrody",
     "3": "Projekt ogrodu rodzinnego Wrocław | Effkowe Ogrody",
-    "4": "Ogród w angielskim stylu — Teklinów | Effkowe Ogrody",
-    "5": "Romantyczny ogród — Szyszki Włościańskie | Effkowe Ogrody",
-    "6": "Ogród naturalistyczny — Kębłowice | Effkowe Ogrody",
-    "7": "Mały ogród — Selzach, Szwajcaria | Effkowe Ogrody",
-    "8": "Ogród angielski — Jaworzno | Effkowe Ogrody",
-    "9": "Ogród naturalistyczny — Dobczyn | Effkowe Ogrody",
-    "10": "Realizacje ogrodów — zdjęcia | Effkowe Ogrody",
-    "11": "Ogród leśny — Stanięcice | Effkowe Ogrody"
+    "4": "Ogród w angielskim stylu - Teklinów | Effkowe Ogrody",
+    "5": "Romantyczny ogród - Szyszki Włościańskie | Effkowe Ogrody",
+    "6": "Ogród naturalistyczny - Kębłowice | Effkowe Ogrody",
+    "7": "Mały ogród - Selzach, Szwajcaria | Effkowe Ogrody",
+    "8": "Ogród angielski - Jaworzno | Effkowe Ogrody",
+    "9": "Ogród naturalistyczny - Dobczyn | Effkowe Ogrody",
+    "10": "Realizacje ogrodów - zdjęcia | Effkowe Ogrody",
+    "11": "Ogród leśny - Stanięcice | Effkowe Ogrody"
   },
   "project_descriptions": {
     "1": "Projekt małego ogrodu w Oławie: 150 m², balia wodna, altana i rabaty żwirowe. Zobacz wizualizacje układu oraz opis projektu przygotowanego przez Ewę Katrycz.",

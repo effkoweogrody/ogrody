@@ -5,7 +5,7 @@ const body = document.body;
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const finePointer = window.matchMedia('(pointer: fine)').matches;
 
-// Stabilny start po załadowaniu fontów — ogranicza wizualne "przeskoki" typografii.
+// Stabilny start po załadowaniu fontów - ogranicza wizualne "przeskoki" typografii.
 Promise.race([
   document.fonts?.ready || Promise.resolve(),
   new Promise(resolve => setTimeout(resolve, 900))
@@ -50,7 +50,7 @@ header?.addEventListener('keydown',event=>{
 });
 matchMedia('(max-width:780px)').addEventListener('change',event=>{if(!event.matches&&header?.classList.contains('menu-open'))setMenuOpen(false);});
 
-// Pasek postępu — lekki i bez ingerencji w layout.
+// Pasek postępu - lekki i bez ingerencji w layout.
 const progressBar = document.querySelector('.scroll-progress span');
 let scrollTick = false;
 function updateScrollProgress() {
@@ -66,7 +66,7 @@ window.addEventListener('scroll', () => {
 }, { passive: true });
 updateScrollProgress();
 
-// Reveal — kilka kierunków, ale bez przesuwania layoutu.
+// Reveal - kilka kierunków, ale bez przesuwania layoutu.
 document.querySelectorAll('.reviews-heading,.review-quote,.philosophy-copy,.philosophy-media,.my-garden-photos,.garden-magazine-copy,.garden-magazine-media,.garden-magazine-gallery-heading,.portfolio-index-head,.journal-heading,.press-feature>div,.press-feature>a,.page-invitation>div,.offer-inquiry>div,.project-story>div,.project-top-view,.project-gallery-heading').forEach(el=>{
   if(!el.closest('.reveal'))el.classList.add('reveal');
 });
@@ -107,7 +107,7 @@ if (!reducedMotion && window.innerWidth > 780) {
   }, { passive: true });
 }
 
-// Delikatny ruch hero kursorem — tylko desktop i tylko fine pointer.
+// Delikatny ruch hero kursorem - tylko desktop i tylko fine pointer.
 const hero = document.querySelector('.hero');
 const heroBg = document.querySelector('.hero-bg');
 if (hero && heroBg && finePointer && !reducedMotion) {
@@ -191,7 +191,7 @@ function updateGallery(animate = false) {
   if (animate && !reducedMotion) galleryImage.classList.add('is-changing');
   const swap = () => {
     galleryImage.src = src;
-    galleryImage.alt = `${window.projectGalleryNames?.[activeGallery] || 'Projekt ogrodu'} — ${window.projectGalleryTypes?.[activeGallery] || 'wizualizacja'}, ujęcie ${activeIndex + 1}`;
+    galleryImage.alt = `${window.projectGalleryNames?.[activeGallery] || 'Projekt ogrodu'} - ${window.projectGalleryTypes?.[activeGallery] || 'wizualizacja'}, ujęcie ${activeIndex + 1}`;
     galleryCurrent.textContent = String(activeIndex + 1).padStart(2, '0');
     galleryTotal.textContent = String(images.length).padStart(2, '0');
     galleryCaption.textContent = `${window.projectGalleryNames?.[activeGallery] || 'Projekt ogrodu'} · ${window.projectGalleryTypes?.[activeGallery] || 'wizualizacja projektu'} · ${activeIndex + 1} / ${images.length}`;
@@ -207,7 +207,7 @@ function updateGallery(animate = false) {
 galleryImage?.addEventListener('load', () => galleryImage.classList.remove('is-changing'));
 galleryImage?.addEventListener('error', () => {
   galleryImage.classList.remove('is-changing');
-  galleryCaption.textContent = 'Nie udało się wczytać tego ujęcia — wybierz kolejne.';
+  galleryCaption.textContent = 'Nie udało się wczytać tego ujęcia - wybierz kolejne.';
 });
 
 function openGallery(number, trigger) {
@@ -282,7 +282,7 @@ if (finePointer && !reducedMotion) {
   });
 }
 
-// FAQ — tylko jedna odpowiedź naraz.
+// FAQ - tylko jedna odpowiedź naraz.
 const details = [...document.querySelectorAll('.faq details')];
 details.forEach(item => item.addEventListener('toggle', () => {
   if (!item.open) return;
@@ -294,7 +294,7 @@ document.querySelector('.google-link[href="#"]')?.addEventListener('click', even
 
 document.getElementById('year').textContent = new Date().getFullYear();
 
-// Aktywna sekcja w nawigacji — bez skakania layoutu.
+// Aktywna sekcja w nawigacji - bez skakania layoutu.
 const sectionLinks = [...document.querySelectorAll('.main-nav a[href^="#"]')]
   .map(link => ({ link, section: document.querySelector(link.getAttribute('href')) }))
   .filter(item => item.section);

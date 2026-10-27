@@ -79,7 +79,7 @@
     'rate-limit':'Usługa wysyłkowa jest chwilowo przeciążona. Twoje dane pozostały w formularzu. Spróbuj później lub ',
     rejected:'Usługa nie przyjęła zapytania. Twoje dane pozostały w formularzu. '
    };
-   status.replaceChildren(document.createTextNode(messages[error.message]||'Nie otrzymaliśmy potwierdzenia wysyłki. Wiadomość mogła zostać przyjęta — unikaj ponownego wysyłania tego samego zgłoszenia. Twoje dane pozostały w formularzu. W razie potrzeby '));
+   status.replaceChildren(document.createTextNode(messages[error.message]||'Nie otrzymaliśmy potwierdzenia wysyłki. Wiadomość mogła zostać przyjęta - unikaj ponownego wysyłania tego samego zgłoszenia. Twoje dane pozostały w formularzu. W razie potrzeby '));
    const mail=document.createElement('a');mail.href='mailto:ewa.katrycz@gmail.com';mail.textContent='napisz bezpośrednio e-mail';status.append(mail);
   }finally{clearTimeout(timeout);sending=false;files.disabled=false;syncButton();submit.removeAttribute('aria-busy');}
  });

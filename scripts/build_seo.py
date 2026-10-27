@@ -202,7 +202,7 @@ def structured_data(config, origin, filename, page, source, images, projects):
         project = page['project']; work_id = url + '#projekt'; web['mainEntity'] = {'@id': work_id}
         work = {'@type': 'CreativeWork', '@id': work_id, 'name': project['name'], 'description': page['description'], 'url': url,
                 'creator': {'@id': absolute(origin, '#ewa-katrycz')}, 'inLanguage': 'pl-PL',
-                'genre': 'Zdjęcia realizacji ogrodów' if project['number'] == 10 else 'Projekt ogrodu — wizualizacje',
+                'genre': 'Zdjęcia realizacji ogrodów' if project['number'] == 10 else 'Projekt ogrodu - wizualizacje',
                 'image': [absolute(origin, i) for i in images[:8]]}
         if project['place']: work['contentLocation'] = {'@type': 'Place', 'name': project['place']}
         graph.append(work)
@@ -241,8 +241,8 @@ def render_page(config, origin, filename, page, projects):
     def meta(key, value, property=False):
         values.append(f'<meta {"property" if property else "name"}="{key}" content="{html.escape(value, quote=True)}">')
     meta('description', page['description']); meta('robots', 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1' if page.get('index', True) else 'noindex,follow')
-    for key, value in [('og:type', 'article' if page['kind'] == 'article' else 'website'), ('og:locale', 'pl_PL'), ('og:site_name', config['business']['name']), ('og:title', page['title']), ('og:description', page['description']), ('og:url', url), ('og:image', absolute(origin, image)), ('og:image:alt', page['label'] + ' — Effkowe Ogrody')]: meta(key, value, True)
-    for key, value in [('twitter:card', 'summary_large_image'), ('twitter:title', page['title']), ('twitter:description', page['description']), ('twitter:image', absolute(origin, image)), ('twitter:image:alt', page['label'] + ' — Effkowe Ogrody')]: meta(key, value)
+    for key, value in [('og:type', 'article' if page['kind'] == 'article' else 'website'), ('og:locale', 'pl_PL'), ('og:site_name', config['business']['name']), ('og:title', page['title']), ('og:description', page['description']), ('og:url', url), ('og:image', absolute(origin, image)), ('og:image:alt', page['label'] + ' - Effkowe Ogrody')]: meta(key, value, True)
+    for key, value in [('twitter:card', 'summary_large_image'), ('twitter:title', page['title']), ('twitter:description', page['description']), ('twitter:image', absolute(origin, image)), ('twitter:image:alt', page['label'] + ' - Effkowe Ogrody')]: meta(key, value)
     data = structured_data(config, origin, filename, page, source, images, projects)
     values.append('<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/') + '</script>')
     block = '\n<!-- SEO:generated -->\n' + '\n'.join(values) + '\n<!-- /SEO:generated -->\n'
@@ -255,7 +255,7 @@ def robots(origin):
 
 def llms(config, origin, pages):
     b = config['business']
-    text = f'# {b["name"]} — Ewa Katrycz\n\n> Projektowanie ogrodów przydomowych we Wrocławiu i okolicach oraz współpraca zdalna.\n\n'
+    text = f'# {b["name"]} - Ewa Katrycz\n\n> Projektowanie ogrodów przydomowych we Wrocławiu i okolicach oraz współpraca zdalna.\n\n'
     text += f'Ewa Katrycz jest projektantką ogrodów i tworzy Effkowe Ogrody. Zakres indywidualnego projektu ustalany jest w ofercie; wizualizacje 3D i projekt nawadniania są opcjonalne. Konsultacje ogrodowe online są dostępne przez odnośnik na stronie.\n\n'
     text += f'Kontakt: {b["phone"]}, {b["email"]}. Adres firmy: {b["street"]}, {b["postal_code"]} {b["city"]}, Polska.\n\n'
     text += 'Portfolio rozróżnia wizualizacje projektów od zdjęć wykonanych ogrodów. Lokalizacje i powierzchnie są podane na poszczególnych stronach. Termin i cena wymagają indywidualnych ustaleń.\n\n## Strony\n\n'
