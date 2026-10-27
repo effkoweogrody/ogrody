@@ -1,0 +1,128 @@
+/* Client refinements — October 2026. */
+:root{--muted:#505b50}
+body{font-weight:400}
+.main-nav a{font-size:12px}
+.quiet-link{font-size:12px;letter-spacing:.08em;font-weight:500}
+.landing-v2 .hero-location{font-size:16px!important;line-height:1.7;color:#fffaf4;font-weight:500;letter-spacing:.03em}
+.landing-v2 .carousel-caption>span,.landing-v2 .carousel-caption .project-area{font-size:14px;line-height:1.65;color:#455648;letter-spacing:0;white-space:normal}
+.portfolio-tile-caption .project-card-character,.portfolio-tile-caption>span{font-size:14px;line-height:1.7;color:#455648}
+.contact-form label small,.consent span{font-size:13px!important;line-height:1.7}
+.contact-form input::placeholder,.contact-form textarea::placeholder{color:#687064;opacity:1}
+.contact-form label>span{font-size:12px;line-height:1.6}
+.upload-status{display:block;min-height:1.7em;color:var(--green)!important;margin-top:7px}
+.upload-status:empty{display:none}
+.contact-form input[type=file]{font-size:13px;min-height:44px}
+.review-quote figcaption{font-size:13px;color:#455648}
+.landing-v2 .social-paper-bottom strong,.landing-v2 .social-paper-bottom>span{font-size:11px;color:#435444;overflow-wrap:anywhere}
+.footer-column>span,.footer-brand p{color:#dce3d6;font-size:14px}
+.footer-bottom p,.footer-bottom a{font-size:12px;color:#dce3d6}
+.carousel-rail.carousel-ready{overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth}
+.carousel-group{width:max-content}
+.carousel-card{scroll-snap-align:start}
+.carousel-controls button:disabled{opacity:.35;cursor:default;transform:none}
+.carousel-brand{inset:auto;left:18px;bottom:18px;padding:10px 14px;border-radius:2px;background:#1d3025e0;color:#fffaf4;font:500 11px/1.5 var(--sans);letter-spacing:.06em;text-transform:uppercase;transition:opacity .25s ease}
+.carousel-card:hover .carousel-image>img,.carousel-card:focus-visible .carousel-image>img{filter:brightness(.93);transform:scale(1.015)}
+.page-hero,.detail-page .page-hero{min-height:220px;padding:32px 6vw;align-items:center}
+.page-hero .eyebrow,.page-hero-word{display:none}
+.page-hero-inner{width:100%;max-width:1500px}
+.page-hero h1,.detail-page .page-hero h1{font-size:clamp(44px,4.2vw,64px);line-height:1.15!important;max-width:1120px;margin:0}
+.offer-editorial-intro{padding-top:52px;padding-bottom:56px}
+.offer-editorial-intro h2{font-size:clamp(44px,4.4vw,68px);line-height:1.13;letter-spacing:-.02em;margin-bottom:28px}
+.offer-editorial-intro>.eyebrow{display:none}
+.offer-intro-paragraphs{gap:36px;margin-bottom:26px}
+.offer-intro-paragraphs p{font-size:16px;line-height:1.8}
+.offer-documentation-feature .offer-section-heading h2{font-size:clamp(44px,4.3vw,66px);line-height:1.15}
+.offer-samples summary{font-size:12px;letter-spacing:.05em}
+.offer-samples-grid{grid-template-columns:1fr;gap:12px}
+.offer-samples-grid .material-photo{aspect-ratio:auto}
+.offer-samples-grid .material-photo img{height:auto;object-fit:contain}
+.offer-samples-grid .material-photo.offer-visual{aspect-ratio:1.4}
+.offer-samples-grid .material-photo.offer-visual img{height:100%;object-fit:cover}
+.privacy-content{max-width:900px;margin:auto;padding-top:45px;padding-bottom:65px}
+.privacy-content h2{font-size:clamp(30px,3vw,40px);line-height:1.2;margin:40px 0 18px;letter-spacing:0}
+.privacy-content p,.privacy-content li{font-size:16px;line-height:1.85;color:var(--muted)}
+.privacy-content a{border-bottom:1px solid currentColor;overflow-wrap:anywhere}
+.privacy-content li{margin-bottom:10px}
+.privacy-draft-note{padding:18px 22px;background:#e8eade;border-left:2px solid var(--green);font-size:14px!important}
+@media(max-width:780px){
+ .site-header.menu-open,.site-header.scrolled.menu-open{background:var(--green-deep);color:#fffaf4;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;filter:none!important;transform:none!important;perspective:none;contain:none;box-shadow:none}
+ .site-header .main-nav{position:fixed;inset:0;z-index:101;width:100%;height:100vh;height:100dvh;max-height:100dvh;box-sizing:border-box;display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;padding:calc(var(--header-h) + 22px) 26px 28px;gap:12px;overflow-y:auto;overscroll-behavior:contain;background:var(--green-deep);color:#fffaf4;visibility:hidden;transform:translateX(100%);transition:transform .25s ease,visibility .25s}
+ .site-header.menu-open .main-nav{visibility:visible;transform:none}
+ .site-header .main-nav a:not(.nav-cta){display:flex;align-items:center;flex-shrink:0;min-height:44px;height:auto;padding:0;font:400 clamp(28px,5dvh,36px)/1.25 var(--serif);letter-spacing:0;color:#fffaf4;opacity:1}
+ .site-header .main-nav .nav-cta{font:500 12px/1.5 var(--sans)!important;letter-spacing:.04em;min-height:50px;max-width:330px;width:100%;flex-shrink:0;margin-top:12px;padding:12px 18px;color:#fffaf4}
+ .site-header.menu-open .menu-toggle{color:#fffaf4;position:relative;z-index:103}
+ .site-header.menu-open .brand{z-index:102}
+ .site-header .main-nav a::after{display:none!important}
+ .page-hero,.detail-page .page-hero{min-height:180px;padding:28px 20px}
+ .page-hero h1,.detail-page .page-hero h1{font-size:clamp(36px,9vw,46px);line-height:1.16!important}
+ .offer-editorial-intro{padding:38px 20px 44px}
+ .offer-editorial-intro h2{font-size:42px;margin-bottom:24px}
+ .offer-intro-paragraphs{grid-template-columns:1fr;gap:16px}
+ .landing-v2 .hero-location{font-size:15px!important}
+ .carousel-brand{opacity:1;left:12px;bottom:12px;font-size:10px;padding:8px 11px}
+ .offer-samples-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .privacy-content{padding-inline:20px}
+}
+@media(max-width:420px){.offer-samples-grid{grid-template-columns:1fr}.offer-editorial-intro h2{font-size:38px}}
+@media(prefers-reduced-motion:reduce){.carousel-rail.carousel-ready{scroll-behavior:auto}.site-header .main-nav{transition:none}}
+.inner-intro{padding-top:calc(var(--header-h) + 46px);padding-bottom:30px}.inner-intro h1{font-size:clamp(42px,4.2vw,64px);line-height:1.15;margin-bottom:20px}.inner-intro .eyebrow{display:none}
+
+.page-hero-image{object-position:center 68%}
+@media(max-width:780px){.menu-toggle span{transition:transform .25s ease}.menu-open .menu-toggle span:first-child{transform:translateY(4.5px) rotate(45deg)}.menu-open .menu-toggle span:last-child{transform:translateY(-4.5px) rotate(-45deg)}}
+
+/* Three complete large cards with narrow page margins. */
+.carousel-rail,.carousel-rail.carousel-ready{--carousel-visible:3;--carousel-gap:18px;--carousel-card-width:calc((100% - 36px)/3);display:block;width:calc(100% - 32px);margin-inline:auto;scroll-padding-inline:0;overflow-x:auto}
+.carousel-group{display:flex;flex:0 0 100%;width:100%;gap:var(--carousel-gap);padding:0}
+.carousel-card{flex:0 0 var(--carousel-card-width);width:var(--carousel-card-width);min-width:0;scroll-snap-align:start}
+.landing-v2 .carousel-caption{display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:8px;padding:20px 0}
+.landing-v2 .carousel-caption h3{min-height:2.3em;line-height:1.15;margin:0}
+.landing-v2 .carousel-caption>span:not(.project-area){min-height:3.3em}
+@media(max-width:1100px) and (min-width:781px){.carousel-rail,.carousel-rail.carousel-ready{--carousel-visible:2;--carousel-gap:20px;--carousel-card-width:calc((100% - 20px)/2)}}
+@media(max-width:780px){.carousel-rail,.carousel-rail.carousel-ready{--carousel-visible:1;--carousel-gap:16px;--carousel-card-width:100%;width:calc(100% - 40px)}.landing-v2 .carousel-caption h3,.landing-v2 .carousel-caption>span:not(.project-area){min-height:0}}
+.carousel-controls{width:calc(100% - 32px);max-width:none}
+
+/* Side controls sit at the centre of the photographs, clear of captions. */
+.carousel-stage{position:relative}
+.carousel-stage .carousel-controls{position:absolute;z-index:3;inset:calc(var(--carousel-image-height,300px)/2) 28px auto;width:auto;max-width:none;height:58px;margin:0;transform:translateY(-50%);display:flex;justify-content:space-between;pointer-events:none}
+.carousel-stage .carousel-controls button{pointer-events:auto;display:grid;place-items:center;min-width:52px;width:52px;min-height:58px;height:58px;padding:0;border:1px solid #ffffffb3;border-radius:16px;background:#fffaf4f5;color:#294535;box-shadow:0 5px 18px #1023191c,inset 0 1px 0 #fff;transition:background .25s,color .25s,box-shadow .25s;transform:none}
+.carousel-stage .carousel-controls button svg{width:26px;height:22px;stroke-width:1.65}
+@media(hover:hover) and (pointer:fine){.carousel-stage .carousel-controls button:hover:not(:disabled){background:#294535;color:#fffaf4;box-shadow:0 6px 20px #10231930;transform:none}}
+.carousel-stage .carousel-controls button:focus-visible{outline:3px solid #c96f7d;outline-offset:4px}
+.carousel-stage .carousel-controls button:disabled{opacity:.65;cursor:default;transform:none}
+@media(max-width:780px){.carousel-stage .carousel-controls{inset-inline:8px;height:50px}.carousel-stage .carousel-controls button{width:44px;min-width:44px;height:50px;min-height:50px;border-radius:14px}.carousel-stage .carousel-controls button svg{width:24px;height:20px}}
+@media(prefers-reduced-motion:reduce){.carousel-stage .carousel-controls button{transition:none}}
+
+/* Vector arrows stay identical on mobile platforms and desktop. */
+.inline-arrow{display:inline-block;flex:0 0 auto;width:1em;height:1em;fill:none;stroke:currentColor;stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round;vertical-align:-.12em;overflow:visible;pointer-events:none}
+.quiet-link .inline-arrow,.hero-btn .inline-arrow{margin-left:.35em}
+.garden-photo-zoom .inline-arrow,.material-photo>span .inline-arrow{width:18px;height:18px;vertical-align:middle}
+.extras-lines>a>span>.inline-arrow{width:25px;height:25px}
+/* Single, lightweight entrances; photographs and text retain their natural layout. */
+.motion-ready .reveal{filter:none;will-change:auto;transition:opacity .65s cubic-bezier(.2,.65,.25,1),transform .75s cubic-bezier(.2,.65,.25,1);transition-delay:calc(var(--reveal-order,0)*25ms)}
+.motion-ready .reveal:not(.visible){transform:translate3d(0,18px,0);filter:none}
+.motion-ready .reveal.visible{transform:none;filter:none}
+@media(max-width:780px){.motion-ready .reveal{transition-duration:.5s;transition-delay:0s}.motion-ready .reveal:not(.visible){transform:translate3d(0,12px,0)}
+.gallery-modal:not(.single-image) .gallery-nav{display:grid;position:absolute;top:50%;z-index:4;width:44px;height:48px;min-width:44px;transform:translateY(-50%);border-radius:14px;background:#1d3025db;color:#fffaf4;opacity:1}
+.gallery-modal .gallery-prev{left:8px}.gallery-modal .gallery-next{right:8px}.gallery-modal .gallery-nav svg{width:24px;height:24px}
+.contact-form input:not([type=checkbox]):not([type=file]),.contact-form select,.contact-form textarea{font-size:16px}
+}
+@media(prefers-reduced-motion:reduce){.motion-ready .reveal,.motion-ready .reveal:not(.visible){opacity:1;transform:none;filter:none;transition:none;animation:none}.motion-ready .reveal h2{animation:none!important}}
+
+.carousel-brand{flex-direction:row;gap:7px;white-space:nowrap}
+
+/* Preserve image proportions when CSS changes an intrinsic HTML width. */
+img{height:auto}
+.footer-brand img{display:block;width:150px;height:auto;aspect-ratio:217/132;object-fit:contain}
+.carousel-stage .carousel-controls button{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+@media(hover:none),(pointer:coarse){
+ .carousel-stage .carousel-controls button:hover:not(:disabled){background:#fffaf4f5;color:#294535;box-shadow:0 5px 18px #1023191c,inset 0 1px 0 #fff;transform:none}
+ .carousel-stage .carousel-controls button:active:not(:disabled){background:#e5ebdf;color:#294535;transform:none}
+}
+body.page-scroll-locked{position:fixed;top:var(--locked-scroll-top);left:0;right:0;width:100%;overflow:hidden}
+@media(max-width:780px){
+ html{scroll-behavior:auto}
+ .motion-ready .reveal,.motion-ready .reveal:not(.visible){transform:none;transition:opacity .35s ease;transition-delay:0s}
+ .simple-head.reveal.visible h2,.about-intro-copy.reveal.visible h2,.faq-heading.reveal.visible h2,.contact-copy.reveal.visible h2{animation:none}
+}
+
+.article-byline{font:400 13px/1.7 var(--sans);color:#455648;margin:0 0 22px}.article-byline a{text-decoration:underline;text-underline-offset:3px}

@@ -1,0 +1,111 @@
+{
+  "preview_url": "https://effkoweogrody.github.io/ogrody",
+  "production_url": "https://effkoweogrody.pl",
+  "modified": "2026-10-27",
+  "business": {
+    "name": "Effkowe Ogrody",
+    "owner": "Ewa Katrycz",
+    "phone": "+48608370324",
+    "email": "ewa.katrycz@gmail.com",
+    "tax_id": "8942627677",
+    "street": "Kamiennogórska 48",
+    "postal_code": "54-033",
+    "city": "Wrocław",
+    "region": "dolnośląskie",
+    "country": "PL",
+    "profiles": [
+      "https://www.instagram.com/effkowy.ogrod/",
+      "https://www.facebook.com/p/Effkowe-Ogrody-100091580650026/"
+    ],
+    "consultation_url": "https://www.naffy.io/effkowy-ogrod/konsultacja-ogrodowa-1"
+  },
+  "pages": {
+    "index.html": {
+      "title": "Projektowanie ogrodów Wrocław | Effkowe Ogrody",
+      "description": "Ewa Katrycz projektuje ogrody przydomowe we Wrocławiu i okolicach. Koncepcja, plan nasadzeń i dokumentacja dopasowane do działki. Zobacz projekty i ofertę.",
+      "label": "Strona główna",
+      "kind": "home"
+    },
+    "oferta.html": {
+      "title": "Projekt ogrodu Wrocław — oferta | Effkowe Ogrody",
+      "description": "Indywidualny projekt ogrodu we Wrocławiu i okolicach: koncepcja 2D, plan nasadzeń i dokumentacja. Opcjonalnie wizualizacje 3D i nawadnianie. Poznaj zakres.",
+      "label": "Oferta",
+      "kind": "offer"
+    },
+    "kontakt.html": {
+      "title": "Projektantka ogrodów Wrocław — kontakt | Effkowe Ogrody",
+      "description": "Szukasz projektantki ogrodów we Wrocławiu? Skontaktuj się z Ewą Katrycz: 608 370 324, ewa.katrycz@gmail.com. Opisz działkę i zapytaj o indywidualny projekt.",
+      "label": "Kontakt",
+      "kind": "contact"
+    },
+    "projekty.html": {
+      "title": "Projekty ogrodów — Wrocław i okolice | Effkowe Ogrody",
+      "description": "Zobacz projekty ogrodów Ewy Katrycz: ogrody we Wrocławiu, okolicach i innych miejscowościach. Poznaj układy, nasadzenia, wizualizacje i zdjęcia realizacji.",
+      "label": "Projekty",
+      "kind": "projects"
+    },
+    "moj-ogrod.html": {
+      "title": "Mój ogród we Wrocławiu — Ewa Katrycz | Effkowe Ogrody",
+      "description": "Odwiedź ogród Ewy Katrycz we Wrocławiu. Zobacz zdjęcia, zmiany na przestrzeni lat i inspiracje, z których korzysta podczas projektowania ogrodów klientów.",
+      "label": "Mój ogród",
+      "kind": "garden"
+    },
+    "artykuly.html": {
+      "title": "Porady o projektowaniu ogrodów | Effkowe Ogrody",
+      "description": "Praktyczne porady Ewy Katrycz: jak przygotować się do projektu ogrodu, co obejmuje dokumentacja i jak wygląda projektowanie ogrodu na odległość.",
+      "label": "Artykuły",
+      "kind": "articles"
+    },
+    "polityka-prywatnosci.html": {
+      "title": "Polityka prywatności | Effkowe Ogrody",
+      "description": "Informacje o danych osobowych, formularzu kontaktowym i usługach używanych przez Effkowe Ogrody. Propozycja polityki prywatności do zatwierdzenia.",
+      "label": "Polityka prywatności",
+      "kind": "privacy",
+      "index": false
+    },
+    "artykuly/jak-przygotowac-sie-do-projektu-ogrodu.html": {
+      "title": "Jak przygotować się do projektu ogrodu? | Effkowe Ogrody",
+      "description": "Co przygotować przed rozmową o projekcie ogrodu? Ewa Katrycz wyjaśnia, jak zebrać plan działki, zdjęcia, inspiracje i informacje o potrzebach domowników.",
+      "label": "Jak przygotować się do projektu ogrodu?",
+      "kind": "article"
+    },
+    "artykuly/co-zawiera-projekt-ogrodu.html": {
+      "title": "Co zawiera projekt ogrodu? Zakres | Effkowe Ogrody",
+      "description": "Koncepcja 2D, projekt wykonawczy, plan nasadzeń i zestawienia: sprawdź, co może obejmować projekt ogrodu oraz kiedy warto dodać wizualizacje i nawadnianie.",
+      "label": "Co zawiera indywidualny projekt ogrodu?",
+      "kind": "article"
+    },
+    "artykuly/projekt-ogrodu-zdalnie.html": {
+      "title": "Projektowanie ogrodu zdalnie — jak to działa? | Effkowe Ogrody",
+      "description": "Jak wygląda zdalne projektowanie ogrodu? Poznaj rolę zdjęć, planu działki i rozmowy o potrzebach. Ewa Katrycz wyjaśnia, jak przygotować materiały do współpracy.",
+      "label": "Jak wygląda projektowanie ogrodu zdalnie?",
+      "kind": "article"
+    }
+  },
+  "project_titles": {
+    "1": "Mały ogród z balią w Oławie | Effkowe Ogrody",
+    "2": "Projekt ogrodu Wrocław — leśna kompozycja | Effkowe Ogrody",
+    "3": "Projekt ogrodu rodzinnego Wrocław | Effkowe Ogrody",
+    "4": "Ogród w angielskim stylu — Teklinów | Effkowe Ogrody",
+    "5": "Romantyczny ogród — Szyszki Włościańskie | Effkowe Ogrody",
+    "6": "Ogród naturalistyczny — Kębłowice | Effkowe Ogrody",
+    "7": "Mały ogród — Selzach, Szwajcaria | Effkowe Ogrody",
+    "8": "Ogród angielski — Jaworzno | Effkowe Ogrody",
+    "9": "Ogród naturalistyczny — Dobczyn | Effkowe Ogrody",
+    "10": "Realizacje ogrodów — zdjęcia | Effkowe Ogrody",
+    "11": "Ogród leśny — Stanięcice | Effkowe Ogrody"
+  },
+  "project_descriptions": {
+    "1": "Projekt małego ogrodu w Oławie: 150 m², balia wodna, altana i rabaty żwirowe. Zobacz wizualizacje układu oraz opis projektu przygotowanego przez Ewę Katrycz.",
+    "2": "Projekt ogrodu we Wrocławiu na działce 580 m²: naturalistyczne rabaty, zagajnik, palenisko i miejsca wypoczynku. Zobacz wizualizacje i opis koncepcji.",
+    "3": "Nowoczesny ogród rodzinny we Wrocławiu: 1000 m², taras, altana z jacuzzi, palenisko i strefa sportowa. Poznaj projekt Ewy Katrycz i zobacz wizualizacje.",
+    "4": "Projekt ogrodu w Teklinowie: 800 m², angielski charakter, naturalistyczne nasadzenia, ceglane palenisko i taras modrzewiowy. Poznaj koncepcję ogrodu.",
+    "5": "Romantyczny ogród w Szyszkach Włościańskich: 3100 m², kwitnące rabaty, pergola z jacuzzi, fontanny i sad. Zobacz wizualizacje projektu Effkowe Ogrody.",
+    "6": "Projekt ogrodu w Kębłowicach: 1100 m², naturalistyczne rabaty, zagajnik, basen i strefy wypoczynku. Zobacz układ i wizualizacje ogrodu.",
+    "7": "Projekt ogrodu 200 m² w Selzach w Szwajcarii: bylinowe rabaty, palmety grabowe, pergola i taras. Zobacz wizualizacje oraz opis projektu Ewy Katrycz.",
+    "8": "Romantyczny ogród w angielskim stylu w Jaworznie: różanka, pergole, fontanny, sad i warzywnik. Poznaj projekt ogrodu 550 m² i zobacz wizualizacje.",
+    "9": "Projekt ogrodu w Dobczynie na działce 800 m²: naturalistyczne nasadzenia, basen, pergole i śródziemnomorski taras. Zobacz wizualizacje i opis koncepcji.",
+    "10": "Zobacz zdjęcia zrealizowanych ogrodów Effkowe Ogrody: rabaty, tarasy, miejsca wypoczynku i detale. Poznaj przestrzenie pokazane na rzeczywistych fotografiach.",
+    "11": "Ogród leśny w Stanięcicach na działce 1200 m²: brzozy, sosny, bujne rabaty, palenisko, taras i szklarnia. Zobacz wizualizacje projektu Ewy Katrycz."
+  }
+}

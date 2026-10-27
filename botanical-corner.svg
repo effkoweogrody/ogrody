@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <defs>
+    <g id="flower" stroke="#7c9273" stroke-width="1.2">
+      <ellipse cx="0" cy="-13" rx="6" ry="12"/>
+      <ellipse cx="0" cy="-13" rx="6" ry="12" transform="rotate(60)"/>
+      <ellipse cx="0" cy="-13" rx="6" ry="12" transform="rotate(120)"/>
+      <ellipse cx="0" cy="-13" rx="6" ry="12" transform="rotate(180)"/>
+      <ellipse cx="0" cy="-13" rx="6" ry="12" transform="rotate(240)"/>
+      <ellipse cx="0" cy="-13" rx="6" ry="12" transform="rotate(300)"/>
+      <circle r="5" fill="#c7cdb6"/>
+    </g>
+  </defs>
+  <g stroke="#7c9273" stroke-width="1.5" stroke-linecap="round">
+    <path d="M405-10C334 37 325 110 291 160S191 245 173 335"/>
+    <path d="M371 15C362 99 394 161 340 237S319 325 332 393"/>
+    <path d="M328 97C287 93 248 109 221 140"/>
+    <path d="M274 185C231 174 182 184 154 218"/>
+    <path d="M349 222C311 219 274 241 257 283"/>
+    <path d="M325 325C289 331 268 355 260 389"/>
+  </g>
+  <g fill="#c9d2c1" stroke="#829779" stroke-width="1.1">
+    <path d="M319 112C283 82 285 60 301 46C323 58 333 82 319 112Z"/>
+    <path d="M306 136C326 105 350 106 365 119C350 141 328 148 306 136Z"/>
+    <path d="M247 209C216 205 205 185 210 168C234 169 249 185 247 209Z"/>
+    <path d="M211 250C221 217 246 210 262 218C255 242 237 254 211 250Z"/>
+    <path d="M176 320C150 313 139 294 145 277C169 284 182 300 176 320Z"/>
+    <path d="M351 199C329 174 333 152 348 142C365 160 366 180 351 199Z"/>
+    <path d="M334 252C350 231 374 231 386 245C369 263 350 267 334 252Z"/>
+    <path d="M320 312C296 290 297 271 311 258C330 272 334 294 320 312Z"/>
+    <path d="M326 348C346 324 370 328 382 343C359 362 342 365 326 348Z"/>
+  </g>
+  <use href="#flower" transform="translate(220 139) rotate(-25)"/>
+  <use href="#flower" transform="translate(152 220) rotate(16) scale(.8)"/>
+  <use href="#flower" transform="translate(257 282) rotate(-8) scale(.9)"/>
+  <use href="#flower" transform="translate(173 335) rotate(20) scale(.7)"/>
+  <use href="#flower" transform="translate(260 389) rotate(-20) scale(.65)"/>
+</svg>

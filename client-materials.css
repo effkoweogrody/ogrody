@@ -1,0 +1,91 @@
+/* Client content supplied in October: stories, documentation and real gardens. */
+.garden-journal{width:var(--page);max-width:1500px;margin:auto;padding:70px 0}
+.garden-journal-intro{max-width:940px;margin-bottom:45px}
+.garden-journal-intro h2{font-size:clamp(45px,4.5vw,72px);line-height:1.13;margin-bottom:30px}
+.garden-journal-intro>p:not(.eyebrow),.garden-chapter-copy>p:not(.eyebrow){font-size:17px;line-height:1.9;color:var(--muted);margin-bottom:24px}
+.garden-journal-lead{margin-bottom:22px}
+.garden-journal-lead .garden-photo{aspect-ratio:2.2}
+.garden-journal-lead img{width:100%;height:100%;object-fit:cover;object-position:center}
+.garden-journal>.my-garden-gallery{margin-bottom:75px}
+.garden-journal>.my-garden-gallery .garden-photo{aspect-ratio:1}
+.garden-chapter{display:grid;grid-template-columns:1fr 1fr;gap:6vw;padding:65px 0;border-top:1px solid var(--line);align-items:start}
+.garden-chapter h2{font-size:clamp(40px,3.6vw,58px);line-height:1.15;margin-bottom:28px}
+.garden-chapter-photos{padding-top:8px}
+.garden-chapter-photos .my-garden-gallery{gap:15px}
+.garden-chapter-photos .garden-photo{aspect-ratio:1}
+.garden-more-photos{margin-top:22px}
+.garden-more-photos>summary{display:flex;justify-content:space-between;gap:14px;align-items:center;list-style:none;border-block:1px solid var(--line);padding:18px 0;cursor:pointer;font:500 10px/1.8 var(--sans);text-transform:uppercase;letter-spacing:.07em;color:var(--green)}
+.garden-more-photos>summary::-webkit-details-marker{display:none}
+.garden-more-photos>summary>span{font-size:21px;font-weight:300}
+.garden-more-photos[open]>summary>span{transform:rotate(45deg)}
+.garden-more-photos[open]>.my-garden-gallery{margin-top:18px}
+.garden-chapter:nth-of-type(2) .garden-photo img{object-position:center}
+@media(max-width:1100px){.garden-chapter{gap:35px}.garden-chapter-copy>p:not(.eyebrow){font-size:16px}.garden-chapter-photos .my-garden-gallery{gap:10px}}
+@media(max-width:780px){.garden-journal{width:calc(100% - 40px);padding:45px 0}.garden-journal-intro h2{font-size:45px}.garden-journal-intro>p:not(.eyebrow),.garden-chapter-copy>p:not(.eyebrow){font-size:16px}.garden-journal-lead .garden-photo{aspect-ratio:1.4}.garden-journal>.my-garden-gallery{margin-bottom:45px}.garden-journal>.my-garden-gallery .garden-photo{aspect-ratio:1}.garden-chapter{grid-template-columns:1fr;gap:22px;padding:40px 0}.garden-chapter h2{font-size:40px}.garden-chapter-photos{padding-top:0}}
+.gallery-modal .gallery-nav,.gallery-modal .gallery-close{border:0;border-radius:0;background:transparent;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none;padding:0;place-items:center;line-height:1;transform:none;transition:opacity .2s ease}
+.gallery-modal .gallery-nav{display:grid;width:56px;height:56px;justify-self:center}
+.gallery-modal .gallery-close{display:grid}
+.gallery-modal .gallery-nav:hover,.gallery-modal .gallery-close:hover{background:transparent;transform:none;opacity:1}
+.gallery-modal .gallery-nav svg,.gallery-modal .gallery-close svg{display:block;width:28px;height:28px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.gallery-modal .gallery-close svg{width:24px;height:24px}
+@media(max-width:780px){.gallery-modal .gallery-nav{display:none}}
+.site-header .brand{width:76px;height:76px;flex:0 0 76px;border-radius:50%;background:var(--green);box-shadow:0 2px 12px #15291a10}
+.site-header .brand img{width:60px;max-height:48px}
+.site-header .brand .brand-light{opacity:1!important}
+.site-header .brand .brand-dark{display:none}
+.garden-story-cta{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:16px 26px;border:1px solid var(--rose);border-radius:999px;background:var(--rose);color:var(--white);font:600 11px/1.6 var(--sans);letter-spacing:.05em;text-transform:uppercase;text-align:center;text-decoration:none;box-shadow:none}
+.garden-story-cta:hover{background:#b45d6c;border-color:#b45d6c;color:var(--white)}
+@media(max-width:780px){.site-header .brand{width:60px;height:60px;flex-basis:60px}.site-header .brand img{width:48px;max-height:38px}.garden-story-cta{max-width:100%;padding-inline:20px}}
+.project-story{display:grid;grid-template-columns:.8fr 1.2fr;gap:7vw;margin:55px auto 70px;max-width:1500px}
+.project-story h2{font-size:clamp(42px,4.3vw,68px);line-height:1.13;margin-bottom:30px}
+.project-story-copy p{font-size:16px;line-height:1.9;color:var(--muted);margin-bottom:22px}
+.project-elements{font-size:14px;line-height:1.85;color:var(--muted);max-width:400px}
+.project-elements strong{display:block;font:500 10px/1.6 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--green);margin-bottom:14px}
+.project-presentation .case-facts{grid-template-columns:repeat(auto-fit,minmax(190px,1fr));align-items:start;gap:25px}
+.project-presentation .case-facts strong{font-size:20px;line-height:1.5}
+.detail-page .page-hero h1{font-size:clamp(43px,4.9vw,80px);line-height:1.14;max-width:1200px}
+.detail-page .page-hero{height:auto;min-height:365px}
+.detail-page .page-hero-inner{padding-block:70px}
+.project-card-character{font:14px/1.7 var(--sans);color:var(--muted);margin:12px 0 8px}
+.landing-v2 .carousel-caption>span{white-space:normal;line-height:1.6}
+.landing-v2 .carousel-caption h3{font-size:clamp(27px,2.4vw,37px);line-height:1.16}
+.about-links{display:flex;flex-direction:column;align-items:flex-start;gap:14px;margin-top:25px}
+.landing-v2 .about-short .about-intro-copy .lead-copy{font-size:23px;line-height:1.55}
+.about-links .press-link{font-size:10px;letter-spacing:.09em}
+.review-quote{margin:0;padding:28px 32px 32px;box-shadow:none;border-top:2px solid #83957d80}
+.review-quote-mark{font:72px/.7 var(--serif);color:var(--sage);margin-bottom:18px}
+.review-quote blockquote{margin:0 0 28px;border:0;padding:0;flex:1}
+.review-quote blockquote p{font:21px/1.6 var(--serif);color:var(--green-deep);letter-spacing:0;margin:0}
+.review-quote figcaption{border-top:1px solid #83957d30;padding-top:20px;display:flex;flex-direction:column;gap:7px;font:11px/1.6 var(--sans);color:var(--muted)}
+.review-quote figcaption strong{font-weight:500;color:var(--green)}
+.realized-gardens{width:var(--page);max-width:1500px;margin:auto;padding-inline:0}
+.realization-intro{max-width:900px;margin:0 0 55px}
+.realization-intro h2{font-size:clamp(44px,4.5vw,72px);line-height:1.16;margin-bottom:30px}
+.realization-intro>p:not(.eyebrow){font-size:17px;line-height:1.9;color:var(--muted)}
+.realization-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.material-photo{position:relative;display:block;min-width:0;overflow:hidden;background:var(--cream-3);outline-offset:5px}
+.material-photo img{display:block;width:100%;height:auto;transition:transform .7s ease}
+.realization-grid .material-photo{aspect-ratio:1}
+.realization-grid .material-photo img{height:100%;object-fit:cover;object-position:center 65%}
+.material-photo>span{position:absolute;right:15px;bottom:15px;display:grid;place-items:center;width:35px;height:35px;color:var(--white);background:#1d3025bd;border:1px solid #fff5;font-size:20px}
+.material-photo:hover img{transform:scale(1.02)}
+.more-realizations{margin-top:30px}
+.more-realizations>summary{display:flex;justify-content:space-between;align-items:center;padding:22px 0;cursor:pointer;color:var(--green);font:500 12px/1.7 var(--sans);letter-spacing:.07em;text-transform:uppercase;border-block:1px solid var(--line);list-style:none}
+.more-realizations>summary::-webkit-details-marker,.offer-samples>summary::-webkit-details-marker{display:none}
+.more-realizations[open]>.realization-grid{margin-top:22px}
+.offer-samples{margin-top:25px;border-top:1px solid #b6c2ac60}
+.offer-samples summary{display:flex;justify-content:space-between;align-items:center;gap:12px;list-style:none;cursor:pointer;padding:15px 0;font:500 10px/1.6 var(--sans);letter-spacing:.09em;text-transform:uppercase;color:inherit}
+.offer-samples summary>span{font-size:20px;font-weight:300;transition:transform .2s}
+.offer-samples[open] summary>span{transform:rotate(45deg)}
+.offer-samples-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:5px 0 15px}
+.offer-samples-grid .material-photo{aspect-ratio:3/4;background:#fff;border:8px solid #fff}
+.offer-samples-grid img{height:100%;object-fit:contain}
+.offer-samples-grid .material-photo>span{width:25px;height:25px;right:0;bottom:0;font-size:16px}
+.press-feature{display:grid;grid-template-columns:1.2fr .7fr;align-items:center;gap:7vw;background:#eee9df;padding-inline:10vw}
+.press-feature h2{font-size:clamp(43px,4.2vw,70px);line-height:1.12;margin-bottom:25px}
+.press-feature p:not(.eyebrow){font-size:16px;line-height:1.85;color:var(--muted)}
+.press-feature>a{max-width:340px;justify-self:center;padding:12px;background:#fff;box-shadow:0 18px 45px #29453513}
+.press-feature img{display:block;width:100%;height:auto}
+@media(max-width:1100px){.project-story{gap:40px}.press-feature{gap:40px;padding-inline:6vw}.landing-v2 .carousel-caption h3{font-size:28px}}
+@media(max-width:780px){.project-story{grid-template-columns:1fr;margin:35px 0 45px;gap:20px}.project-story h2{font-size:43px}.project-elements{max-width:none}.detail-page .page-hero{min-height:320px}.detail-page .page-hero-inner{padding-block:50px}.detail-page .page-hero h1{font-size:43px}.realized-gardens{width:calc(100% - 40px)}.realization-grid{gap:12px}.realization-intro{margin-bottom:35px}.realization-intro h2{font-size:44px}.realization-intro>p:not(.eyebrow){font-size:16px}.review-quote{padding:25px}.review-quote blockquote p{font-size:23px}.press-feature{grid-template-columns:1fr;padding:50px 20px}.press-feature>a{max-width:290px}.landing-v2 .about-short .about-intro-copy .lead-copy{font-size:22px}.offer-samples-grid{gap:8px}.material-photo>span{width:28px;height:28px;right:8px;bottom:8px}}
+@media(prefers-reduced-motion:reduce){.material-photo img,.offer-samples summary>span{transition:none}.material-photo:hover img{transform:none}}

@@ -1,0 +1,26 @@
+/* Client photographs: aligned gallery crops; full frames remain in the lightbox. */
+.landing-v2 .hero-bg{background-image:url('assets/home-garden.webp');background-position:52% center}
+.landing-v2 .hero-shade{background:linear-gradient(90deg,rgba(12,20,16,.76),rgba(12,20,16,.48) 42%,rgba(12,20,16,.08) 78%),linear-gradient(180deg,rgba(12,20,16,.25),transparent 45%,rgba(12,20,16,.32))}
+.my-garden-photos{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.garden-photo{display:block;position:relative;overflow:hidden;background:#e5e5da;outline-offset:5px}
+.garden-photo img{display:block;width:100%;height:auto;transition:transform .7s ease}
+.my-garden-photos .garden-photo:first-child{grid-column:1/-1;aspect-ratio:1.8}
+.my-garden-photos .garden-photo:not(:first-child){aspect-ratio:1.05}
+.my-garden-photos .garden-photo img{height:100%;object-fit:cover}
+.my-garden-photos .garden-photo:first-child img{object-position:center 60%}
+.garden-photo:hover img{transform:scale(1.025)}
+.my-garden-detail .my-garden-layout{max-width:1500px;gap:50px}
+.my-garden-detail .my-garden-copy{max-width:900px}
+.my-garden-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.my-garden-gallery .garden-photo{aspect-ratio:1;margin:0;border-radius:3px}
+.my-garden-gallery .garden-photo img{height:100%;object-fit:cover;object-position:center 65%}
+.my-garden-gallery [data-index="3"] img{object-position:42% center}
+.my-garden-gallery [data-index="0"] img{object-position:center 75%}
+.my-garden-gallery [data-index="2"] img{object-position:center 82%}
+.my-garden-gallery [data-index="4"] img{object-position:center 72%}
+.my-garden-gallery [data-index="5"] img{object-position:center 70%}
+.my-garden-gallery [data-index="6"] img{object-position:center 70%}
+.garden-photo-zoom{position:absolute;right:15px;bottom:15px;width:36px;height:36px;display:grid;place-items:center;color:var(--white);background:#1d3025bf;border:1px solid #fff5;font-size:21px;pointer-events:none}
+@media(max-width:1100px){.my-garden-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:780px){.landing-v2 .hero-bg{background-position:58% center}.landing-v2 .hero-shade{background:linear-gradient(90deg,rgba(12,20,16,.66),rgba(12,20,16,.33)),linear-gradient(180deg,rgba(12,20,16,.2),transparent 40%,rgba(12,20,16,.4))}.my-garden-gallery{gap:12px}.my-garden-detail .my-garden-layout{gap:30px}.garden-photo-zoom{right:8px;bottom:8px;width:28px;height:28px;font-size:18px}}
+@media(prefers-reduced-motion:reduce){.garden-photo img{transition:none}.garden-photo:hover img{transform:none}}

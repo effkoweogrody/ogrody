@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /ogrody/scripts/
+Disallow: /ogrody/tests/
+Disallow: /ogrody/download/
+Disallow: /ogrody/seo-config.json
+Disallow: /ogrody/SEO-MIGRACJA.md
+Disallow: /ogrody/SEO-MIGRACJA.html
+Disallow: /ogrody/README.md
+Disallow: /ogrody/README.html
+Disallow: /ogrody/PROMPTY-OBRAZY.md
+Disallow: /ogrody/index.bak
+
+Sitemap: https://effkoweogrody.github.io/ogrody/sitemap.xml

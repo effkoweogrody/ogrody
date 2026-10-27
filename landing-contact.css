@@ -1,0 +1,49 @@
+/* A compact, full-width enquiry on the home page. */
+.landing-contact-wide{padding:65px 6vw;scroll-margin-top:var(--header-h)}
+.landing-contact-wide .contact-inner{width:100%;max-width:1500px;display:grid;grid-template-columns:1fr;gap:28px}
+.landing-contact-wide .contact-copy{display:grid;grid-template-columns:1.5fr 1fr;column-gap:60px;align-items:end}
+.landing-contact-wide .contact-copy>.eyebrow{grid-column:1/-1;margin-bottom:12px}
+.landing-contact-wide .contact-copy h2{font-size:clamp(42px,4vw,64px);margin:0;padding-bottom:.08em}
+.landing-contact-wide .contact-copy>p:not(.eyebrow){font-size:16px;line-height:1.8;margin:0 0 8px;max-width:440px;color:#d2dacf}
+.landing-contact-wide .contact-form{padding:32px 40px}
+.landing-contact-wide .form-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px 32px}
+.landing-contact-wide .form-grid>label{min-width:0}
+.landing-contact-wide .contact-form label>span{font-size:11px;line-height:1.6;letter-spacing:.055em;margin-bottom:5px}
+.landing-contact-wide .contact-form input,.landing-contact-wide .contact-form select{min-height:44px}
+.landing-contact-wide .form-message{grid-column:span 2}
+.landing-contact-wide .contact-form textarea{min-height:95px;height:95px;font-size:16px;line-height:1.7}
+.landing-contact-wide .form-attachments{padding-left:30px;border-left:1px solid var(--line)}
+.landing-contact-wide .form-attachments small{display:block;margin-top:8px;font-size:12px;line-height:1.6}
+.landing-contact-wide .form-submit-row{display:flex;align-items:center;justify-content:space-between;gap:35px;margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}
+.landing-contact-wide .consent{margin:0;max-width:780px}
+.landing-contact-wide .contact-submit{flex:none;min-height:50px;padding:0 25px}
+.landing-contact-wide .contact-details{display:flex;flex-wrap:wrap;gap:15px 40px;margin:0;border:0}
+.landing-contact-wide .contact-details>a,.landing-contact-wide .contact-details>div{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;padding:0;border:0}
+.landing-contact-wide .contact-details span{font-size:11px;color:#c5d1c0}
+.landing-contact-wide .contact-details strong{font-size:14px;color:#f2e9e1}
+@media(max-width:1100px){.landing-contact-wide .contact-copy{grid-template-columns:1fr;gap:15px}.landing-contact-wide .contact-copy>p:not(.eyebrow){max-width:650px}.landing-contact-wide .contact-form{padding:28px}.landing-contact-wide .form-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 25px}.landing-contact-wide .form-message{grid-column:1/-1}.landing-contact-wide .form-attachments{grid-column:1/-1;padding-left:0;border:0}.landing-contact-wide .form-submit-row{gap:20px}}
+@media(max-width:780px){.landing-contact-wide{padding:50px 20px}.landing-contact-wide .contact-copy h2{font-size:44px}.landing-contact-wide .contact-copy>p:not(.eyebrow){font-size:15px}.landing-contact-wide .contact-form{padding:25px 20px}.landing-contact-wide .form-grid{grid-template-columns:1fr;gap:18px}.landing-contact-wide .form-message{grid-column:auto}.landing-contact-wide .form-submit-row{flex-direction:column;align-items:stretch;gap:22px}.landing-contact-wide .contact-submit{width:100%}.landing-contact-wide .contact-details{display:grid;gap:14px}}
+/* Warm paper, botanical detail and three clear chapters. */
+.landing-contact-wide .contact-form{position:relative;isolation:isolate;background:#fffdf7;border:1px solid #f8f3e833;border-radius:24px;box-shadow:0 22px 55px #0c1d1830;padding:32px 38px}
+.landing-contact-wide .contact-form::before{content:"";position:absolute;right:-4px;top:-4px;width:180px;height:180px;background:url('botanical-corner.svg') center/contain no-repeat;opacity:.16;pointer-events:none;z-index:-1}
+.enquiry-group{min-width:0;padding:0;margin:0;border:0}
+.enquiry-group:not(:first-child){padding-left:28px;border-left:1px solid #29453515}
+.enquiry-group legend{display:flex;align-items:center;gap:12px;font:30px/1.15 var(--serif);color:var(--green);margin-bottom:20px;padding:0}
+.enquiry-number{display:grid;place-items:center;width:30px;height:30px;flex:none;border-radius:50%;background:#edf1e7;font:11px/1 var(--sans);letter-spacing:.06em;color:#52654a}
+.enquiry-fields{display:grid;gap:16px}
+.landing-contact-wide .contact-form input:not([type=checkbox]):not([type=file]),.landing-contact-wide .contact-form select,.landing-contact-wide .contact-form textarea{width:100%;background:#f4f3ed;border:1px solid #29453514;border-radius:8px;padding:11px 14px;font-size:15px;line-height:1.6;transition:border-color .2s,background .2s,box-shadow .2s}
+.landing-contact-wide .contact-form input:not([type=checkbox]):not([type=file]):focus,.landing-contact-wide .contact-form select:focus,.landing-contact-wide .contact-form textarea:focus{background:#fff;border-color:#83957d;box-shadow:0 0 0 3px #83957d18;outline:none}
+.landing-contact-wide .contact-form input::placeholder,.landing-contact-wide .contact-form textarea::placeholder{color:#757c70;opacity:1}
+.landing-contact-wide .contact-form label>span{font-size:10px;letter-spacing:.06em;color:#496044;margin-bottom:7px}
+.landing-contact-wide .form-message{padding-top:8px}
+.landing-contact-wide .form-attachments{border:1px dashed #a2b095;background:#f1f4eb;border-radius:12px;padding:17px 20px;align-self:stretch}
+.landing-contact-wide .contact-form input[type=file]{font-size:11px;min-height:40px}
+.landing-contact-wide .contact-form input::file-selector-button{border:1px solid #29453520;background:#fffdf7;border-radius:999px;font-size:11px;padding:10px 15px;color:var(--green);cursor:pointer}
+.landing-contact-wide .form-attachments small{font-size:11px;margin-top:5px;color:#56684c}
+.landing-contact-wide .contact-submit{border-radius:999px;font-size:11px;letter-spacing:.05em;padding:0 28px}
+.landing-contact-wide .form-submit-row{margin-top:18px;padding-top:18px}
+.landing-contact-wide .consent{align-items:center}.landing-contact-wide .consent input{margin:0;accent-color:var(--green)}
+.landing-contact-wide .contact-details{justify-content:center;gap:15px 45px;padding-top:3px}
+@media(max-width:1100px){.landing-contact-wide .form-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.enquiry-group:not(:first-child){padding-left:18px}.enquiry-group legend{font-size:27px;gap:9px}.enquiry-number{width:25px;height:25px}.landing-contact-wide .form-message{grid-column:span 2}.landing-contact-wide .form-attachments{grid-column:auto}}
+@media(max-width:780px){.landing-contact-wide .contact-form{padding:25px 20px;border-radius:20px}.landing-contact-wide .form-grid{grid-template-columns:1fr;gap:25px}.enquiry-group:not(:first-child){padding:22px 0 0;border-left:0;border-top:1px solid #29453518}.enquiry-group legend{font-size:30px;margin-bottom:18px}.landing-contact-wide .form-message{grid-column:auto}.landing-contact-wide .contact-form input:not([type=checkbox]):not([type=file]),.landing-contact-wide .contact-form select,.landing-contact-wide .contact-form textarea{font-size:16px}.landing-contact-wide .contact-details{justify-content:start}.landing-contact-wide .contact-form::before{width:130px;height:130px}}
+.landing-contact-wide .contact-form label>span{font-size:11px}

@@ -1,0 +1,30 @@
+/* Shared typography: leave room for Polish accents and serif descenders. */
+main h1,main h2,main h3{letter-spacing:0!important;overflow:visible}
+main h1{line-height:1.08!important}
+main h2{line-height:1.12!important}
+main h3{line-height:1.18!important}
+@keyframes premiumTitleIn{from{opacity:0;clip-path:none;transform:translateY(18px)}to{opacity:1;clip-path:none;transform:none}}
+.eyebrow{font-size:12px;line-height:1.7;letter-spacing:.13em;font-weight:600}
+.landing-v2 .center-heading>.eyebrow{font-size:12px;color:#566d55;letter-spacing:.13em}
+.landing-v2 .google-copy h2{line-height:1.15!important;margin-bottom:16px}
+.google-copy p{font-size:14px;line-height:1.75;color:#555c53}
+.google-mark span,.google-link,.review-pending{font-size:11px!important;line-height:1.7;color:#455b46;letter-spacing:.1em}
+.landing-v2 .faq-columns summary{font-family:var(--sans);font-size:16px;line-height:1.65;font-weight:500;letter-spacing:0;grid-template-columns:26px minmax(0,1fr) 22px;gap:12px;padding:25px 0}
+.faq-number{font-size:12px;color:#ab4c5d;letter-spacing:.06em}
+.landing-v2 .faq-columns details p{font-size:16px;line-height:1.85;color:#555c53}
+.contact-copy h2{padding-bottom:.12em;max-width:100%}
+.contact-copy>.eyebrow{color:#d5dfce;font-size:12px}
+.contact-details span,.footer-column>span{font-size:12px;color:#c5d1c0}
+.carousel-caption>span,.portfolio-tile-caption>span,.carousel-placeholder{font-size:11px;color:#5b6853}
+.note-category,.note-cover-bottom{font-size:11px;letter-spacing:.11em;line-height:1.7}
+.notebook-scroll-hint,.sheet-number,.sheet-footer{font-size:11px;color:#556951}
+.notebook-cover-inside small{font-size:11px;color:#556951}
+.notebook-cover h1,.note-cover h3{flex-shrink:0}
+.note-summary{font-size:15px}
+.notebook-toc a{font-size:14px;color:#53634b}
+@media(max-width:780px){.landing-v2 .faq-columns summary{font-size:16px;line-height:1.65}.landing-v2 .faq-columns details p{font-size:16px}.google-copy p{font-size:14px}.sheet-footer{font-size:10px}.notebook-cover h1{font-size:clamp(26px,7.5vw,36px)!important}.note-cover h3{font-size:40px}}
+@media(max-height:760px){.notebook-motion .notebook-cover .note-logo{width:85px;margin:10px 0}.notebook-motion .notebook-cover h1{font-size:clamp(26px,3vw,38px)!important;margin-bottom:18px}.notebook-motion .notebook-cover{padding-top:22px;padding-bottom:22px}.notebook-motion .notebook-paper>p{font-size:24px;margin-top:20px}}
+.landing-v2 .faq-columns summary{display:grid;align-items:center}
+/* Keep the approved home hero independent of editorial heading spacing. */
+main .hero h1{letter-spacing:-.035em!important;line-height:.95!important}
+@media(max-width:780px){main .hero h1{letter-spacing:-.045em!important;line-height:.97!important}}
