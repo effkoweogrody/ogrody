@@ -1,14 +1,14 @@
 User-agent: *
 Allow: /
-Disallow: /ogrody/scripts/
-Disallow: /ogrody/tests/
-Disallow: /ogrody/download/
-Disallow: /ogrody/seo-config.json
-Disallow: /ogrody/SEO-MIGRACJA.md
-Disallow: /ogrody/SEO-MIGRACJA.html
-Disallow: /ogrody/README.md
-Disallow: /ogrody/README.html
-Disallow: /ogrody/PROMPTY-OBRAZY.md
-Disallow: /ogrody/index.bak
+Disallow: /scripts/
+Disallow: /tests/
+Disallow: /download/
+Disallow: /seo-config.json
+Disallow: /SEO-MIGRACJA.md
+Disallow: /SEO-MIGRACJA.html
+Disallow: /README.md
+Disallow: /README.html
+Disallow: /PROMPTY-OBRAZY.md
+Disallow: /index.bak
 
-Sitemap: https://effkoweogrody.github.io/ogrody/sitemap.xml
+Sitemap: https://effkoweogrody.pl/sitemap.xml
