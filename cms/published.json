@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "revision": 2,
+    "revision": 3,
     "projects": [
         {
             "number": 1,
@@ -2009,43 +2009,6 @@
             "seoDescription": "Ogród leśny w Stanięcicach na działce 1200 m²: brzozy, sosny, bujne rabaty, palenisko, taras i szklarnia. Zobacz wizualizacje projektu Ewy Katrycz.",
             "updatedAt": "2026-10-27T00:00:00Z",
             "featured": true
-        },
-        {
-            "id": "project-4f0e59578d28b416",
-            "slug": "test-nowego-projektu",
-            "legacy": false,
-            "cover": "assets/cms/ede61cabaf5842a4548f39279a2b0e66.webp",
-            "seoTitle": "Test nowego projektu | Effkowe Ogrody",
-            "seoDescription": "Test nowego projektu. Test strony internetowej dla effkowe ogrody Poznaj inspiracje i projekty pracowni Effkowe Ogrody we Wrocławiu.",
-            "updatedAt": "2026-10-28T21:51:37+00:00",
-            "number": 13,
-            "name": "Test nowego projektu",
-            "place": "katowice",
-            "area": "599",
-            "facts": {
-                "Lokalizacja": "katowice",
-                "Powierzchnia": "599",
-                "Styl": "estetyczny",
-                "Główne elementy": "ogrod"
-            },
-            "description": [
-                "Test strony internetowej dla effkowe ogrody"
-            ],
-            "images": [
-                {
-                    "src": "assets/cms/ede61cabaf5842a4548f39279a2b0e66.webp",
-                    "width": 1254,
-                    "height": 1254,
-                    "display": "assets/cms/ede61cabaf5842a4548f39279a2b0e66-display.webp",
-                    "card": "assets/cms/ede61cabaf5842a4548f39279a2b0e66-card.webp",
-                    "thumb": "assets/cms/ede61cabaf5842a4548f39279a2b0e66-thumb.webp",
-                    "alt": "",
-                    "is_top": false
-                }
-            ],
-            "display_order": 0,
-            "featured": true,
-            "has_top": false
         }
     ],
     "articles": [
