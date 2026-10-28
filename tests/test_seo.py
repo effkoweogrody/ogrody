@@ -29,7 +29,7 @@ class SEOTests(unittest.TestCase):
         for origin in [CONFIG['preview_url'],CONFIG['production_url']]:
             with self.subTest(origin=origin),tempfile.TemporaryDirectory() as directory:
                 target=Path(directory);result=seo.build(origin,target)
-                self.assertEqual(result['pages'],21);self.assertEqual(result['sitemap_urls'],20)
+                self.assertEqual(result['pages'],len(pages));self.assertEqual(result['sitemap_urls'],sum(p.get('index',True) for p in pages.values()))
                 titles=set();descriptions=set();indexed=[]
                 for filename,page in pages.items():
                     source=(target/seo.output_file(filename)).read_text(encoding='utf-8');p=Read();p.feed(source)
@@ -68,7 +68,7 @@ class SEOTests(unittest.TestCase):
                 self.assertNotIn('.html',seo.canonical(CONFIG['production_url'],filename))
                 self.assertNotIn('href="kontakt.html',public)
                 self.assertNotIn('"../assets/',public)
-            self.assertEqual(len((target/'adresy-do-indeksowania.txt').read_text().splitlines()),20)
+            self.assertEqual(len((target/'adresy-do-indeksowania.txt').read_text().splitlines()),sum(p.get('index',True) for p in pages.values()))
 
     def test_domain_export_does_not_activate_source(self):
         previous=(ROOT/'CNAME').read_bytes()
@@ -84,6 +84,6 @@ class SEOTests(unittest.TestCase):
         pages,projects=seo.load_pages(CONFIG);source,_=seo.render_page(CONFIG,CONFIG['production_url'],'index.html',pages['index.html'],projects)
         p=Read();p.feed(source);graph=json.loads(''.join(p.data))['@graph']
         faq=next(x for x in graph if x['@type']=='FAQPage');self.assertEqual(len(faq['mainEntity']),9)
-        listing=next(x for x in graph if x['@type']=='ItemList');self.assertEqual([x['url'].rstrip('/').split('-')[-1] for x in listing['itemListElement']],['11','02','03','05','06','07','08','09','04','01','10'])
+        listing=next(x for x in graph if x['@type']=='ItemList');self.assertEqual([x['url'] for x in listing['itemListElement']],[seo.canonical(CONFIG['production_url'],'projekty/'+(p.get('slug') or f'projekt-ogrodu-{p["number"]:02}')+'.html') for p in sorted(projects,key=lambda p:p['display_order'])])
 
 if __name__=='__main__':unittest.main()

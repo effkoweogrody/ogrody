@@ -1,0 +1,11 @@
+Options -Indexes
+<FilesMatch "^(core|publish)\.php$">
+Require all denied
+</FilesMatch>
+<IfModule mod_headers.c>
+Header always set X-Robots-Tag "noindex, nofollow"
+Header always set X-Content-Type-Options "nosniff"
+Header always set X-Frame-Options "DENY"
+Header always set Referrer-Policy "same-origin"
+Header always set Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https://effkoweogrody.pl data: blob:; frame-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"
+</IfModule>

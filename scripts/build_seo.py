@@ -110,7 +110,8 @@ def load_pages(config):
     projects = json.loads((ROOT / 'projects-data.json').read_text(encoding='utf-8'))
     for project in projects:
         n = str(project['number'])
-        pages[f'projekty/projekt-ogrodu-{int(n):02}.html'] = {
+        project_slug=project.get('slug') or f'projekt-ogrodu-{int(n):02}'
+        pages[f'projekty/{project_slug}.html'] = {
             'title': config['project_titles'][n], 'description': config['project_descriptions'][n],
             'label': project['name'], 'kind': 'project', 'project': project,
         }
@@ -183,7 +184,7 @@ def structured_data(config, origin, filename, page, source, images, projects):
         item_id = url + '#projekty'; web['mainEntity'] = {'@id': item_id}
         graph.append({'@type': 'ItemList', '@id': item_id, 'name': 'Projekty i realizacje Effkowe Ogrody', 'itemListOrder': 'https://schema.org/ItemListOrderAscending',
                       'numberOfItems': len(projects), 'itemListElement': [
-            {'@type': 'ListItem', 'position': i, 'name': p['name'], 'url': absolute(origin, f'projekty/projekt-ogrodu-{p["number"]:02}.html')}
+            {'@type': 'ListItem', 'position': i, 'name': p['name'], 'url': absolute(origin, 'projekty/' + (p.get('slug') or f'projekt-ogrodu-{p["number"]:02}') + '.html')}
             for i, p in enumerate(sorted(projects, key=lambda p: p['display_order']), 1)]})
     if kind == 'home':
         faqs = json.loads((ROOT / 'content.json').read_text(encoding='utf-8'))['faq']

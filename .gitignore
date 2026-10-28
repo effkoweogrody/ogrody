@@ -1,2 +1,7 @@
 __pycache__/
 *.py[cod]
+
+cms-private/
+cms-server/private/*
+!cms-server/private/config.example.php
+!cms-server/private/.htaccess
