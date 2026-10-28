@@ -37,6 +37,20 @@ try {
  if($action==='restore'){$kind=collection();$id=record_id();state(function(&$s)use($kind,$id){if(!isset($s[$kind][$id]))throw new InvalidArgumentException('Nie znaleziono treści.');$s[$kind][$id]['archived']=false;});out(['ok'=>true]);}
  if($action==='publication'){
   $sha=state(fn(&$s)=>$s['lastCommit'],false);if(!$sha)out(['status'=>'idle']);$runs=github('GET','/actions/workflows/cms-publish.yml/runs?head_sha='.rawurlencode($sha).'&per_page=1');$run=$runs['workflow_runs'][0]??null;
+  // A repair commit may successfully deploy the same publication after its original build failed.
+  if(!$run||($run['status']==='completed'&&$run['conclusion']!=='success')){
+   $latest=github('GET','/actions/workflows/cms-publish.yml/runs?branch='.rawurlencode($c['branch']??'main').'&per_page=1')['workflow_runs'][0]??null;
+   if($latest&&$latest['head_sha']!==$sha){
+    $comparison=github('GET','/compare/'.rawurlencode($sha).'...'.rawurlencode($latest['head_sha']));
+    if(in_array($comparison['status']??'',['ahead','identical'],true)){
+     $remote=github('GET','/contents/cms/published.json?ref='.rawurlencode($latest['head_sha']));
+     $snapshot=json_decode(base64_decode($remote['content'],true),true,512,JSON_THROW_ON_ERROR);
+     $revision=state(fn(&$s)=>$s['revision'],false);
+     if(($snapshot['revision']??null)===$revision)$run=$latest;
+    }
+   }
+  }
+
   out(['commit'=>$sha,'status'=>!$run?'queued':($run['status']!=='completed'?'building':($run['conclusion']==='success'?'published':'failed')),'message'=>$run&&$run['conclusion']==='failure'?'Publikacja wymaga sprawdzenia przez opiekuna strony. Szkic i poprzednia strona zostały zachowane.':null]);
  }
  fail('Nie znaleziono tej funkcji.',404);
