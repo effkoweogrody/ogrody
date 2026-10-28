@@ -1,2165 +1,2202 @@
 {
-  "version": 1,
-  "revision": 1,
-  "projects": [
-    {
-      "number": 1,
-      "name": "Mały ogród z balią",
-      "place": "Oława",
-      "cover": "assets/projects/01-cover.webp",
-      "images": [
+    "version": 1,
+    "revision": 2,
+    "projects": [
         {
-          "src": "assets/projects/01-01.webp",
-          "width": 1240,
-          "height": 992,
-          "source": "OGRÓD OŁAWA - MAŁY Z BALIĄ (1).jpg",
-          "is_top": true
+            "number": 1,
+            "name": "Mały ogród z balią",
+            "place": "Oława",
+            "cover": "assets/projects/01-cover.webp",
+            "images": [
+                {
+                    "src": "assets/projects/01-01.webp",
+                    "width": 1240,
+                    "height": 992,
+                    "source": "OGRÓD OŁAWA - MAŁY Z BALIĄ (1).jpg",
+                    "is_top": true
+                },
+                {
+                    "src": "assets/projects/01-02.webp",
+                    "width": 1640,
+                    "height": 1312,
+                    "source": "OGRÓD OŁAWA - MAŁY Z BALIĄ (2).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/01-03.webp",
+                    "width": 1540,
+                    "height": 1232,
+                    "source": "OGRÓD OŁAWA - MAŁY Z BALIĄ (3).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/01-04.webp",
+                    "width": 1540,
+                    "height": 1232,
+                    "source": "OGRÓD OŁAWA - MAŁY Z BALIĄ (4).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/01-05.webp",
+                    "width": 1540,
+                    "height": 1232,
+                    "source": "OGRÓD OŁAWA - MAŁY Z BALIĄ (5).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/01-06.webp",
+                    "width": 1540,
+                    "height": 1232,
+                    "source": "OGRÓD OŁAWA - MAŁY Z BALIĄ (6).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/01-07.webp",
+                    "width": 1540,
+                    "height": 1232,
+                    "source": "OGRÓD OŁAWA - MAŁY Z BALIĄ (7).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/01-08.webp",
+                    "width": 1420,
+                    "height": 1136,
+                    "source": "OGRÓD OŁAWA - MAŁY Z BALIĄ (8).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/01-09.webp",
+                    "width": 1540,
+                    "height": 1157,
+                    "source": "OGRÓD OŁAWA - MAŁY Z BALIĄ (9).jpg",
+                    "is_top": false
+                }
+            ],
+            "has_top": true,
+            "area": "150 m²",
+            "title": "Mały ogród z balią - Oława",
+            "description": [
+                "Niewielka przestrzeń, a całkiem sporo pomysłów na odpoczynek. Na 150 m² znalazło się miejsce na balię wodną, altanę z grillem i dekoracyjną misę wodną.",
+                "Ogród utrzymany jest w nowoczesnym, minimalistycznym stylu, z delikatną nutą orientu. Kolumnowe graby, bambusy kępowe, azalie i miękkie trawy ozdobne tworzą bujne, ale uporządkowane kompozycje. Zamiast rozległego trawnika zaprojektowałam szerokie rabaty, które ograniczają konieczność pielęgnacji. Niewielki fragment murawy pozostał jako zielony dywan przy tarasie.",
+                "To ogród, w którym każdy metr został dobrze wykorzystany, a mimo wielu funkcji nie zabrakło miejsca na zieleń."
+            ],
+            "facts": {
+                "Lokalizacja": "Oława, woj. dolnośląskie",
+                "Powierzchnia": "150 m²",
+                "Styl": "nowoczesny z elementami orientalnymi",
+                "Główne elementy": "balia wodna, altana, misa wodna, rabaty żwirowe"
+            },
+            "display_order": 10,
+            "id": "project-1",
+            "slug": "projekt-ogrodu-01",
+            "legacy": true,
+            "seoTitle": "Mały ogród z balią w Oławie | Effkowe Ogrody",
+            "seoDescription": "Projekt małego ogrodu w Oławie: 150 m², balia wodna, altana i rabaty żwirowe. Zobacz wizualizacje układu oraz opis projektu przygotowanego przez Ewę Katrycz.",
+            "updatedAt": "2026-10-27T00:00:00Z",
+            "featured": true
         },
         {
-          "src": "assets/projects/01-02.webp",
-          "width": 1640,
-          "height": 1312,
-          "source": "OGRÓD OŁAWA - MAŁY Z BALIĄ (2).jpg",
-          "is_top": false
+            "number": 2,
+            "name": "Malowniczy ogród z leśną nutą",
+            "place": "Wrocław",
+            "cover": "assets/projects/02-cover.webp",
+            "images": [
+                {
+                    "src": "assets/projects/02-01.webp",
+                    "width": 3840,
+                    "height": 2160,
+                    "source": "OGRÓD WROCŁAW - MALOWNICZY (1).jpg",
+                    "is_top": true
+                },
+                {
+                    "src": "assets/projects/02-02.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "source": "OGRÓD WROCŁAW - MALOWNICZY (1).png",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/02-03.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD WROCŁAW - MALOWNICZY (2).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/02-04.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "source": "OGRÓD WROCŁAW - MALOWNICZY (2).png",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/02-05.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD WROCŁAW - MALOWNICZY (3).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/02-06.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "source": "OGRÓD WROCŁAW - MALOWNICZY (3).png",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/02-07.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD WROCŁAW - MALOWNICZY (4).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/02-08.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "source": "OGRÓD WROCŁAW - MALOWNICZY (4).png",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/02-09.webp",
+                    "width": 3840,
+                    "height": 2160,
+                    "source": "OGRÓD WROCŁAW - MALOWNICZY (5).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/02-10.webp",
+                    "width": 3840,
+                    "height": 2160,
+                    "source": "OGRÓD WROCŁAW - MALOWNICZY (6).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/02-11.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD WROCŁAW - MALOWNICZY (7).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/02-12.webp",
+                    "width": 3840,
+                    "height": 2160,
+                    "source": "OGRÓD WROCŁAW - MALOWNICZY (8).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/02-13.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "source": "OGRÓD WROCŁAW - MALOWNICZY (9).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/02-14.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "source": "OGRÓD WROCŁAW - MALOWNICZY (10).jpg",
+                    "is_top": false
+                }
+            ],
+            "has_top": true,
+            "area": "580 m²",
+            "title": "Malowniczy ogród z leśną nutą - Wrocław",
+            "description": [
+                "Ogród, w którym swobodne, kwitnące rabaty spotykają się z nowoczesną architekturą i lekkim, leśnym klimatem. Na działce o powierzchni 580 m² zaprojektowałam przestrzeń pełną zieleni, przytulnych zakątków i miejsc do spędzania czasu z rodziną.",
+                "Charakter ogrodu tworzą szerokie, falujące rabaty z bylinami, trawami ozdobnymi, krzewami i drzewami o naturalnych pokrojach. Zależało mi na uzyskaniu efektu bujnej roślinności, ale bez wrażenia chaosu. Całość porządkują miękkie linie trawników oraz jasne, geometryczne ścieżki nawiązujące do architektury domu.",
+                "Jednym z najbardziej charakterystycznych miejsc jest okrągły plac z paleniskiem i ławkami, otoczony niewielkim zagajnikiem brzozowo-sosnowym. Wśród roślin znalazła się również wielopniowa świdośliwa, dekoracyjna misa wodna i kameralny kącik z wiszącym kokonem. Przy tarasie zaplanowałam nowoczesną fontannę, która wprowadza do ogrodu dodatkowy element ruchu i dźwięku.",
+                "Nie zabrakło też miejsca na dziecięce zabawy, niewielki warzywnik i krzewy owocowe. Zróżnicowane nasadzenia zapewniają prywatność, a obecność roślin zimozielonych sprawia, że ogród zachowuje swój charakter również poza sezonem."
+            ],
+            "facts": {
+                "Lokalizacja": "Wrocław, woj. dolnośląskie",
+                "Powierzchnia działki": "580 m²",
+                "Styl": "naturalistyczny, lekko leśny z nowoczesnymi akcentami",
+                "Główne elementy": "zagajnik brzozowo-sosnowy, palenisko, misa wodna, fontanna, rabaty bylinowe, strefa zabaw, warzywnik"
+            },
+            "display_order": 2,
+            "id": "project-2",
+            "slug": "projekt-ogrodu-02",
+            "legacy": true,
+            "seoTitle": "Projekt ogrodu Wrocław - leśna kompozycja | Effkowe Ogrody",
+            "seoDescription": "Projekt ogrodu we Wrocławiu na działce 580 m²: naturalistyczne rabaty, zagajnik, palenisko i miejsca wypoczynku. Zobacz wizualizacje i opis koncepcji.",
+            "updatedAt": "2026-10-27T00:00:00Z",
+            "featured": true
         },
         {
-          "src": "assets/projects/01-03.webp",
-          "width": 1540,
-          "height": 1232,
-          "source": "OGRÓD OŁAWA - MAŁY Z BALIĄ (3).jpg",
-          "is_top": false
+            "number": 3,
+            "name": "Nowoczesny ogród rodzinny",
+            "place": "Wrocław",
+            "cover": "assets/projects/03-cover.webp",
+            "images": [
+                {
+                    "src": "assets/projects/03-01.webp",
+                    "width": 3840,
+                    "height": 2160,
+                    "source": "OGRÓD WROCŁAW - NOWOCZESNY (1).jpg",
+                    "is_top": true
+                },
+                {
+                    "src": "assets/projects/03-02.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD WROCŁAW - NOWOCZESNY (2).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/03-03.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD WROCŁAW - NOWOCZESNY (3).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/03-04.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD WROCŁAW - NOWOCZESNY (4).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/03-05.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD WROCŁAW - NOWOCZESNY (5).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/03-06.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD WROCŁAW - NOWOCZESNY (6).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/03-07.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD WROCŁAW - NOWOCZESNY (7).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/03-08.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD WROCŁAW - NOWOCZESNY (8).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/03-09.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD WROCŁAW - NOWOCZESNY (9).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/03-10.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD WROCŁAW - NOWOCZESNY (10).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/03-11.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD WROCŁAW - NOWOCZESNY (11).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/03-12.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD WROCŁAW - NOWOCZESNY (12).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/03-13.webp",
+                    "width": 3840,
+                    "height": 2160,
+                    "source": "OGRÓD WROCŁAW - NOWOCZESNY (13).jpg",
+                    "is_top": false
+                }
+            ],
+            "has_top": true,
+            "area": "1000 m²",
+            "title": "Nowoczesny ogród rodzinny - Wrocław",
+            "description": [
+                "Nowoczesny ogród, w którym nie zabrakło miejsca na kolor, bujną roślinność i aktywny wypoczynek całej rodziny. Na powierzchni 1000 m² zaprojektowałam kilka odrębnych stref, połączonych ścieżkami prowadzącymi przez zielone zakątki.",
+                "W ogrodzie znalazły się m.in. klimatyczne palenisko, altana drewniana z miejscem na luksusowe drewniane jacuzzi, przestrzeń rekreacyjna dla nastolatków oraz niewielki sad. Istniejące nasadzenia zachowałam i wzbogaciłam o nowe kompozycje bylin, traw ozdobnych i drzew, w tym malowniczy zagajnik brzozowy.",
+                "Całość łączy nowoczesne rozwiązania z naturalną, różnorodną zielenią, która z czasem osłoni istniejące betonowe ogrodzenie i zapewni domownikom więcej prywatności."
+            ],
+            "facts": {
+                "Lokalizacja": "Wrocław, woj. dolnośląskie",
+                "Powierzchnia": "1000 m²",
+                "Styl": "nowoczesny z elementami naturalistycznymi",
+                "Główne elementy": "altana drewniana z jacuzzi, zadaszony taras z jadalnią, palenisko, strefa sportowa, mini sad, zagajnik brzozowy"
+            },
+            "display_order": 3,
+            "id": "project-3",
+            "slug": "projekt-ogrodu-03",
+            "legacy": true,
+            "seoTitle": "Projekt ogrodu rodzinnego Wrocław | Effkowe Ogrody",
+            "seoDescription": "Nowoczesny ogród rodzinny we Wrocławiu: 1000 m², taras, altana z jacuzzi, palenisko i strefa sportowa. Poznaj projekt Ewy Katrycz i zobacz wizualizacje.",
+            "updatedAt": "2026-10-27T00:00:00Z",
+            "featured": true
         },
         {
-          "src": "assets/projects/01-04.webp",
-          "width": 1540,
-          "height": 1232,
-          "source": "OGRÓD OŁAWA - MAŁY Z BALIĄ (4).jpg",
-          "is_top": false
+            "number": 4,
+            "name": "Ogród w angielskim stylu",
+            "place": "Teklinów",
+            "cover": "assets/projects/04-cover.webp",
+            "images": [
+                {
+                    "src": "assets/projects/04-01.webp",
+                    "width": 5120,
+                    "height": 2880,
+                    "source": "OGRÓD TEKLINÓW  (1).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/04-02.webp",
+                    "width": 5120,
+                    "height": 2880,
+                    "source": "OGRÓD TEKLINÓW  (2).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/04-03.webp",
+                    "width": 5120,
+                    "height": 2880,
+                    "source": "OGRÓD TEKLINÓW  (3).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/04-04.webp",
+                    "width": 1280,
+                    "height": 720,
+                    "source": "OGRÓD TEKLINÓW  (4).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/04-05.webp",
+                    "width": 5120,
+                    "height": 2880,
+                    "source": "OGRÓD TEKLINÓW  (5).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/04-06.webp",
+                    "width": 5120,
+                    "height": 2880,
+                    "source": "OGRÓD TEKLINÓW  (6).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/04-07.webp",
+                    "width": 1280,
+                    "height": 720,
+                    "source": "OGRÓD TEKLINÓW  (7).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/04-08.webp",
+                    "width": 1280,
+                    "height": 720,
+                    "source": "OGRÓD TEKLINÓW  (8).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/04-09.webp",
+                    "width": 5120,
+                    "height": 2880,
+                    "source": "OGRÓD TEKLINÓW  (9).jpg",
+                    "is_top": false
+                }
+            ],
+            "has_top": false,
+            "area": "800 m²",
+            "title": "Ogród w angielskim stylu - Teklinów",
+            "description": [
+                "Ogród inspirowany angielską klasyką, pełen kwiatów, zieleni i przytulnych zakątków. Na powierzchni 800 m² zaprojektowałam przestrzeń, w której geometryczny układ rabat i ścieżek łączy się z bujnymi, swobodnymi nasadzeniami.",
+                "W projekcie ważną rolę odgrywa cegła. Wykorzystałam ją do budowy murków, podwyższonych warzywników i okrągłego paleniska, nawiązując w ten sposób do tradycyjnej architektury domu. Całość uzupełniają drewniane ścieżki z modrzewiowych elementów oraz taras w ciepłym, orzechowym odcieniu.",
+                "Dużą część ogrodu zajmują wielogatunkowe rabaty z bylinami, kwitnącymi krzewami i drzewami. Rośliny dobrałam tak, aby ogród zmieniał się przez cały sezon, a drzewa nadawały mu przestrzenności, nie zasłaniając przy tym pięknego widoku na sąsiednie łąki.",
+                "Nie zabrakło również miejsca na codzienne życie rodziny - niewielki warzywnik, plac zabaw, trampolinę i trawnik. Zależało mi, aby ogród zachował nieco wiejskiego uroku, pasował do otaczającego krajobrazu i był miejscem, w którym każdy z domowników znajdzie coś dla siebie."
+            ],
+            "facts": {
+                "Lokalizacja": "Teklinów",
+                "Powierzchnia": "800 m²",
+                "Styl": "angielski, klasyczny z naturalistycznymi nasadzeniami",
+                "Główne elementy": "ceglane palenisko, warzywniki, drewniane ścieżki, taras modrzewiowy, rabaty bylinowe, strefa zabaw"
+            },
+            "display_order": 9,
+            "id": "project-4",
+            "slug": "projekt-ogrodu-04",
+            "legacy": true,
+            "seoTitle": "Ogród w angielskim stylu - Teklinów | Effkowe Ogrody",
+            "seoDescription": "Projekt ogrodu w Teklinowie: 800 m², angielski charakter, naturalistyczne nasadzenia, ceglane palenisko i taras modrzewiowy. Poznaj koncepcję ogrodu.",
+            "updatedAt": "2026-10-27T00:00:00Z",
+            "featured": true
         },
         {
-          "src": "assets/projects/01-05.webp",
-          "width": 1540,
-          "height": 1232,
-          "source": "OGRÓD OŁAWA - MAŁY Z BALIĄ (5).jpg",
-          "is_top": false
+            "number": 5,
+            "name": "Rozległy ogród w romantycznym stylu",
+            "place": "Szyszki Włościańskie",
+            "cover": "assets/projects/05-cover.webp",
+            "images": [
+                {
+                    "src": "assets/projects/05-01.webp",
+                    "width": 3840,
+                    "height": 2160,
+                    "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (1).jpg",
+                    "is_top": true
+                },
+                {
+                    "src": "assets/projects/05-02.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (2).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/05-03.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (3).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/05-04.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (4).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/05-05.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (5).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/05-06.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (6).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/05-07.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (7).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/05-08.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (8).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/05-09.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (9).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/05-10.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (10).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/05-11.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (11).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/05-12.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (12).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/05-13.webp",
+                    "width": 3840,
+                    "height": 2160,
+                    "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (13).jpg",
+                    "is_top": false
+                }
+            ],
+            "has_top": true,
+            "area": "3100 m²",
+            "title": "Rozległy ogród w romantycznym stylu - Szyszki Włościańskie",
+            "description": [
+                "Duży, romantyczny ogród inspirowany angielskimi założeniami, w którym bujne, kwitnące rabaty przeplatają się z rozległymi trawnikami i kameralnymi zakątkami. Na powierzchni 3100 m² zaprojektowałam przestrzeń podzieloną na różnorodne pokoje ogrodowe, połączone ścieżkami o miękkich, łukowych liniach.",
+                "Ważne było dla mnie zachowanie tego, co w ogrodzie już dobrze funkcjonowało. Istniejące nasadzenia wzbogaciłam o nowe drzewa, krzewy i byliny, a część sadowniczo-warzywną wkomponowałam w bardziej swobodny, kwiatowy układ.",
+                "W głębi ogrodu powstała przestronna strefa wypoczynkowa z pergolą, jacuzzi i letnią jadalnią. Wśród zieleni znalazło się również miejsce na palenisko otoczone brzozami, drewniane huśtawki, hamak w sadzie oraz kilka zacisznych miejsc do odpoczynku. Całość uzupełniają dekoracyjne fontanny, misy wodne i pergole porośnięte pnączami.",
+                "Front posesji zyskał bardziej reprezentacyjny charakter dzięki białym hortensjom, eleganckim obwódkom cisowym i starannie dobranym drzewom ozdobnym. Dalej ogród staje się coraz swobodniejszy, z szerokimi rabatami pełnymi kwiatów i roślin o naturalnych pokrojach.",
+                "To ogród, w którym klasyczna elegancja spotyka się z wiejskim urokiem, a duża przestrzeń pozwala cieszyć się zarówno wspólnym czasem z bliskimi, jak i spokojem we własnym, zielonym zakątku."
+            ],
+            "facts": {
+                "Lokalizacja": "Szyszki Włościańskie",
+                "Powierzchnia ogrodu": "3100 m²",
+                "Styl": "angielski, naturalistyczny z nutą wiejskiego romantyzmu",
+                "Główne elementy": "pergola z jacuzzi, palenisko, fontanny, misy wodne, strefy wypoczynkowe, sad, warzywnik, rabaty kwiatowe"
+            },
+            "display_order": 4,
+            "id": "project-5",
+            "slug": "projekt-ogrodu-05",
+            "legacy": true,
+            "seoTitle": "Romantyczny ogród - Szyszki Włościańskie | Effkowe Ogrody",
+            "seoDescription": "Romantyczny ogród w Szyszkach Włościańskich: 3100 m², kwitnące rabaty, pergola z jacuzzi, fontanny i sad. Zobacz wizualizacje projektu Effkowe Ogrody.",
+            "updatedAt": "2026-10-27T00:00:00Z",
+            "featured": true
         },
         {
-          "src": "assets/projects/01-06.webp",
-          "width": 1540,
-          "height": 1232,
-          "source": "OGRÓD OŁAWA - MAŁY Z BALIĄ (6).jpg",
-          "is_top": false
+            "number": 6,
+            "name": "Podmiejski ogród z leśnym charakterem",
+            "place": "Kębłowice",
+            "cover": "assets/projects/06-cover.webp",
+            "images": [
+                {
+                    "src": "assets/projects/06-01.webp",
+                    "width": 3840,
+                    "height": 2160,
+                    "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (2).jpg",
+                    "is_top": true
+                },
+                {
+                    "src": "assets/projects/06-02.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (1).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/06-03.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (3).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/06-04.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (4).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/06-05.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (5).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/06-06.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (6).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/06-07.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (7).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/06-08.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (8).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/06-09.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (9).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/06-10.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (10).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/06-11.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (11).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/06-12.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (12).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/06-13.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (13).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/06-14.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (14).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/06-15.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (15).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/06-16.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (16).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/06-17.webp",
+                    "width": 1672,
+                    "height": 903,
+                    "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (17).jpg",
+                    "is_top": false
+                }
+            ],
+            "has_top": true,
+            "area": "1100 m²",
+            "title": "Podmiejski ogród z leśnym charakterem - Kębłowice",
+            "description": [
+                "Ogród o naturalistycznym, nieco leśnym charakterze, z nutą wiejskiego romantyzmu i nowoczesnymi akcentami. Na działce o powierzchni 1100 m² zaprojektowałam przestrzeń pełną zieleni, kwitnących rabat i przytulnych zakątków, w której każdy z domowników znajdzie miejsce dla siebie.",
+                "Kompozycję ogrodu tworzą miękkie, falujące linie rabat, koliste trawniki oraz ścieżki prowadzące do poszczególnych stref wypoczynku. Bujne nasadzenia z drzew, krzewów, bylin i traw ozdobnych przeplatają się z bardziej uporządkowanymi elementami, dzięki czemu ogród zachowuje swobodny charakter, ale nie traci spójności.",
+                "Jednym z jego najbardziej charakterystycznych miejsc jest okrągły plac z paleniskiem i ławkami, otoczony niewielkim zagajnikiem brzozowo-sosnowym. W centralnej części zaprojektowałam dużą, kolistą rabatę z ozdobnym drzewem, kolorowymi bylinami i misą wodną.",
+                "Wśród zieleni znalazło się także miejsce na basen, zaciszny kącik z wiszącym kokonem, drewniany trejaż z huśtawkami oraz plac zabaw dla dziecka. Część użytkową, z warzywnikami i krzewami owocowymi, wkomponowałam w rabaty, aby stanowiła naturalną część ogrodu.",
+                "Dużą uwagę poświęciłam również osłonięciu posesji od sąsiedniej zabudowy. Zróżnicowane żywopłoty, wysokie drzewa i szerokie rabaty z czasem stworzą zieloną osłonę, zapewniając domownikom prywatność. Dzięki obecności roślin zimozielonych ogród będzie atrakcyjny także zimą."
+            ],
+            "facts": {
+                "Lokalizacja": "Kębłowice, woj. dolnośląskie",
+                "Powierzchnia działki": "1100 m²",
+                "Styl": "naturalistyczny, lekko leśny z nowoczesnymi akcentami",
+                "Główne elementy": "palenisko, zagajnik brzozowo-sosnowy, basen, misy wodne, trejaż z kokonami, strefa zabaw, warzywniki, rabaty bylinowe"
+            },
+            "display_order": 5,
+            "id": "project-6",
+            "slug": "projekt-ogrodu-06",
+            "legacy": true,
+            "seoTitle": "Ogród naturalistyczny - Kębłowice | Effkowe Ogrody",
+            "seoDescription": "Projekt ogrodu w Kębłowicach: 1100 m², naturalistyczne rabaty, zagajnik, basen i strefy wypoczynku. Zobacz układ i wizualizacje ogrodu.",
+            "updatedAt": "2026-10-27T00:00:00Z",
+            "featured": true
         },
         {
-          "src": "assets/projects/01-07.webp",
-          "width": 1540,
-          "height": 1232,
-          "source": "OGRÓD OŁAWA - MAŁY Z BALIĄ (7).jpg",
-          "is_top": false
+            "number": 7,
+            "name": "Mały ogród z angielską nutą",
+            "place": "Selzach",
+            "cover": "assets/projects/07-cover.webp",
+            "images": [
+                {
+                    "src": "assets/projects/07-01.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (1).jpg",
+                    "is_top": true
+                },
+                {
+                    "src": "assets/projects/07-02.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (2).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/07-03.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (3).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/07-04.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (4).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/07-05.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (5).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/07-06.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (6).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/07-07.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (7).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/07-08.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (8).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/07-09.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (9).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/07-10.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (10).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/07-11.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (11).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/07-12.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (12).jpg",
+                    "is_top": false
+                }
+            ],
+            "has_top": true,
+            "area": "200 m²",
+            "title": "Mały ogród z angielską nutą - Selzach, Szwajcaria",
+            "description": [
+                "Niewielki ogród, w którym nowoczesna architektura spotyka się z bujnymi, angielskimi rabatami, subtelnymi akcentami japońskimi i odrobiną śródziemnomorskiego klimatu. Na powierzchni zaledwie 200 m² zaprojektowałam przestrzeń pełną roślin, kolorów i przytulnych miejsc do wypoczynku.",
+                "Jednym z najważniejszych założeń było zapewnienie prywatności bez nadmiernego zagęszczania nasadzeń. Zaproponowałam więc graby lub laurowiśnie prowadzone w formie palmet, które tworzą zielone ekrany, przesłaniając sąsiednią zabudowę, a jednocześnie pozostawiają miejsce na kwitnące rabaty.",
+                "W zacienionej części ogrodu wąski pas trawnika zastąpiłam ścieżką otoczoną hortensjami, funkiami, paprociami i tawułkami. Dzięki temu powstał przyjemny, zielony zakątek, w którym dobrze odnajdują się rośliny lubiące cień i wilgotniejsze podłoże.",
+                "Na tarasie znalazło się miejsce na wygodne meble wypoczynkowe, wiszący kokon i duże terakotowe donice z roślinami. W narożniku ogrodu zaprojektowałam kameralną strefę z drewnianą pergolą, ławkami i paleniskiem w stalowej misie cortenowej. Nie zabrakło również niewielkiej części użytkowej z podwyższonym zielnikiem i krzewami owocowymi.",
+                "To ogród, w którym każdy fragment przestrzeni ma swoje zadanie, a różnorodne nasadzenia tworzą zielone otoczenie do codziennego wypoczynku."
+            ],
+            "facts": {
+                "Lokalizacja": "Selzach, Szwajcaria",
+                "Powierzchnia ogrodu": "200 m²",
+                "Styl": "nowoczesny z elementami angielskiego ogrodu bylinowego, akcentami japońskimi i śródziemnomorskimi",
+                "Główne elementy": "palmety grabowe, pergola z paleniskiem, cieniste rabaty, taras z donicami, zielnik, krzewy owocowe"
+            },
+            "display_order": 6,
+            "id": "project-7",
+            "slug": "projekt-ogrodu-07",
+            "legacy": true,
+            "seoTitle": "Mały ogród - Selzach, Szwajcaria | Effkowe Ogrody",
+            "seoDescription": "Projekt ogrodu 200 m² w Selzach w Szwajcarii: bylinowe rabaty, palmety grabowe, pergola i taras. Zobacz wizualizacje oraz opis projektu Ewy Katrycz.",
+            "updatedAt": "2026-10-27T00:00:00Z",
+            "featured": true
         },
         {
-          "src": "assets/projects/01-08.webp",
-          "width": 1420,
-          "height": 1136,
-          "source": "OGRÓD OŁAWA - MAŁY Z BALIĄ (8).jpg",
-          "is_top": false
+            "number": 8,
+            "name": "Romantyczny ogród w angielskim stylu",
+            "place": "Jaworzno",
+            "cover": "assets/projects/08-cover.webp",
+            "images": [
+                {
+                    "src": "assets/projects/08-01.webp",
+                    "width": 3840,
+                    "height": 2160,
+                    "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (1).jpg",
+                    "is_top": true
+                },
+                {
+                    "src": "assets/projects/08-02.webp",
+                    "width": 3840,
+                    "height": 2160,
+                    "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (2).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/08-03.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (3).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/08-04.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (4).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/08-05.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (5).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/08-06.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (6).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/08-07.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (7).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/08-08.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (8).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/08-09.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (9).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/08-10.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (10).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/08-11.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (11).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/08-12.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (12).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/08-13.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (13).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/08-14.webp",
+                    "width": 3840,
+                    "height": 2160,
+                    "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (14).jpg",
+                    "is_top": false
+                }
+            ],
+            "has_top": true,
+            "area": "550 m²",
+            "title": "Romantyczny ogród w angielskim stylu - Jaworzno",
+            "description": [
+                "Ogród inspirowany angielskimi ogrodami, pełen róż, kwitnących bylin i romantycznych zakątków. Na powierzchni 550 m² zaprojektowałam przestrzeń, w której elegancka, uporządkowana część frontowa płynnie przechodzi w bardziej swobodny, naturalistyczny ogród.",
+                "Charakter projektu tworzą miękkie linie rabat, ceglane obrzeża, drewniane pergole oraz roślinność w odcieniach bieli, różu i fioletu. Szczególne miejsce zajmują róże pnące i powojniki, które z czasem otulą pergole, tworząc zielone przejścia między poszczególnymi częściami ogrodu.",
+                "Jednym z najbardziej malowniczych miejsc jest kolista różanka w obwódce z cisów, ze świdośliwą i dekoracyjną fontanną. Wśród bujnych nasadzeń zaplanowałam także zaciszny zakątek z hamakiem pod brzozami oraz kameralne miejsca do odpoczynku. Artystycznego charakteru dodają ogrodowe detale i elementy wodne.",
+                "W głębi ogrodu zachowałam część użytkową z warzywnikami i drzewami owocowymi, uzupełniając ją o miejsce na przyszłą szklarnię i plac zabaw dla dzieci. Drewniana pergola porośnięta winoroślą stanowi symboliczne przejście do tej części ogrodu.",
+                "Dużą uwagę poświęciłam również doborowi roślin - pachnących, miododajnych i kwitnących przez cały sezon. Zróżnicowane krzewy, drzewa i żywopłoty zapewniają prywatność, a jednocześnie tworzą ciekawe kompozycje o każdej porze roku.",
+                "To ogród z nutą angielskiego romantyzmu, w którym znajdzie się miejsce zarówno na rodzinne zabawy, jak i spokojne popołudnie wśród kwiatów."
+            ],
+            "facts": {
+                "Lokalizacja": "Jaworzno, woj. śląskie",
+                "Powierzchnia ogrodu": "550 m²",
+                "Powierzchnia działki": "830 m²",
+                "Styl": "angielski, naturalistyczny z romantycznymi akcentami",
+                "Główne elementy": "różanka, drewniane pergole, fontanny, ścieżki z ceglanymi obrzeżami, strefy wypoczynkowe, warzywnik, sad, miejsce na szklarnię"
+            },
+            "display_order": 7,
+            "id": "project-8",
+            "slug": "projekt-ogrodu-08",
+            "legacy": true,
+            "seoTitle": "Ogród angielski - Jaworzno | Effkowe Ogrody",
+            "seoDescription": "Romantyczny ogród w angielskim stylu w Jaworznie: różanka, pergole, fontanny, sad i warzywnik. Poznaj projekt ogrodu 550 m² i zobacz wizualizacje.",
+            "updatedAt": "2026-10-27T00:00:00Z",
+            "featured": true
         },
         {
-          "src": "assets/projects/01-09.webp",
-          "width": 1540,
-          "height": 1157,
-          "source": "OGRÓD OŁAWA - MAŁY Z BALIĄ (9).jpg",
-          "is_top": false
+            "number": 9,
+            "name": "Ogród naturalistyczny z nutą śródziemnomorską",
+            "place": "Dobczyn",
+            "cover": "assets/projects/09-cover.webp",
+            "images": [
+                {
+                    "src": "assets/projects/09-01.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (15).jpg",
+                    "is_top": true
+                },
+                {
+                    "src": "assets/projects/09-02.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (1).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/09-03.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (2).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/09-04.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (3).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/09-05.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (4).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/09-06.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (5).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/09-07.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (6).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/09-08.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (7).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/09-09.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (8).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/09-10.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (10).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/09-11.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (11).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/09-12.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (12).jpg",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/projects/09-13.webp",
+                    "width": 1920,
+                    "height": 1080,
+                    "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (14).jpg",
+                    "is_top": false
+                }
+            ],
+            "has_top": true,
+            "area": "800 m²",
+            "title": "Ogród naturalistyczny z nutą śródziemnomorską - Dobczyn",
+            "description": [
+                "Ogród pełen kwiatów, kolorów i romantycznych zakątków, w którym naturalistyczna swoboda spotyka się ze śródziemnomorskim klimatem. Na działce o powierzchni 800 m² zaprojektowałam przestrzeń podzieloną na kameralne pokoje ogrodowe, połączone malowniczymi ścieżkami.",
+                "Ciepłe odcienie cegły, terakoty i drewna nawiązują do rustykalnego charakteru ogrodu. Drewniane pergole oplecione różami i powojnikami, falujące rabaty pełne bylin oraz kwitnących krzewów tworzą przytulną, nieco romantyczną atmosferę.",
+                "Sercem ogrodu jest przestronny taras urządzony w śródziemnomorskim stylu, z pergolą, dużymi donicami i miejscem do wypoczynku. Tuż obok znalazł się niewielki basen, a wśród zieleni zaplanowałam kolejne zakątki, palenisko otoczone girlandami świetlnymi, ławkę pod drzewami i dekoracyjną misę wodną.",
+                "Nie zabrakło też części użytkowej z małą szklarnią, warzywnikiem i drzewami owocowymi oraz miejsca do zabawy dla dzieci.",
+                "Ważnym elementem projektu było zachowanie widoku na otaczające działkę łąki i drzewa. Dlatego nasadzenia zapewniają prywatność od strony sąsiadów, ale jednocześnie otwierają ogród na piękny, naturalny krajobraz."
+            ],
+            "facts": {
+                "Lokalizacja": "Dobczyn, woj. mazowieckie",
+                "Powierzchnia działki": "800 m²",
+                "Styl": "naturalistyczny, śródziemnomorski z nutą wiejskiego romantyzmu",
+                "Główne elementy": "drewniane pergole, basen, palenisko, misa wodna, taras śródziemnomorski, szklarnia, warzywnik, strefa zabaw"
+            },
+            "display_order": 8,
+            "id": "project-9",
+            "slug": "projekt-ogrodu-09",
+            "legacy": true,
+            "seoTitle": "Ogród naturalistyczny - Dobczyn | Effkowe Ogrody",
+            "seoDescription": "Projekt ogrodu w Dobczynie na działce 800 m²: naturalistyczne nasadzenia, basen, pergole i śródziemnomorski taras. Zobacz wizualizacje i opis koncepcji.",
+            "updatedAt": "2026-10-27T00:00:00Z",
+            "featured": true
+        },
+        {
+            "number": 10,
+            "name": "Realizacje",
+            "place": null,
+            "cover": "assets/realizations/59.webp",
+            "images": [
+                {
+                    "group": "realizations",
+                    "number": 59,
+                    "src": "assets/realizations/59.webp",
+                    "width": 1125,
+                    "height": 844,
+                    "display_width": 1100,
+                    "source": "IMG_20260821_180731_093 (1).jpg",
+                    "id": "16wquJ7_3w1Kz7cjP8BK0LxKFy5SvuFxp"
+                },
+                {
+                    "group": "realizations",
+                    "number": 8,
+                    "src": "assets/realizations/08.webp",
+                    "width": 1080,
+                    "height": 812,
+                    "display_width": 1080,
+                    "source": "IMG_20241025_103340_234.jpg",
+                    "id": "1WPh9yoZSbChz7xr5--L9ld12ge12jU3t"
+                },
+                {
+                    "group": "realizations",
+                    "number": 9,
+                    "src": "assets/realizations/09.webp",
+                    "width": 1080,
+                    "height": 812,
+                    "display_width": 1080,
+                    "source": "IMG_20241025_103344_437.jpg",
+                    "id": "1w3LaKXkNbYtt3gcRu6O6BvNS-FDIFOm4"
+                },
+                {
+                    "group": "realizations",
+                    "number": 16,
+                    "src": "assets/realizations/16.webp",
+                    "width": 1600,
+                    "height": 1200,
+                    "display_width": 1100,
+                    "source": "IMG-20250822-WA0007.jpg",
+                    "id": "1DIorEaI2Jdi-TEjxcz8OuE061UI82LAw"
+                },
+                {
+                    "group": "realizations",
+                    "number": 17,
+                    "src": "assets/realizations/17.webp",
+                    "width": 1600,
+                    "height": 1200,
+                    "display_width": 1100,
+                    "source": "IMG-20250822-WA0005.jpg",
+                    "id": "1b01Lb14EuYqwgvUv3IC9d_BcOPy5WWmS"
+                },
+                {
+                    "group": "realizations",
+                    "number": 24,
+                    "src": "assets/realizations/24.webp",
+                    "width": 640,
+                    "height": 480,
+                    "display_width": 640,
+                    "source": "IMG_4346.jpg",
+                    "id": "1eY1nioU4hzu5nw89q_XScVxraPpYN388"
+                },
+                {
+                    "group": "realizations",
+                    "number": 26,
+                    "src": "assets/realizations/26.webp",
+                    "width": 640,
+                    "height": 502,
+                    "display_width": 640,
+                    "source": "IMG_4548.jpg",
+                    "id": "18s3Dp7IUWVFwa2shYtUbykIHB1Qvr2tq"
+                },
+                {
+                    "group": "realizations",
+                    "number": 29,
+                    "src": "assets/realizations/29.webp",
+                    "width": 1351,
+                    "height": 2400,
+                    "display_width": 619,
+                    "source": "20250919_102814.jpg",
+                    "id": "1DSujWarCCma_f9SISrxw5tLs6UUsy7yy"
+                },
+                {
+                    "group": "realizations",
+                    "number": 38,
+                    "src": "assets/realizations/38.webp",
+                    "width": 2000,
+                    "height": 1500,
+                    "display_width": 1100,
+                    "source": "IMG-20251029-WA0002.jpg",
+                    "id": "1bQl4cvbZ43MKXqtRYaPUs5BLKLrMrpii"
+                },
+                {
+                    "group": "realizations",
+                    "number": 47,
+                    "src": "assets/realizations/47.webp",
+                    "width": 1440,
+                    "height": 1080,
+                    "display_width": 1100,
+                    "source": "IMG_20260103_230344_907.jpg",
+                    "id": "1vtMisFN_DrdheV3ByZcDa7ntdo6Hr93y"
+                },
+                {
+                    "group": "realizations",
+                    "number": 56,
+                    "src": "assets/realizations/56.webp",
+                    "width": 1125,
+                    "height": 844,
+                    "display_width": 1100,
+                    "source": "IMG_20260821_180705_438 (1).jpg",
+                    "id": "1WQCVgcZkr9DiKPlq5ZtWCmB3_YlTfH7C"
+                },
+                {
+                    "group": "realizations",
+                    "number": 62,
+                    "src": "assets/realizations/62.webp",
+                    "width": 1206,
+                    "height": 904,
+                    "display_width": 1100,
+                    "source": "IMG_20260827_164020_607 (1).jpg",
+                    "id": "1_LnAJa4HZjFriWo2o5IFjKnlkTlSX-Wr"
+                },
+                {
+                    "group": "realizations",
+                    "number": 1,
+                    "src": "assets/realizations/01.webp",
+                    "width": 843,
+                    "height": 1122,
+                    "display_width": 826,
+                    "source": "IMG_20240908_205718_522.jpg",
+                    "id": "17lm5f-WMfyqLLixm6PPeeQngb4dCX0wd"
+                },
+                {
+                    "group": "realizations",
+                    "number": 2,
+                    "src": "assets/realizations/02.webp",
+                    "width": 843,
+                    "height": 1122,
+                    "display_width": 826,
+                    "source": "IMG_20240908_205726_822.jpg",
+                    "id": "10agEUB0CNS4Pfe-wzq9VOHtNasCUq0o9"
+                },
+                {
+                    "group": "realizations",
+                    "number": 3,
+                    "src": "assets/realizations/03.webp",
+                    "width": 843,
+                    "height": 1123,
+                    "display_width": 826,
+                    "source": "IMG_20240908_205738_071.jpg",
+                    "id": "1OBfPWDfz8Hc78sLf3cvRXoRw8P4tEwnj"
+                },
+                {
+                    "group": "realizations",
+                    "number": 5,
+                    "src": "assets/realizations/05.webp",
+                    "width": 1170,
+                    "height": 1560,
+                    "display_width": 825,
+                    "source": "IMG_20241025_102114_942.jpg",
+                    "id": "1mDERBH1XCmHvoOVs3iFOvxJAe3aWa7NK"
+                },
+                {
+                    "group": "realizations",
+                    "number": 6,
+                    "src": "assets/realizations/06.webp",
+                    "width": 720,
+                    "height": 958,
+                    "display_width": 720,
+                    "source": "IMG_20241025_103316_441.jpg",
+                    "id": "1gtazE27I8_u40w30-mTJ4Lfav7ROdo66"
+                },
+                {
+                    "group": "realizations",
+                    "number": 7,
+                    "src": "assets/realizations/07.webp",
+                    "width": 1080,
+                    "height": 812,
+                    "display_width": 1080,
+                    "source": "IMG_20241025_103338_479.jpg",
+                    "id": "1jd4tMsvZHkHMaif610laOaiYgNJ6m7wr"
+                },
+                {
+                    "group": "realizations",
+                    "number": 10,
+                    "src": "assets/realizations/10.webp",
+                    "width": 1080,
+                    "height": 812,
+                    "display_width": 1080,
+                    "source": "IMG_20241025_103347_468.jpg",
+                    "id": "14odIQwaYiPcEo8ekHJyCBY10mK-v34fH"
+                },
+                {
+                    "group": "realizations",
+                    "number": 12,
+                    "src": "assets/realizations/12.webp",
+                    "width": 586,
+                    "height": 780,
+                    "display_width": 586,
+                    "source": "IMG_20250525_184421_083.jpg",
+                    "id": "1cXiyFwMj_jXyo11xhIq_P4gFGqUPYZJb"
+                },
+                {
+                    "group": "realizations",
+                    "number": 13,
+                    "src": "assets/realizations/13.webp",
+                    "width": 1024,
+                    "height": 1365,
+                    "display_width": 825,
+                    "source": "IMG_20250819_170859_603.jpg",
+                    "id": "1q1_2_OiEMy1s7pQ483WyHm8piEuhPtbI"
+                },
+                {
+                    "group": "realizations",
+                    "number": 14,
+                    "src": "assets/realizations/14.webp",
+                    "width": 1206,
+                    "height": 1608,
+                    "display_width": 825,
+                    "source": "IMG_20250819_170845_508.jpg",
+                    "id": "1bULgqNvQKwoJSB4NNcRUPVLefKzurh_9"
+                },
+                {
+                    "group": "realizations",
+                    "number": 15,
+                    "src": "assets/realizations/15.webp",
+                    "width": 1024,
+                    "height": 1364,
+                    "display_width": 826,
+                    "source": "IMG_20250819_170855_917.jpg",
+                    "id": "1ABobA1ZU2x-L_mM_NWyXKkAzTsYrWISz"
+                },
+                {
+                    "group": "realizations",
+                    "number": 18,
+                    "src": "assets/realizations/18.webp",
+                    "width": 1600,
+                    "height": 1200,
+                    "display_width": 1100,
+                    "source": "IMG-20250822-WA0006.jpg",
+                    "id": "17tgW2Y7pw2c9Cmsmok6Cf9gTBj_rbqye"
+                },
+                {
+                    "group": "realizations",
+                    "number": 19,
+                    "src": "assets/realizations/19.webp",
+                    "width": 1600,
+                    "height": 1200,
+                    "display_width": 1100,
+                    "source": "IMG-20250822-WA0009.jpg",
+                    "id": "1X51BzfgXBM7O3Xg12EL2x-PVQzT2HQd-"
+                },
+                {
+                    "group": "realizations",
+                    "number": 20,
+                    "src": "assets/realizations/20.webp",
+                    "width": 563,
+                    "height": 751,
+                    "display_width": 563,
+                    "source": "IMG_20250908_201843_191.jpg",
+                    "id": "1pUkPe68H-_ezeKU1i0F2KwPJErE6wEt5"
+                },
+                {
+                    "group": "realizations",
+                    "number": 21,
+                    "src": "assets/realizations/21.webp",
+                    "width": 480,
+                    "height": 640,
+                    "display_width": 480,
+                    "source": "IMG_3261.jpg",
+                    "id": "1Gt9ppb4C6tvLwcASxA1j1E9zVhxla18t"
+                },
+                {
+                    "group": "realizations",
+                    "number": 22,
+                    "src": "assets/realizations/22.webp",
+                    "width": 480,
+                    "height": 640,
+                    "display_width": 480,
+                    "source": "IMG_3253.jpg",
+                    "id": "1pcRwcMHob8mgiGmi-Xd0VA3OW8VwLS50"
+                },
+                {
+                    "group": "realizations",
+                    "number": 23,
+                    "src": "assets/realizations/23.webp",
+                    "width": 480,
+                    "height": 640,
+                    "display_width": 480,
+                    "source": "IMG_4311.jpg",
+                    "id": "1b3RC1SlWkYCvsbxi4Oy5xtJAmlN9e2Wh"
+                },
+                {
+                    "group": "realizations",
+                    "number": 25,
+                    "src": "assets/realizations/25.webp",
+                    "width": 640,
+                    "height": 480,
+                    "display_width": 640,
+                    "source": "IMG_4348.jpg",
+                    "id": "1j0leqgOgifzU_cuxNau_E_HwyfpU8-Cr"
+                },
+                {
+                    "group": "realizations",
+                    "number": 27,
+                    "src": "assets/realizations/27.webp",
+                    "width": 1200,
+                    "height": 1600,
+                    "display_width": 825,
+                    "source": "IMG-20250822-WA0004.jpg",
+                    "id": "1iVp4g8yFDnZy5rR64ExmkZg7RpX_xWXZ"
+                },
+                {
+                    "group": "realizations",
+                    "number": 28,
+                    "src": "assets/realizations/28.webp",
+                    "width": 1351,
+                    "height": 2400,
+                    "display_width": 619,
+                    "source": "20250919_102642.jpg",
+                    "id": "1ay9ZJgZ3EyBJO2cpPXuZ_QamfhSRqWO6"
+                },
+                {
+                    "group": "realizations",
+                    "number": 30,
+                    "src": "assets/realizations/30.webp",
+                    "width": 1351,
+                    "height": 2400,
+                    "display_width": 619,
+                    "source": "20250919_103028.jpg",
+                    "id": "1dUD8ZQk1nAvOAeo9rzBcWdXENgmKtfYB"
+                },
+                {
+                    "group": "realizations",
+                    "number": 31,
+                    "src": "assets/realizations/31.webp",
+                    "width": 1351,
+                    "height": 2400,
+                    "display_width": 619,
+                    "source": "20250919_103133.jpg",
+                    "id": "1NZd-ZNjO8IzFfZiuwPDteLwxRzXzqTrD"
+                },
+                {
+                    "group": "realizations",
+                    "number": 32,
+                    "src": "assets/realizations/32.webp",
+                    "width": 1351,
+                    "height": 2400,
+                    "display_width": 619,
+                    "source": "20250919_101846.jpg",
+                    "id": "1GELqYjbs_6BeLCt4yUN6B_0Bg_HvxCUx"
+                },
+                {
+                    "group": "realizations",
+                    "number": 33,
+                    "src": "assets/realizations/33.webp",
+                    "width": 1351,
+                    "height": 2400,
+                    "display_width": 619,
+                    "source": "20250919_101936.jpg",
+                    "id": "1Kk4_G_MEec2nY-7SPoXJDmRS_aGGBwop"
+                },
+                {
+                    "group": "realizations",
+                    "number": 34,
+                    "src": "assets/realizations/34.webp",
+                    "width": 1351,
+                    "height": 2400,
+                    "display_width": 619,
+                    "source": "20250919_102035.jpg",
+                    "id": "1yq_GzLnSLX0_Eq0zpWnehs9N6pxAOyRM"
+                },
+                {
+                    "group": "realizations",
+                    "number": 35,
+                    "src": "assets/realizations/35.webp",
+                    "width": 1351,
+                    "height": 2400,
+                    "display_width": 619,
+                    "source": "20250919_102533.jpg",
+                    "id": "1NRf_hz189QoZeP4HwrCIaIVaRd8XmQ4K"
+                },
+                {
+                    "group": "realizations",
+                    "number": 36,
+                    "src": "assets/realizations/36.webp",
+                    "width": 1351,
+                    "height": 2400,
+                    "display_width": 619,
+                    "source": "20250919_102055.jpg",
+                    "id": "1f9SY7xyq7w2udKSenoKKlaTI1mOfrBdV"
+                },
+                {
+                    "group": "realizations",
+                    "number": 37,
+                    "src": "assets/realizations/37.webp",
+                    "width": 1351,
+                    "height": 2400,
+                    "display_width": 619,
+                    "source": "20250919_103159.jpg",
+                    "id": "1P9QdHIV2pviISzswkQQRuNS7VMWO_Xga"
+                },
+                {
+                    "group": "realizations",
+                    "number": 39,
+                    "src": "assets/realizations/39.webp",
+                    "width": 1943,
+                    "height": 1457,
+                    "display_width": 1100,
+                    "source": "IMG-20251029-WA0011.jpg",
+                    "id": "1Tj0TEag4ALI2GALR0HF9MKAN7k4S9wWR"
+                },
+                {
+                    "group": "realizations",
+                    "number": 40,
+                    "src": "assets/realizations/40.webp",
+                    "width": 2000,
+                    "height": 1500,
+                    "display_width": 1100,
+                    "source": "IMG-20251029-WA0013.jpg",
+                    "id": "1BBzez8wbZxDR5JYvcWBreahmUCXhAo3u"
+                },
+                {
+                    "group": "realizations",
+                    "number": 41,
+                    "src": "assets/realizations/41.webp",
+                    "width": 1500,
+                    "height": 2000,
+                    "display_width": 825,
+                    "source": "IMG-20251029-WA0027.jpg",
+                    "id": "1d6_SfuLCFhdxgTk5aEwPL62XXKj5YBL3"
+                },
+                {
+                    "group": "realizations",
+                    "number": 42,
+                    "src": "assets/realizations/42.webp",
+                    "width": 2000,
+                    "height": 1500,
+                    "display_width": 1100,
+                    "source": "IMG-20251029-WA0014.jpg",
+                    "id": "1NmeMZutwJMDptUoiIkOT8oMpa4WWrRme"
+                },
+                {
+                    "group": "realizations",
+                    "number": 43,
+                    "src": "assets/realizations/43.webp",
+                    "width": 1500,
+                    "height": 2000,
+                    "display_width": 825,
+                    "source": "IMG-20251029-WA0019.jpg",
+                    "id": "1FN33ngCA89ozqTIZ8SrR9_0mbKBgErL8"
+                },
+                {
+                    "group": "realizations",
+                    "number": 44,
+                    "src": "assets/realizations/44.webp",
+                    "width": 1500,
+                    "height": 2000,
+                    "display_width": 825,
+                    "source": "IMG-20251029-WA0018.jpg",
+                    "id": "1zfYUhFvqUgHa1FFbYKfsVpsRoK0umbT3"
+                },
+                {
+                    "group": "realizations",
+                    "number": 46,
+                    "src": "assets/realizations/46.webp",
+                    "width": 1440,
+                    "height": 1920,
+                    "display_width": 825,
+                    "source": "IMG_20260103_230341_894.jpg",
+                    "id": "13s-pOzk58PKL2VYtI6sbSEWMjGsGKedk"
+                },
+                {
+                    "group": "realizations",
+                    "number": 48,
+                    "src": "assets/realizations/48.webp",
+                    "width": 1440,
+                    "height": 1920,
+                    "display_width": 825,
+                    "source": "IMG_20260103_230355_495.jpg",
+                    "id": "1f-JKZLGin9owtqMzRSyFdbyI0AMspPeN"
+                },
+                {
+                    "group": "realizations",
+                    "number": 49,
+                    "src": "assets/realizations/49.webp",
+                    "width": 1440,
+                    "height": 1920,
+                    "display_width": 825,
+                    "source": "IMG_20260103_230352_423.jpg",
+                    "id": "1rcAXNIVtdZdoHHm4ToFKMJ6AXimhVCxZ"
+                },
+                {
+                    "group": "realizations",
+                    "number": 50,
+                    "src": "assets/realizations/50.webp",
+                    "width": 1440,
+                    "height": 1920,
+                    "display_width": 825,
+                    "source": "IMG_20260103_230358_175.jpg",
+                    "id": "1guZFKu3a7lAvbsikgaczD_QyKfV-eAaN"
+                },
+                {
+                    "group": "realizations",
+                    "number": 51,
+                    "src": "assets/realizations/51.webp",
+                    "width": 1440,
+                    "height": 1920,
+                    "display_width": 825,
+                    "source": "IMG_20260103_230401_130.jpg",
+                    "id": "11YZ3q7qmUBgclN4t13w2EFcK8rWaAVjZ"
+                },
+                {
+                    "group": "realizations",
+                    "number": 52,
+                    "src": "assets/realizations/52.webp",
+                    "width": 1131,
+                    "height": 848,
+                    "display_width": 1100,
+                    "source": "image000001 (1).jpg",
+                    "id": "1Y70gKhCpT8ThpGHAkkQLVeGiD3jOEsPg"
+                },
+                {
+                    "group": "realizations",
+                    "number": 53,
+                    "src": "assets/realizations/53.webp",
+                    "width": 1080,
+                    "height": 810,
+                    "display_width": 1080,
+                    "source": "IMG_20260717_181207_471.jpg",
+                    "id": "1yg43aIq8u4cqZ81h6qg4q34L8tN2SPf3"
+                },
+                {
+                    "group": "realizations",
+                    "number": 54,
+                    "src": "assets/realizations/54.webp",
+                    "width": 1080,
+                    "height": 810,
+                    "display_width": 1080,
+                    "source": "IMG_20260717_181209_786.jpg",
+                    "id": "1mj0sltDX3M8iqz-vdRVgE9qwCLXsmOpx"
+                },
+                {
+                    "group": "realizations",
+                    "number": 55,
+                    "src": "assets/realizations/55.webp",
+                    "width": 1126,
+                    "height": 1500,
+                    "display_width": 826,
+                    "source": "IMG_20260821_180712_338.jpg",
+                    "id": "1GIiAooeSjY2nXPbS_Rn7YSidK-m01P15"
+                },
+                {
+                    "group": "realizations",
+                    "number": 57,
+                    "src": "assets/realizations/57.webp",
+                    "width": 1126,
+                    "height": 1500,
+                    "display_width": 826,
+                    "source": "IMG_20260821_180708_669.jpg",
+                    "id": "1lxKjdrvmFWbzE8klN_hMgDygTxVyxCEy"
+                },
+                {
+                    "group": "realizations",
+                    "number": 58,
+                    "src": "assets/realizations/58.webp",
+                    "width": 1126,
+                    "height": 1500,
+                    "display_width": 826,
+                    "source": "IMG_20260821_180724_903.jpg",
+                    "id": "1e8QBUZDZ0LNnz5598UqlIQFyEqF3gnwG"
+                },
+                {
+                    "group": "realizations",
+                    "number": 60,
+                    "src": "assets/realizations/60.webp",
+                    "width": 1125,
+                    "height": 844,
+                    "display_width": 1100,
+                    "source": "IMG_20260821_180734_087 (1).jpg",
+                    "id": "10U36g03kgszI31TdG_taqXNQErZOSqJU"
+                },
+                {
+                    "group": "realizations",
+                    "number": 61,
+                    "src": "assets/realizations/61.webp",
+                    "width": 1204,
+                    "height": 1606,
+                    "display_width": 825,
+                    "source": "IMG_20260827_164017_615.jpg",
+                    "id": "15artvdOrRCn56v9tgOLzD7iwpR7nMjxu"
+                },
+                {
+                    "group": "realizations",
+                    "number": 63,
+                    "src": "assets/realizations/63.webp",
+                    "width": 1204,
+                    "height": 1606,
+                    "display_width": 825,
+                    "source": "IMG_20260827_164025_765.jpg",
+                    "id": "1y3HSHfqCHCLr8kZX-tZKBsA9zNiAVtXr"
+                },
+                {
+                    "group": "realizations",
+                    "number": 64,
+                    "src": "assets/realizations/64.webp",
+                    "width": 1204,
+                    "height": 1606,
+                    "display_width": 825,
+                    "source": "IMG_20260827_164014_501.jpg",
+                    "id": "1uFbm-c-Rt1bah4FM1mT8epqkXfHGUFmj"
+                },
+                {
+                    "group": "realizations",
+                    "number": 65,
+                    "src": "assets/realizations/65.webp",
+                    "width": 1204,
+                    "height": 1606,
+                    "display_width": 825,
+                    "source": "IMG_20260827_164023_182.jpg",
+                    "id": "1Gs8JiC5VMpSLwQq9FjLS3CNbtmZ3xGxc"
+                }
+            ],
+            "description": [
+                "Największą radość sprawia mi moment, kiedy ogród, który wcześniej istniał tylko na rysunkach i wizualizacjach, zaczyna nabierać realnych kształtów.",
+                "Niektóre ogrody moi klienci tworzą samodzielnie, krok po kroku, inne powstają dzięki profesjonalnym firmom wykonawczym, m.in. współpracującej ze mną firmie AK Garden Adriana Kwaśniaka.",
+                "W tej galerii dzielę się zdjęciami ogrodów zrealizowanych na podstawie moich projektów. Każdy jest inny, każdy ma swoją historię, ale wszystkie łączy jedno - z pomysłów zapisanych na papierze stały się prawdziwymi miejscami do życia, odpoczynku i cieszenia się zielenią."
+            ],
+            "type": "photographs",
+            "display_order": 11,
+            "id": "project-10",
+            "slug": "projekt-ogrodu-10",
+            "legacy": true,
+            "seoTitle": "Realizacje ogrodów - zdjęcia | Effkowe Ogrody",
+            "seoDescription": "Zobacz zdjęcia zrealizowanych ogrodów Effkowe Ogrody: rabaty, tarasy, miejsca wypoczynku i detale. Poznaj przestrzenie pokazane na rzeczywistych fotografiach.",
+            "updatedAt": "2026-10-27T00:00:00Z",
+            "featured": true
+        },
+        {
+            "number": 11,
+            "name": "Ogród leśny z nutą romantyzmu",
+            "place": "Stanięcice",
+            "cover": "assets/projects/11-19.webp",
+            "images": [
+                {
+                    "group": "project",
+                    "number": 3,
+                    "src": "assets/projects/11-03.webp",
+                    "width": 3000,
+                    "height": 1688,
+                    "display_width": 1400,
+                    "source": "1.jpg",
+                    "id": "1YkGzjznZ2OgOz3fXG_iAOSQpxJieyRG9",
+                    "is_top": true
+                },
+                {
+                    "group": "project",
+                    "number": 1,
+                    "src": "assets/projects/11-01.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display_width": 1400,
+                    "source": "Fotorealistyczny ogród z lotu ptaka.png",
+                    "id": "1Y6YvJt0i2-b_DtbDV9UZRj_LHCpsbjgZ",
+                    "is_top": false
+                },
+                {
+                    "group": "project",
+                    "number": 2,
+                    "src": "assets/projects/11-02.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display_width": 1400,
+                    "source": "Przytulny ogród z paleniskiem pod pergolą.png",
+                    "id": "11wT2MrEoKEuufLDFRhHYNIouzm3tGtuP",
+                    "is_top": false
+                },
+                {
+                    "group": "project",
+                    "number": 4,
+                    "src": "assets/projects/11-04.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display_width": 1400,
+                    "source": "Spokojny ogród przy nowoczesnym domu.png",
+                    "id": "1DmnoXe8dn060N2pj1E2NamCvmK2er25S",
+                    "is_top": false
+                },
+                {
+                    "group": "project",
+                    "number": 5,
+                    "src": "assets/projects/11-05.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display_width": 1400,
+                    "source": "Słoneczny ogród z pergolą i szklarnią.png",
+                    "id": "1a-rPb1hgQXO-q4iGKSeRwgQFTeB1cr3i",
+                    "is_top": false
+                },
+                {
+                    "group": "project",
+                    "number": 6,
+                    "src": "assets/projects/11-06.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display_width": 1400,
+                    "source": "Słoneczny ogród z pergolą i spa.png",
+                    "id": "1XJXF4c208RL4KBbUaY3DTmeoBn_qiuHE",
+                    "is_top": false
+                },
+                {
+                    "group": "project",
+                    "number": 7,
+                    "src": "assets/projects/11-07.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display_width": 1400,
+                    "source": "Słoneczny ogród z pergolą i ogniskiem.png",
+                    "id": "1cHdZWdYPIlJp2GluAu8SsWXM-dy2i8Wo",
+                    "is_top": false
+                },
+                {
+                    "group": "project",
+                    "number": 8,
+                    "src": "assets/projects/11-08.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display_width": 1400,
+                    "source": "Słoneczny ogród z głęboką szklarnią.png",
+                    "id": "1f98qEHqk88oGOiMxjTlArG1qZxffhWlE",
+                    "is_top": false
+                },
+                {
+                    "group": "project",
+                    "number": 9,
+                    "src": "assets/projects/11-09.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display_width": 1400,
+                    "source": "Słoneczny ogród przy nowoczesnym domu.png",
+                    "id": "1S0tvBUSKjk5-Cm7wn9uDcOs0-5y4e23Q",
+                    "is_top": false
+                },
+                {
+                    "group": "project",
+                    "number": 10,
+                    "src": "assets/projects/11-10.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display_width": 1400,
+                    "source": "Sielski zakątek ogrodowy z pergolą.png",
+                    "id": "1Md02FPjMig27tfDgidRqCEuE56gpXuEF",
+                    "is_top": false
+                },
+                {
+                    "group": "project",
+                    "number": 11,
+                    "src": "assets/projects/11-11.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display_width": 1400,
+                    "source": "Sielankowy ogród przy nowoczesnym domu.png",
+                    "id": "1BJfijoXoC4KpTRcJiR227TtkRDeV6ahs",
+                    "is_top": false
+                },
+                {
+                    "group": "project",
+                    "number": 12,
+                    "src": "assets/projects/11-12.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display_width": 1400,
+                    "source": "Rustykalny domek wśród bujnego ogrodu.png",
+                    "id": "18SE377a94G27VTHbpC2gWs9Rg8ukNdzN",
+                    "is_top": false
+                },
+                {
+                    "group": "project",
+                    "number": 13,
+                    "src": "assets/projects/11-13.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display_width": 1400,
+                    "source": "Rustykalny dom wśród kwitnącego ogrodu.png",
+                    "id": "1vA_h7qWN9DSA14SOD6TYxgCHm37Bzy_C",
+                    "is_top": false
+                },
+                {
+                    "group": "project",
+                    "number": 14,
+                    "src": "assets/projects/11-14.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display_width": 1400,
+                    "source": "Rustykalny dom w leśnym ogrodzie.png",
+                    "id": "1Ib9VKahxuPNLM8y28PgzN1-A7HH1K3d7",
+                    "is_top": false
+                },
+                {
+                    "group": "project",
+                    "number": 15,
+                    "src": "assets/projects/11-15.webp",
+                    "width": 1671,
+                    "height": 941,
+                    "display_width": 1400,
+                    "source": "Ogród z drewnianą pergolą w słońcu.png",
+                    "id": "1IhaqzHmLmnpN-zryIdU1au1KsRwM_k4h",
+                    "is_top": false
+                },
+                {
+                    "group": "project",
+                    "number": 16,
+                    "src": "assets/projects/11-16.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display_width": 1400,
+                    "source": "Nowoczesny dom z ogrodzeniem i ogrodem.png",
+                    "id": "19ckFmV71dIYquujxQAZnRtyxqTv33jI4",
+                    "is_top": false
+                },
+                {
+                    "group": "project",
+                    "number": 17,
+                    "src": "assets/projects/11-17.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display_width": 1400,
+                    "source": "Nowoczesny dom wśród kwitnącego ogrodu (1).png",
+                    "id": "1tfq04KHb3J9WmR5MoXPBWf6sLnEFHpr3",
+                    "is_top": false
+                },
+                {
+                    "group": "project",
+                    "number": 18,
+                    "src": "assets/projects/11-18.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display_width": 1400,
+                    "source": "Nowoczesny dom wśród bujnego ogrodu2.png",
+                    "id": "1UVEJbqHgT6fPLi9ctsHpKuSPsOsMBi4t",
+                    "is_top": false
+                },
+                {
+                    "group": "project",
+                    "number": 19,
+                    "src": "assets/projects/11-19.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display_width": 1400,
+                    "source": "Naturalistyczny ogród z pergolą i kamienną ścieżką.png",
+                    "id": "179fB5_a6IT33rWsxx0pzikds7Yphb4nS",
+                    "is_top": false
+                },
+                {
+                    "group": "project",
+                    "number": 20,
+                    "src": "assets/projects/11-20.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display_width": 1400,
+                    "source": "Luksusowy ogród z pergolą i jacuzzi.png",
+                    "id": "1VmQXktyim35yf5FPAnGOWZ5WsuoDVUVg",
+                    "is_top": false
+                },
+                {
+                    "group": "project",
+                    "number": 21,
+                    "src": "assets/projects/11-21.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display_width": 1400,
+                    "source": "Leśny ogród z drewnianym jacuzzi.png",
+                    "id": "13Fv6WUie5yWI6MUQHTEb4cJzg9lg2QW_",
+                    "is_top": false
+                },
+                {
+                    "group": "project",
+                    "number": 22,
+                    "src": "assets/projects/11-22.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display_width": 1400,
+                    "source": "Fotorealistyczny ogród przy leśnym domku.png",
+                    "id": "1G0Y2dGmFKSush2eyIP8lgJG_36XezlA0",
+                    "is_top": false
+                },
+                {
+                    "group": "project",
+                    "number": 23,
+                    "src": "assets/projects/11-23.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display_width": 1400,
+                    "source": "E2.png",
+                    "id": "13FbSaHc5DJDjGM_-ztR8h023jQXZ2OZF",
+                    "is_top": false
+                }
+            ],
+            "has_top": true,
+            "area": "1200 m²",
+            "description": [
+                "Ogród otulony zielenią, w którym leśny krajobraz przenika się z bujnymi, kwitnącymi rabatami. Zależało mi, aby zachować naturalny charakter tego miejsca, wykorzystać istniejące brzozy, sosny i wierzby, a jednocześnie stworzyć wygodną przestrzeń do codziennego życia i odpoczynku.",
+                "Miękkie, falujące linie rabat i ścieżek prowadzą do kolejnych zakątków ogrodu. Wśród drzew zaplanowałam kompozycje z hortensji, miskantów, rododendronów, azalii i bylin, które wprowadzają kolor oraz nadają nasadzeniom nieco angielskiego charakteru. Zieleń, biel, delikatne róże i fiolety pięknie współgrają z otaczającym lasem.",
+                "W ogrodzie znalazło się kilka miejsc do wypoczynku - żwirowy plac z paleniskiem, drewniany podest pod sosnami, zaciszna ławka wśród zieleni oraz taras z pergolą i jacuzzi. Nie zabrakło także klasycznej szklarni na ceglanej podmurówce, która razem z drewnianymi elementami małej architektury dodaje ogrodowi przytulności.",
+                "Istotną częścią projektu było również zachowanie otwartej przestrzeni trawnika, z której mogą swobodnie korzystać domowe psy, oraz zaplanowanie wygodnej komunikacji między wszystkimi częściami ogrodu.",
+                "To ogród, który nie próbuje konkurować z otaczającą przyrodą. Powoli wtapia się w leśny krajobraz, oferując jednocześnie wiele miejsc, w których można usiąść, odpocząć i po prostu nacieszyć się zielenią."
+            ],
+            "facts": {
+                "Lokalizacja": "Stanięcice",
+                "Powierzchnia działki": "1200 m²",
+                "Styl": "leśny, naturalistyczny z elementami romantycznego ogrodu bylinowego",
+                "Główne elementy": "zagajniki brzozowo-sosnowe, palenisko cortenowe, taras z jacuzzi, drewniane pergole, szklarnia, strefy wypoczynkowe, bujne rabaty bylinowe"
+            },
+            "display_order": 1,
+            "id": "project-11",
+            "slug": "projekt-ogrodu-11",
+            "legacy": true,
+            "seoTitle": "Ogród leśny - Stanięcice | Effkowe Ogrody",
+            "seoDescription": "Ogród leśny w Stanięcicach na działce 1200 m²: brzozy, sosny, bujne rabaty, palenisko, taras i szklarnia. Zobacz wizualizacje projektu Ewy Katrycz.",
+            "updatedAt": "2026-10-27T00:00:00Z",
+            "featured": true
+        },
+        {
+            "id": "project-4f0e59578d28b416",
+            "slug": "test-nowego-projektu",
+            "legacy": false,
+            "cover": "assets/cms/ede61cabaf5842a4548f39279a2b0e66.webp",
+            "seoTitle": "Test nowego projektu | Effkowe Ogrody",
+            "seoDescription": "Test nowego projektu. Test strony internetowej dla effkowe ogrody Poznaj inspiracje i projekty pracowni Effkowe Ogrody we Wrocławiu.",
+            "updatedAt": "2026-10-28T21:51:37+00:00",
+            "number": 13,
+            "name": "Test nowego projektu",
+            "place": "katowice",
+            "area": "599",
+            "facts": {
+                "Lokalizacja": "katowice",
+                "Powierzchnia": "599",
+                "Styl": "estetyczny",
+                "Główne elementy": "ogrod"
+            },
+            "description": [
+                "Test strony internetowej dla effkowe ogrody"
+            ],
+            "images": [
+                {
+                    "src": "assets/cms/ede61cabaf5842a4548f39279a2b0e66.webp",
+                    "width": 1254,
+                    "height": 1254,
+                    "display": "assets/cms/ede61cabaf5842a4548f39279a2b0e66-display.webp",
+                    "card": "assets/cms/ede61cabaf5842a4548f39279a2b0e66-card.webp",
+                    "thumb": "assets/cms/ede61cabaf5842a4548f39279a2b0e66-thumb.webp",
+                    "alt": "",
+                    "is_top": false
+                }
+            ],
+            "display_order": 0,
+            "featured": true,
+            "has_top": false
         }
-      ],
-      "has_top": true,
-      "area": "150 m²",
-      "title": "Mały ogród z balią - Oława",
-      "description": [
-        "Niewielka przestrzeń, a całkiem sporo pomysłów na odpoczynek. Na 150 m² znalazło się miejsce na balię wodną, altanę z grillem i dekoracyjną misę wodną.",
-        "Ogród utrzymany jest w nowoczesnym, minimalistycznym stylu, z delikatną nutą orientu. Kolumnowe graby, bambusy kępowe, azalie i miękkie trawy ozdobne tworzą bujne, ale uporządkowane kompozycje. Zamiast rozległego trawnika zaprojektowałam szerokie rabaty, które ograniczają konieczność pielęgnacji. Niewielki fragment murawy pozostał jako zielony dywan przy tarasie.",
-        "To ogród, w którym każdy metr został dobrze wykorzystany, a mimo wielu funkcji nie zabrakło miejsca na zieleń."
-      ],
-      "facts": {
-        "Lokalizacja": "Oława, woj. dolnośląskie",
-        "Powierzchnia": "150 m²",
-        "Styl": "nowoczesny z elementami orientalnymi",
-        "Główne elementy": "balia wodna, altana, misa wodna, rabaty żwirowe"
-      },
-      "display_order": 10,
-      "id": "project-1",
-      "slug": "projekt-ogrodu-01",
-      "legacy": true,
-      "seoTitle": "Mały ogród z balią w Oławie | Effkowe Ogrody",
-      "seoDescription": "Projekt małego ogrodu w Oławie: 150 m², balia wodna, altana i rabaty żwirowe. Zobacz wizualizacje układu oraz opis projektu przygotowanego przez Ewę Katrycz.",
-      "updatedAt": "2026-10-27T00:00:00Z",
-      "featured": true
-    },
-    {
-      "number": 2,
-      "name": "Malowniczy ogród z leśną nutą",
-      "place": "Wrocław",
-      "cover": "assets/projects/02-cover.webp",
-      "images": [
+    ],
+    "articles": [
         {
-          "src": "assets/projects/02-01.webp",
-          "width": 3840,
-          "height": 2160,
-          "source": "OGRÓD WROCŁAW - MALOWNICZY (1).jpg",
-          "is_top": true
+            "id": "article-jak-przygotowac-sie-do-projektu-ogrodu",
+            "slug": "jak-przygotowac-sie-do-projektu-ogrodu",
+            "title": "Jak przygotować się do projektu ogrodu?",
+            "summary": "Plan działki, kilka zdjęć i własne potrzeby. Od tych rzeczy warto zacząć pierwszą rozmowę.",
+            "category": "Ogrodowy notatnik",
+            "cover": "",
+            "blocks": [
+                {
+                    "type": "heading",
+                    "text": "Zacznij od codzienności"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Pomyśl, jak chcesz spędzać czas wokół domu. Czy potrzebujesz przestrzeni na rodzinne spotkania, spokojnego zakątka do czytania, miejsca do zabawy lub uprawy roślin? Zapisz te potrzeby przed rozmową z projektantką."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Zastanów się również, ile czasu chcesz poświęcać pielęgnacji. Ta informacja jest równie przydatna jak zdjęcia ogrodów, które Ci się podobają."
+                },
+                {
+                    "type": "heading",
+                    "text": "Zbierz informacje o miejscu"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Przygotuj lokalizację, przybliżoną powierzchnię oraz plan działki z usytuowaniem domu. Zrób kilka aktualnych zdjęć pokazujących całą przestrzeń, istniejące rośliny i widoki z okien."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Po ustaleniu zakresu współpracy otrzymasz informację, jakie dodatkowe materiały i pomiary będą potrzebne."
+                },
+                {
+                    "type": "heading",
+                    "text": "Opowiedz, co lubisz w swoich inspiracjach"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Przy kilku inspiracjach zanotuj, co przyciąga Twoją uwagę: miękka linia rabaty, sposób osłonięcia tarasu czy charakter roślinności. To ułatwia rozmowę o stylu ogrodu."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "W pierwszej wiadomości podaj także planowany termin. Kalendarz projektowy zapełnia się z wyprzedzeniem, dlatego dobrze zgłosić się co najmniej sześć miesięcy przed oczekiwanym terminem otrzymania projektu. W sprawie wcześniejszego terminu warto zapytać o aktualną dostępność."
+                }
+            ],
+            "legacy": true,
+            "seoTitle": "Jak przygotować się do projektu ogrodu? | Effkowe Ogrody",
+            "seoDescription": "Co przygotować przed rozmową o projekcie ogrodu? Ewa Katrycz wyjaśnia, jak zebrać plan działki, zdjęcia, inspiracje i informacje o potrzebach domowników.",
+            "updatedAt": "2026-10-27T00:00:00Z",
+            "date": "2026-10-27"
         },
         {
-          "src": "assets/projects/02-02.webp",
-          "width": 1672,
-          "height": 941,
-          "source": "OGRÓD WROCŁAW - MALOWNICZY (1).png",
-          "is_top": false
+            "id": "article-co-zawiera-projekt-ogrodu",
+            "slug": "co-zawiera-projekt-ogrodu",
+            "title": "Co zawiera indywidualny projekt ogrodu?",
+            "summary": "Od koncepcji przestrzeni po dokumentację, z którą można zaplanować kolejne prace w ogrodzie.",
+            "category": "Ogrodowy notatnik",
+            "cover": "",
+            "blocks": [
+                {
+                    "type": "heading",
+                    "text": "Koncepcja pokazuje całość"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Kolorowy rzut 2D przedstawia rozmieszczenie roślin, małej architektury, utwardzeń i najważniejszych elementów aranżacji. Pozwala omówić wzajemne położenie stref, komunikację i miejsca odpoczynku."
+                },
+                {
+                    "type": "heading",
+                    "text": "Dokumentacja porządkuje szczegóły"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Projekt wykonawczy może obejmować szczegółowy plan nasadzeń, wymiary i odległości, oświetlenie ogrodowe oraz utwardzenia. Zestawienie roślin i materiałów, instrukcja sadzenia i pielęgnacji oraz opis techniczny pomagają przejść do kolejnych działań."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Ostateczny zakres znajduje się w indywidualnej ofercie. Przed rozpoczęciem pracy warto ustalić, które rysunki i zestawienia są potrzebne do Twojego ogrodu."
+                },
+                {
+                    "type": "heading",
+                    "text": "Dodatkowe opracowania dobieramy do potrzeb"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Wizualizacje 3D całego ogrodu i projekt systemu nawadniania są opracowaniami opcjonalnymi. Zakres może także uwzględniać projekt ogrodzenia."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Cena zależy od powierzchni, warunków działki, złożoności rozwiązań i dokumentacji. Podstawowe informacje o przestrzeni pozwalają przygotować ofertę dopasowaną do konkretnego ogrodu."
+                }
+            ],
+            "legacy": true,
+            "seoTitle": "Co zawiera projekt ogrodu? Zakres | Effkowe Ogrody",
+            "seoDescription": "Koncepcja 2D, projekt wykonawczy, plan nasadzeń i zestawienia: sprawdź, co może obejmować projekt ogrodu oraz kiedy warto dodać wizualizacje i nawadnianie.",
+            "updatedAt": "2026-10-27T00:00:00Z",
+            "date": "2026-10-27"
         },
         {
-          "src": "assets/projects/02-03.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD WROCŁAW - MALOWNICZY (2).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/02-04.webp",
-          "width": 1672,
-          "height": 941,
-          "source": "OGRÓD WROCŁAW - MALOWNICZY (2).png",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/02-05.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD WROCŁAW - MALOWNICZY (3).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/02-06.webp",
-          "width": 1672,
-          "height": 941,
-          "source": "OGRÓD WROCŁAW - MALOWNICZY (3).png",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/02-07.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD WROCŁAW - MALOWNICZY (4).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/02-08.webp",
-          "width": 1672,
-          "height": 941,
-          "source": "OGRÓD WROCŁAW - MALOWNICZY (4).png",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/02-09.webp",
-          "width": 3840,
-          "height": 2160,
-          "source": "OGRÓD WROCŁAW - MALOWNICZY (5).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/02-10.webp",
-          "width": 3840,
-          "height": 2160,
-          "source": "OGRÓD WROCŁAW - MALOWNICZY (6).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/02-11.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD WROCŁAW - MALOWNICZY (7).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/02-12.webp",
-          "width": 3840,
-          "height": 2160,
-          "source": "OGRÓD WROCŁAW - MALOWNICZY (8).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/02-13.webp",
-          "width": 1672,
-          "height": 941,
-          "source": "OGRÓD WROCŁAW - MALOWNICZY (9).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/02-14.webp",
-          "width": 1672,
-          "height": 941,
-          "source": "OGRÓD WROCŁAW - MALOWNICZY (10).jpg",
-          "is_top": false
+            "id": "article-projekt-ogrodu-zdalnie",
+            "slug": "projekt-ogrodu-zdalnie",
+            "title": "Jak wygląda projektowanie ogrodu zdalnie?",
+            "summary": "Dobra współpraca zaczyna się od informacji o działce i ustalenia sposobu kontaktu.",
+            "category": "Ogrodowy notatnik",
+            "cover": "",
+            "blocks": [
+                {
+                    "type": "heading",
+                    "text": "Materiały pokazują rzeczywiste warunki"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Współpraca zdalna wymaga planu, zdjęć i potrzebnych pomiarów. Powinny one pokazywać rzeczywiste warunki miejsca, usytuowanie domu oraz istniejącą roślinność."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Sposób zebrania tych informacji ustalamy przed rozpoczęciem pracy. Dzięki temu wiadomo, jakie dane trzeba przygotować, zanim powstanie koncepcja."
+                },
+                {
+                    "type": "heading",
+                    "text": "Rozmawiamy o rozwiązaniach i uwagach"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Podczas projektowania omawiamy propozycje i to, jak odpowiadają Twoim potrzebom. Informacje o codziennym korzystaniu z ogrodu pomagają dopracować układ przestrzeni."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Harmonogram i sposób konsultacji są częścią ustaleń na początku współpracy. Jeśli planujesz urządzenie ogrodu w konkretnym sezonie, napisz o tym w pierwszej wiadomości."
+                },
+                {
+                    "type": "heading",
+                    "text": "Otrzymujesz uzgodnione opracowanie"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Dokumentacja jest przygotowana w zakresie opisanym w ofercie. Pozwala zaplanować dalsze działania związane z tworzeniem ogrodu."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Projekt i wykonanie ogrodu to odrębne etapy. We Wrocławiu i okolicach pracownia może pomóc nawiązać kontakt z firmą wykonawczą; zakres prac, wycenę i termin uzgadnia się bezpośrednio z wykonawcą."
+                }
+            ],
+            "legacy": true,
+            "seoTitle": "Projektowanie ogrodu zdalnie - jak to działa? | Effkowe Ogrody",
+            "seoDescription": "Jak wygląda zdalne projektowanie ogrodu? Poznaj rolę zdjęć, planu działki i rozmowy o potrzebach. Ewa Katrycz wyjaśnia, jak przygotować materiały do współpracy.",
+            "updatedAt": "2026-10-27T00:00:00Z",
+            "date": "2026-10-27"
         }
-      ],
-      "has_top": true,
-      "area": "580 m²",
-      "title": "Malowniczy ogród z leśną nutą - Wrocław",
-      "description": [
-        "Ogród, w którym swobodne, kwitnące rabaty spotykają się z nowoczesną architekturą i lekkim, leśnym klimatem. Na działce o powierzchni 580 m² zaprojektowałam przestrzeń pełną zieleni, przytulnych zakątków i miejsc do spędzania czasu z rodziną.",
-        "Charakter ogrodu tworzą szerokie, falujące rabaty z bylinami, trawami ozdobnymi, krzewami i drzewami o naturalnych pokrojach. Zależało mi na uzyskaniu efektu bujnej roślinności, ale bez wrażenia chaosu. Całość porządkują miękkie linie trawników oraz jasne, geometryczne ścieżki nawiązujące do architektury domu.",
-        "Jednym z najbardziej charakterystycznych miejsc jest okrągły plac z paleniskiem i ławkami, otoczony niewielkim zagajnikiem brzozowo-sosnowym. Wśród roślin znalazła się również wielopniowa świdośliwa, dekoracyjna misa wodna i kameralny kącik z wiszącym kokonem. Przy tarasie zaplanowałam nowoczesną fontannę, która wprowadza do ogrodu dodatkowy element ruchu i dźwięku.",
-        "Nie zabrakło też miejsca na dziecięce zabawy, niewielki warzywnik i krzewy owocowe. Zróżnicowane nasadzenia zapewniają prywatność, a obecność roślin zimozielonych sprawia, że ogród zachowuje swój charakter również poza sezonem."
-      ],
-      "facts": {
-        "Lokalizacja": "Wrocław, woj. dolnośląskie",
-        "Powierzchnia działki": "580 m²",
-        "Styl": "naturalistyczny, lekko leśny z nowoczesnymi akcentami",
-        "Główne elementy": "zagajnik brzozowo-sosnowy, palenisko, misa wodna, fontanna, rabaty bylinowe, strefa zabaw, warzywnik"
-      },
-      "display_order": 2,
-      "id": "project-2",
-      "slug": "projekt-ogrodu-02",
-      "legacy": true,
-      "seoTitle": "Projekt ogrodu Wrocław - leśna kompozycja | Effkowe Ogrody",
-      "seoDescription": "Projekt ogrodu we Wrocławiu na działce 580 m²: naturalistyczne rabaty, zagajnik, palenisko i miejsca wypoczynku. Zobacz wizualizacje i opis koncepcji.",
-      "updatedAt": "2026-10-27T00:00:00Z",
-      "featured": true
-    },
-    {
-      "number": 3,
-      "name": "Nowoczesny ogród rodzinny",
-      "place": "Wrocław",
-      "cover": "assets/projects/03-cover.webp",
-      "images": [
-        {
-          "src": "assets/projects/03-01.webp",
-          "width": 3840,
-          "height": 2160,
-          "source": "OGRÓD WROCŁAW - NOWOCZESNY (1).jpg",
-          "is_top": true
-        },
-        {
-          "src": "assets/projects/03-02.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD WROCŁAW - NOWOCZESNY (2).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/03-03.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD WROCŁAW - NOWOCZESNY (3).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/03-04.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD WROCŁAW - NOWOCZESNY (4).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/03-05.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD WROCŁAW - NOWOCZESNY (5).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/03-06.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD WROCŁAW - NOWOCZESNY (6).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/03-07.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD WROCŁAW - NOWOCZESNY (7).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/03-08.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD WROCŁAW - NOWOCZESNY (8).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/03-09.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD WROCŁAW - NOWOCZESNY (9).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/03-10.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD WROCŁAW - NOWOCZESNY (10).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/03-11.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD WROCŁAW - NOWOCZESNY (11).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/03-12.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD WROCŁAW - NOWOCZESNY (12).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/03-13.webp",
-          "width": 3840,
-          "height": 2160,
-          "source": "OGRÓD WROCŁAW - NOWOCZESNY (13).jpg",
-          "is_top": false
-        }
-      ],
-      "has_top": true,
-      "area": "1000 m²",
-      "title": "Nowoczesny ogród rodzinny - Wrocław",
-      "description": [
-        "Nowoczesny ogród, w którym nie zabrakło miejsca na kolor, bujną roślinność i aktywny wypoczynek całej rodziny. Na powierzchni 1000 m² zaprojektowałam kilka odrębnych stref, połączonych ścieżkami prowadzącymi przez zielone zakątki.",
-        "W ogrodzie znalazły się m.in. klimatyczne palenisko, altana drewniana z miejscem na luksusowe drewniane jacuzzi, przestrzeń rekreacyjna dla nastolatków oraz niewielki sad. Istniejące nasadzenia zachowałam i wzbogaciłam o nowe kompozycje bylin, traw ozdobnych i drzew, w tym malowniczy zagajnik brzozowy.",
-        "Całość łączy nowoczesne rozwiązania z naturalną, różnorodną zielenią, która z czasem osłoni istniejące betonowe ogrodzenie i zapewni domownikom więcej prywatności."
-      ],
-      "facts": {
-        "Lokalizacja": "Wrocław, woj. dolnośląskie",
-        "Powierzchnia": "1000 m²",
-        "Styl": "nowoczesny z elementami naturalistycznymi",
-        "Główne elementy": "altana drewniana z jacuzzi, zadaszony taras z jadalnią, palenisko, strefa sportowa, mini sad, zagajnik brzozowy"
-      },
-      "display_order": 3,
-      "id": "project-3",
-      "slug": "projekt-ogrodu-03",
-      "legacy": true,
-      "seoTitle": "Projekt ogrodu rodzinnego Wrocław | Effkowe Ogrody",
-      "seoDescription": "Nowoczesny ogród rodzinny we Wrocławiu: 1000 m², taras, altana z jacuzzi, palenisko i strefa sportowa. Poznaj projekt Ewy Katrycz i zobacz wizualizacje.",
-      "updatedAt": "2026-10-27T00:00:00Z",
-      "featured": true
-    },
-    {
-      "number": 4,
-      "name": "Ogród w angielskim stylu",
-      "place": "Teklinów",
-      "cover": "assets/projects/04-cover.webp",
-      "images": [
-        {
-          "src": "assets/projects/04-01.webp",
-          "width": 5120,
-          "height": 2880,
-          "source": "OGRÓD TEKLINÓW  (1).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/04-02.webp",
-          "width": 5120,
-          "height": 2880,
-          "source": "OGRÓD TEKLINÓW  (2).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/04-03.webp",
-          "width": 5120,
-          "height": 2880,
-          "source": "OGRÓD TEKLINÓW  (3).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/04-04.webp",
-          "width": 1280,
-          "height": 720,
-          "source": "OGRÓD TEKLINÓW  (4).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/04-05.webp",
-          "width": 5120,
-          "height": 2880,
-          "source": "OGRÓD TEKLINÓW  (5).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/04-06.webp",
-          "width": 5120,
-          "height": 2880,
-          "source": "OGRÓD TEKLINÓW  (6).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/04-07.webp",
-          "width": 1280,
-          "height": 720,
-          "source": "OGRÓD TEKLINÓW  (7).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/04-08.webp",
-          "width": 1280,
-          "height": 720,
-          "source": "OGRÓD TEKLINÓW  (8).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/04-09.webp",
-          "width": 5120,
-          "height": 2880,
-          "source": "OGRÓD TEKLINÓW  (9).jpg",
-          "is_top": false
-        }
-      ],
-      "has_top": false,
-      "area": "800 m²",
-      "title": "Ogród w angielskim stylu - Teklinów",
-      "description": [
-        "Ogród inspirowany angielską klasyką, pełen kwiatów, zieleni i przytulnych zakątków. Na powierzchni 800 m² zaprojektowałam przestrzeń, w której geometryczny układ rabat i ścieżek łączy się z bujnymi, swobodnymi nasadzeniami.",
-        "W projekcie ważną rolę odgrywa cegła. Wykorzystałam ją do budowy murków, podwyższonych warzywników i okrągłego paleniska, nawiązując w ten sposób do tradycyjnej architektury domu. Całość uzupełniają drewniane ścieżki z modrzewiowych elementów oraz taras w ciepłym, orzechowym odcieniu.",
-        "Dużą część ogrodu zajmują wielogatunkowe rabaty z bylinami, kwitnącymi krzewami i drzewami. Rośliny dobrałam tak, aby ogród zmieniał się przez cały sezon, a drzewa nadawały mu przestrzenności, nie zasłaniając przy tym pięknego widoku na sąsiednie łąki.",
-        "Nie zabrakło również miejsca na codzienne życie rodziny - niewielki warzywnik, plac zabaw, trampolinę i trawnik. Zależało mi, aby ogród zachował nieco wiejskiego uroku, pasował do otaczającego krajobrazu i był miejscem, w którym każdy z domowników znajdzie coś dla siebie."
-      ],
-      "facts": {
-        "Lokalizacja": "Teklinów",
-        "Powierzchnia": "800 m²",
-        "Styl": "angielski, klasyczny z naturalistycznymi nasadzeniami",
-        "Główne elementy": "ceglane palenisko, warzywniki, drewniane ścieżki, taras modrzewiowy, rabaty bylinowe, strefa zabaw"
-      },
-      "display_order": 9,
-      "id": "project-4",
-      "slug": "projekt-ogrodu-04",
-      "legacy": true,
-      "seoTitle": "Ogród w angielskim stylu - Teklinów | Effkowe Ogrody",
-      "seoDescription": "Projekt ogrodu w Teklinowie: 800 m², angielski charakter, naturalistyczne nasadzenia, ceglane palenisko i taras modrzewiowy. Poznaj koncepcję ogrodu.",
-      "updatedAt": "2026-10-27T00:00:00Z",
-      "featured": true
-    },
-    {
-      "number": 5,
-      "name": "Rozległy ogród w romantycznym stylu",
-      "place": "Szyszki Włościańskie",
-      "cover": "assets/projects/05-cover.webp",
-      "images": [
-        {
-          "src": "assets/projects/05-01.webp",
-          "width": 3840,
-          "height": 2160,
-          "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (1).jpg",
-          "is_top": true
-        },
-        {
-          "src": "assets/projects/05-02.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (2).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/05-03.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (3).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/05-04.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (4).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/05-05.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (5).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/05-06.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (6).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/05-07.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (7).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/05-08.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (8).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/05-09.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (9).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/05-10.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (10).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/05-11.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (11).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/05-12.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (12).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/05-13.webp",
-          "width": 3840,
-          "height": 2160,
-          "source": "OGRÓD SZYSZKI WŁOŚCIAŃSKIE - DUŻY WIEJSKI OGRÓD (13).jpg",
-          "is_top": false
-        }
-      ],
-      "has_top": true,
-      "area": "3100 m²",
-      "title": "Rozległy ogród w romantycznym stylu - Szyszki Włościańskie",
-      "description": [
-        "Duży, romantyczny ogród inspirowany angielskimi założeniami, w którym bujne, kwitnące rabaty przeplatają się z rozległymi trawnikami i kameralnymi zakątkami. Na powierzchni 3100 m² zaprojektowałam przestrzeń podzieloną na różnorodne pokoje ogrodowe, połączone ścieżkami o miękkich, łukowych liniach.",
-        "Ważne było dla mnie zachowanie tego, co w ogrodzie już dobrze funkcjonowało. Istniejące nasadzenia wzbogaciłam o nowe drzewa, krzewy i byliny, a część sadowniczo-warzywną wkomponowałam w bardziej swobodny, kwiatowy układ.",
-        "W głębi ogrodu powstała przestronna strefa wypoczynkowa z pergolą, jacuzzi i letnią jadalnią. Wśród zieleni znalazło się również miejsce na palenisko otoczone brzozami, drewniane huśtawki, hamak w sadzie oraz kilka zacisznych miejsc do odpoczynku. Całość uzupełniają dekoracyjne fontanny, misy wodne i pergole porośnięte pnączami.",
-        "Front posesji zyskał bardziej reprezentacyjny charakter dzięki białym hortensjom, eleganckim obwódkom cisowym i starannie dobranym drzewom ozdobnym. Dalej ogród staje się coraz swobodniejszy, z szerokimi rabatami pełnymi kwiatów i roślin o naturalnych pokrojach.",
-        "To ogród, w którym klasyczna elegancja spotyka się z wiejskim urokiem, a duża przestrzeń pozwala cieszyć się zarówno wspólnym czasem z bliskimi, jak i spokojem we własnym, zielonym zakątku."
-      ],
-      "facts": {
-        "Lokalizacja": "Szyszki Włościańskie",
-        "Powierzchnia ogrodu": "3100 m²",
-        "Styl": "angielski, naturalistyczny z nutą wiejskiego romantyzmu",
-        "Główne elementy": "pergola z jacuzzi, palenisko, fontanny, misy wodne, strefy wypoczynkowe, sad, warzywnik, rabaty kwiatowe"
-      },
-      "display_order": 4,
-      "id": "project-5",
-      "slug": "projekt-ogrodu-05",
-      "legacy": true,
-      "seoTitle": "Romantyczny ogród - Szyszki Włościańskie | Effkowe Ogrody",
-      "seoDescription": "Romantyczny ogród w Szyszkach Włościańskich: 3100 m², kwitnące rabaty, pergola z jacuzzi, fontanny i sad. Zobacz wizualizacje projektu Effkowe Ogrody.",
-      "updatedAt": "2026-10-27T00:00:00Z",
-      "featured": true
-    },
-    {
-      "number": 6,
-      "name": "Podmiejski ogród z leśnym charakterem",
-      "place": "Kębłowice",
-      "cover": "assets/projects/06-cover.webp",
-      "images": [
-        {
-          "src": "assets/projects/06-01.webp",
-          "width": 3840,
-          "height": 2160,
-          "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (2).jpg",
-          "is_top": true
-        },
-        {
-          "src": "assets/projects/06-02.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (1).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/06-03.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (3).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/06-04.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (4).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/06-05.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (5).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/06-06.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (6).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/06-07.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (7).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/06-08.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (8).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/06-09.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (9).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/06-10.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (10).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/06-11.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (11).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/06-12.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (12).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/06-13.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (13).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/06-14.webp",
-          "width": 1672,
-          "height": 941,
-          "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (14).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/06-15.webp",
-          "width": 1672,
-          "height": 941,
-          "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (15).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/06-16.webp",
-          "width": 1672,
-          "height": 941,
-          "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (16).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/06-17.webp",
-          "width": 1672,
-          "height": 903,
-          "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (17).jpg",
-          "is_top": false
-        }
-      ],
-      "has_top": true,
-      "area": "1100 m²",
-      "title": "Podmiejski ogród z leśnym charakterem - Kębłowice",
-      "description": [
-        "Ogród o naturalistycznym, nieco leśnym charakterze, z nutą wiejskiego romantyzmu i nowoczesnymi akcentami. Na działce o powierzchni 1100 m² zaprojektowałam przestrzeń pełną zieleni, kwitnących rabat i przytulnych zakątków, w której każdy z domowników znajdzie miejsce dla siebie.",
-        "Kompozycję ogrodu tworzą miękkie, falujące linie rabat, koliste trawniki oraz ścieżki prowadzące do poszczególnych stref wypoczynku. Bujne nasadzenia z drzew, krzewów, bylin i traw ozdobnych przeplatają się z bardziej uporządkowanymi elementami, dzięki czemu ogród zachowuje swobodny charakter, ale nie traci spójności.",
-        "Jednym z jego najbardziej charakterystycznych miejsc jest okrągły plac z paleniskiem i ławkami, otoczony niewielkim zagajnikiem brzozowo-sosnowym. W centralnej części zaprojektowałam dużą, kolistą rabatę z ozdobnym drzewem, kolorowymi bylinami i misą wodną.",
-        "Wśród zieleni znalazło się także miejsce na basen, zaciszny kącik z wiszącym kokonem, drewniany trejaż z huśtawkami oraz plac zabaw dla dziecka. Część użytkową, z warzywnikami i krzewami owocowymi, wkomponowałam w rabaty, aby stanowiła naturalną część ogrodu.",
-        "Dużą uwagę poświęciłam również osłonięciu posesji od sąsiedniej zabudowy. Zróżnicowane żywopłoty, wysokie drzewa i szerokie rabaty z czasem stworzą zieloną osłonę, zapewniając domownikom prywatność. Dzięki obecności roślin zimozielonych ogród będzie atrakcyjny także zimą."
-      ],
-      "facts": {
-        "Lokalizacja": "Kębłowice, woj. dolnośląskie",
-        "Powierzchnia działki": "1100 m²",
-        "Styl": "naturalistyczny, lekko leśny z nowoczesnymi akcentami",
-        "Główne elementy": "palenisko, zagajnik brzozowo-sosnowy, basen, misy wodne, trejaż z kokonami, strefa zabaw, warzywniki, rabaty bylinowe"
-      },
-      "display_order": 5,
-      "id": "project-6",
-      "slug": "projekt-ogrodu-06",
-      "legacy": true,
-      "seoTitle": "Ogród naturalistyczny - Kębłowice | Effkowe Ogrody",
-      "seoDescription": "Projekt ogrodu w Kębłowicach: 1100 m², naturalistyczne rabaty, zagajnik, basen i strefy wypoczynku. Zobacz układ i wizualizacje ogrodu.",
-      "updatedAt": "2026-10-27T00:00:00Z",
-      "featured": true
-    },
-    {
-      "number": 7,
-      "name": "Mały ogród z angielską nutą",
-      "place": "Selzach",
-      "cover": "assets/projects/07-cover.webp",
-      "images": [
-        {
-          "src": "assets/projects/07-01.webp",
-          "width": 1672,
-          "height": 941,
-          "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (1).jpg",
-          "is_top": true
-        },
-        {
-          "src": "assets/projects/07-02.webp",
-          "width": 1672,
-          "height": 941,
-          "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (2).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/07-03.webp",
-          "width": 1672,
-          "height": 941,
-          "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (3).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/07-04.webp",
-          "width": 1672,
-          "height": 941,
-          "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (4).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/07-05.webp",
-          "width": 1672,
-          "height": 941,
-          "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (5).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/07-06.webp",
-          "width": 1672,
-          "height": 941,
-          "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (6).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/07-07.webp",
-          "width": 1672,
-          "height": 941,
-          "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (7).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/07-08.webp",
-          "width": 1672,
-          "height": 941,
-          "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (8).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/07-09.webp",
-          "width": 1672,
-          "height": 941,
-          "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (9).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/07-10.webp",
-          "width": 1672,
-          "height": 941,
-          "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (10).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/07-11.webp",
-          "width": 1672,
-          "height": 941,
-          "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (11).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/07-12.webp",
-          "width": 1672,
-          "height": 941,
-          "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (12).jpg",
-          "is_top": false
-        }
-      ],
-      "has_top": true,
-      "area": "200 m²",
-      "title": "Mały ogród z angielską nutą - Selzach, Szwajcaria",
-      "description": [
-        "Niewielki ogród, w którym nowoczesna architektura spotyka się z bujnymi, angielskimi rabatami, subtelnymi akcentami japońskimi i odrobiną śródziemnomorskiego klimatu. Na powierzchni zaledwie 200 m² zaprojektowałam przestrzeń pełną roślin, kolorów i przytulnych miejsc do wypoczynku.",
-        "Jednym z najważniejszych założeń było zapewnienie prywatności bez nadmiernego zagęszczania nasadzeń. Zaproponowałam więc graby lub laurowiśnie prowadzone w formie palmet, które tworzą zielone ekrany, przesłaniając sąsiednią zabudowę, a jednocześnie pozostawiają miejsce na kwitnące rabaty.",
-        "W zacienionej części ogrodu wąski pas trawnika zastąpiłam ścieżką otoczoną hortensjami, funkiami, paprociami i tawułkami. Dzięki temu powstał przyjemny, zielony zakątek, w którym dobrze odnajdują się rośliny lubiące cień i wilgotniejsze podłoże.",
-        "Na tarasie znalazło się miejsce na wygodne meble wypoczynkowe, wiszący kokon i duże terakotowe donice z roślinami. W narożniku ogrodu zaprojektowałam kameralną strefę z drewnianą pergolą, ławkami i paleniskiem w stalowej misie cortenowej. Nie zabrakło również niewielkiej części użytkowej z podwyższonym zielnikiem i krzewami owocowymi.",
-        "To ogród, w którym każdy fragment przestrzeni ma swoje zadanie, a różnorodne nasadzenia tworzą zielone otoczenie do codziennego wypoczynku."
-      ],
-      "facts": {
-        "Lokalizacja": "Selzach, Szwajcaria",
-        "Powierzchnia ogrodu": "200 m²",
-        "Styl": "nowoczesny z elementami angielskiego ogrodu bylinowego, akcentami japońskimi i śródziemnomorskimi",
-        "Główne elementy": "palmety grabowe, pergola z paleniskiem, cieniste rabaty, taras z donicami, zielnik, krzewy owocowe"
-      },
-      "display_order": 6,
-      "id": "project-7",
-      "slug": "projekt-ogrodu-07",
-      "legacy": true,
-      "seoTitle": "Mały ogród - Selzach, Szwajcaria | Effkowe Ogrody",
-      "seoDescription": "Projekt ogrodu 200 m² w Selzach w Szwajcarii: bylinowe rabaty, palmety grabowe, pergola i taras. Zobacz wizualizacje oraz opis projektu Ewy Katrycz.",
-      "updatedAt": "2026-10-27T00:00:00Z",
-      "featured": true
-    },
-    {
-      "number": 8,
-      "name": "Romantyczny ogród w angielskim stylu",
-      "place": "Jaworzno",
-      "cover": "assets/projects/08-cover.webp",
-      "images": [
-        {
-          "src": "assets/projects/08-01.webp",
-          "width": 3840,
-          "height": 2160,
-          "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (1).jpg",
-          "is_top": true
-        },
-        {
-          "src": "assets/projects/08-02.webp",
-          "width": 3840,
-          "height": 2160,
-          "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (2).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/08-03.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (3).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/08-04.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (4).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/08-05.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (5).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/08-06.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (6).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/08-07.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (7).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/08-08.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (8).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/08-09.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (9).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/08-10.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (10).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/08-11.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (11).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/08-12.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (12).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/08-13.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (13).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/08-14.webp",
-          "width": 3840,
-          "height": 2160,
-          "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (14).jpg",
-          "is_top": false
-        }
-      ],
-      "has_top": true,
-      "area": "550 m²",
-      "title": "Romantyczny ogród w angielskim stylu - Jaworzno",
-      "description": [
-        "Ogród inspirowany angielskimi ogrodami, pełen róż, kwitnących bylin i romantycznych zakątków. Na powierzchni 550 m² zaprojektowałam przestrzeń, w której elegancka, uporządkowana część frontowa płynnie przechodzi w bardziej swobodny, naturalistyczny ogród.",
-        "Charakter projektu tworzą miękkie linie rabat, ceglane obrzeża, drewniane pergole oraz roślinność w odcieniach bieli, różu i fioletu. Szczególne miejsce zajmują róże pnące i powojniki, które z czasem otulą pergole, tworząc zielone przejścia między poszczególnymi częściami ogrodu.",
-        "Jednym z najbardziej malowniczych miejsc jest kolista różanka w obwódce z cisów, ze świdośliwą i dekoracyjną fontanną. Wśród bujnych nasadzeń zaplanowałam także zaciszny zakątek z hamakiem pod brzozami oraz kameralne miejsca do odpoczynku. Artystycznego charakteru dodają ogrodowe detale i elementy wodne.",
-        "W głębi ogrodu zachowałam część użytkową z warzywnikami i drzewami owocowymi, uzupełniając ją o miejsce na przyszłą szklarnię i plac zabaw dla dzieci. Drewniana pergola porośnięta winoroślą stanowi symboliczne przejście do tej części ogrodu.",
-        "Dużą uwagę poświęciłam również doborowi roślin - pachnących, miododajnych i kwitnących przez cały sezon. Zróżnicowane krzewy, drzewa i żywopłoty zapewniają prywatność, a jednocześnie tworzą ciekawe kompozycje o każdej porze roku.",
-        "To ogród z nutą angielskiego romantyzmu, w którym znajdzie się miejsce zarówno na rodzinne zabawy, jak i spokojne popołudnie wśród kwiatów."
-      ],
-      "facts": {
-        "Lokalizacja": "Jaworzno, woj. śląskie",
-        "Powierzchnia ogrodu": "550 m²",
-        "Powierzchnia działki": "830 m²",
-        "Styl": "angielski, naturalistyczny z romantycznymi akcentami",
-        "Główne elementy": "różanka, drewniane pergole, fontanny, ścieżki z ceglanymi obrzeżami, strefy wypoczynkowe, warzywnik, sad, miejsce na szklarnię"
-      },
-      "display_order": 7,
-      "id": "project-8",
-      "slug": "projekt-ogrodu-08",
-      "legacy": true,
-      "seoTitle": "Ogród angielski - Jaworzno | Effkowe Ogrody",
-      "seoDescription": "Romantyczny ogród w angielskim stylu w Jaworznie: różanka, pergole, fontanny, sad i warzywnik. Poznaj projekt ogrodu 550 m² i zobacz wizualizacje.",
-      "updatedAt": "2026-10-27T00:00:00Z",
-      "featured": true
-    },
-    {
-      "number": 9,
-      "name": "Ogród naturalistyczny z nutą śródziemnomorską",
-      "place": "Dobczyn",
-      "cover": "assets/projects/09-cover.webp",
-      "images": [
-        {
-          "src": "assets/projects/09-01.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (15).jpg",
-          "is_top": true
-        },
-        {
-          "src": "assets/projects/09-02.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (1).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/09-03.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (2).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/09-04.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (3).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/09-05.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (4).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/09-06.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (5).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/09-07.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (6).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/09-08.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (7).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/09-09.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (8).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/09-10.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (10).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/09-11.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (11).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/09-12.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (12).jpg",
-          "is_top": false
-        },
-        {
-          "src": "assets/projects/09-13.webp",
-          "width": 1920,
-          "height": 1080,
-          "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (14).jpg",
-          "is_top": false
-        }
-      ],
-      "has_top": true,
-      "area": "800 m²",
-      "title": "Ogród naturalistyczny z nutą śródziemnomorską - Dobczyn",
-      "description": [
-        "Ogród pełen kwiatów, kolorów i romantycznych zakątków, w którym naturalistyczna swoboda spotyka się ze śródziemnomorskim klimatem. Na działce o powierzchni 800 m² zaprojektowałam przestrzeń podzieloną na kameralne pokoje ogrodowe, połączone malowniczymi ścieżkami.",
-        "Ciepłe odcienie cegły, terakoty i drewna nawiązują do rustykalnego charakteru ogrodu. Drewniane pergole oplecione różami i powojnikami, falujące rabaty pełne bylin oraz kwitnących krzewów tworzą przytulną, nieco romantyczną atmosferę.",
-        "Sercem ogrodu jest przestronny taras urządzony w śródziemnomorskim stylu, z pergolą, dużymi donicami i miejscem do wypoczynku. Tuż obok znalazł się niewielki basen, a wśród zieleni zaplanowałam kolejne zakątki, palenisko otoczone girlandami świetlnymi, ławkę pod drzewami i dekoracyjną misę wodną.",
-        "Nie zabrakło też części użytkowej z małą szklarnią, warzywnikiem i drzewami owocowymi oraz miejsca do zabawy dla dzieci.",
-        "Ważnym elementem projektu było zachowanie widoku na otaczające działkę łąki i drzewa. Dlatego nasadzenia zapewniają prywatność od strony sąsiadów, ale jednocześnie otwierają ogród na piękny, naturalny krajobraz."
-      ],
-      "facts": {
-        "Lokalizacja": "Dobczyn, woj. mazowieckie",
-        "Powierzchnia działki": "800 m²",
-        "Styl": "naturalistyczny, śródziemnomorski z nutą wiejskiego romantyzmu",
-        "Główne elementy": "drewniane pergole, basen, palenisko, misa wodna, taras śródziemnomorski, szklarnia, warzywnik, strefa zabaw"
-      },
-      "display_order": 8,
-      "id": "project-9",
-      "slug": "projekt-ogrodu-09",
-      "legacy": true,
-      "seoTitle": "Ogród naturalistyczny - Dobczyn | Effkowe Ogrody",
-      "seoDescription": "Projekt ogrodu w Dobczynie na działce 800 m²: naturalistyczne nasadzenia, basen, pergole i śródziemnomorski taras. Zobacz wizualizacje i opis koncepcji.",
-      "updatedAt": "2026-10-27T00:00:00Z",
-      "featured": true
-    },
-    {
-      "number": 10,
-      "name": "Realizacje",
-      "place": null,
-      "cover": "assets/realizations/59.webp",
-      "images": [
-        {
-          "group": "realizations",
-          "number": 59,
-          "src": "assets/realizations/59.webp",
-          "width": 1125,
-          "height": 844,
-          "display_width": 1100,
-          "source": "IMG_20260821_180731_093 (1).jpg",
-          "id": "16wquJ7_3w1Kz7cjP8BK0LxKFy5SvuFxp"
-        },
-        {
-          "group": "realizations",
-          "number": 8,
-          "src": "assets/realizations/08.webp",
-          "width": 1080,
-          "height": 812,
-          "display_width": 1080,
-          "source": "IMG_20241025_103340_234.jpg",
-          "id": "1WPh9yoZSbChz7xr5--L9ld12ge12jU3t"
-        },
-        {
-          "group": "realizations",
-          "number": 9,
-          "src": "assets/realizations/09.webp",
-          "width": 1080,
-          "height": 812,
-          "display_width": 1080,
-          "source": "IMG_20241025_103344_437.jpg",
-          "id": "1w3LaKXkNbYtt3gcRu6O6BvNS-FDIFOm4"
-        },
-        {
-          "group": "realizations",
-          "number": 16,
-          "src": "assets/realizations/16.webp",
-          "width": 1600,
-          "height": 1200,
-          "display_width": 1100,
-          "source": "IMG-20250822-WA0007.jpg",
-          "id": "1DIorEaI2Jdi-TEjxcz8OuE061UI82LAw"
-        },
-        {
-          "group": "realizations",
-          "number": 17,
-          "src": "assets/realizations/17.webp",
-          "width": 1600,
-          "height": 1200,
-          "display_width": 1100,
-          "source": "IMG-20250822-WA0005.jpg",
-          "id": "1b01Lb14EuYqwgvUv3IC9d_BcOPy5WWmS"
-        },
-        {
-          "group": "realizations",
-          "number": 24,
-          "src": "assets/realizations/24.webp",
-          "width": 640,
-          "height": 480,
-          "display_width": 640,
-          "source": "IMG_4346.jpg",
-          "id": "1eY1nioU4hzu5nw89q_XScVxraPpYN388"
-        },
-        {
-          "group": "realizations",
-          "number": 26,
-          "src": "assets/realizations/26.webp",
-          "width": 640,
-          "height": 502,
-          "display_width": 640,
-          "source": "IMG_4548.jpg",
-          "id": "18s3Dp7IUWVFwa2shYtUbykIHB1Qvr2tq"
-        },
-        {
-          "group": "realizations",
-          "number": 29,
-          "src": "assets/realizations/29.webp",
-          "width": 1351,
-          "height": 2400,
-          "display_width": 619,
-          "source": "20250919_102814.jpg",
-          "id": "1DSujWarCCma_f9SISrxw5tLs6UUsy7yy"
-        },
-        {
-          "group": "realizations",
-          "number": 38,
-          "src": "assets/realizations/38.webp",
-          "width": 2000,
-          "height": 1500,
-          "display_width": 1100,
-          "source": "IMG-20251029-WA0002.jpg",
-          "id": "1bQl4cvbZ43MKXqtRYaPUs5BLKLrMrpii"
-        },
-        {
-          "group": "realizations",
-          "number": 47,
-          "src": "assets/realizations/47.webp",
-          "width": 1440,
-          "height": 1080,
-          "display_width": 1100,
-          "source": "IMG_20260103_230344_907.jpg",
-          "id": "1vtMisFN_DrdheV3ByZcDa7ntdo6Hr93y"
-        },
-        {
-          "group": "realizations",
-          "number": 56,
-          "src": "assets/realizations/56.webp",
-          "width": 1125,
-          "height": 844,
-          "display_width": 1100,
-          "source": "IMG_20260821_180705_438 (1).jpg",
-          "id": "1WQCVgcZkr9DiKPlq5ZtWCmB3_YlTfH7C"
-        },
-        {
-          "group": "realizations",
-          "number": 62,
-          "src": "assets/realizations/62.webp",
-          "width": 1206,
-          "height": 904,
-          "display_width": 1100,
-          "source": "IMG_20260827_164020_607 (1).jpg",
-          "id": "1_LnAJa4HZjFriWo2o5IFjKnlkTlSX-Wr"
-        },
-        {
-          "group": "realizations",
-          "number": 1,
-          "src": "assets/realizations/01.webp",
-          "width": 843,
-          "height": 1122,
-          "display_width": 826,
-          "source": "IMG_20240908_205718_522.jpg",
-          "id": "17lm5f-WMfyqLLixm6PPeeQngb4dCX0wd"
-        },
-        {
-          "group": "realizations",
-          "number": 2,
-          "src": "assets/realizations/02.webp",
-          "width": 843,
-          "height": 1122,
-          "display_width": 826,
-          "source": "IMG_20240908_205726_822.jpg",
-          "id": "10agEUB0CNS4Pfe-wzq9VOHtNasCUq0o9"
-        },
-        {
-          "group": "realizations",
-          "number": 3,
-          "src": "assets/realizations/03.webp",
-          "width": 843,
-          "height": 1123,
-          "display_width": 826,
-          "source": "IMG_20240908_205738_071.jpg",
-          "id": "1OBfPWDfz8Hc78sLf3cvRXoRw8P4tEwnj"
-        },
-        {
-          "group": "realizations",
-          "number": 5,
-          "src": "assets/realizations/05.webp",
-          "width": 1170,
-          "height": 1560,
-          "display_width": 825,
-          "source": "IMG_20241025_102114_942.jpg",
-          "id": "1mDERBH1XCmHvoOVs3iFOvxJAe3aWa7NK"
-        },
-        {
-          "group": "realizations",
-          "number": 6,
-          "src": "assets/realizations/06.webp",
-          "width": 720,
-          "height": 958,
-          "display_width": 720,
-          "source": "IMG_20241025_103316_441.jpg",
-          "id": "1gtazE27I8_u40w30-mTJ4Lfav7ROdo66"
-        },
-        {
-          "group": "realizations",
-          "number": 7,
-          "src": "assets/realizations/07.webp",
-          "width": 1080,
-          "height": 812,
-          "display_width": 1080,
-          "source": "IMG_20241025_103338_479.jpg",
-          "id": "1jd4tMsvZHkHMaif610laOaiYgNJ6m7wr"
-        },
-        {
-          "group": "realizations",
-          "number": 10,
-          "src": "assets/realizations/10.webp",
-          "width": 1080,
-          "height": 812,
-          "display_width": 1080,
-          "source": "IMG_20241025_103347_468.jpg",
-          "id": "14odIQwaYiPcEo8ekHJyCBY10mK-v34fH"
-        },
-        {
-          "group": "realizations",
-          "number": 12,
-          "src": "assets/realizations/12.webp",
-          "width": 586,
-          "height": 780,
-          "display_width": 586,
-          "source": "IMG_20250525_184421_083.jpg",
-          "id": "1cXiyFwMj_jXyo11xhIq_P4gFGqUPYZJb"
-        },
-        {
-          "group": "realizations",
-          "number": 13,
-          "src": "assets/realizations/13.webp",
-          "width": 1024,
-          "height": 1365,
-          "display_width": 825,
-          "source": "IMG_20250819_170859_603.jpg",
-          "id": "1q1_2_OiEMy1s7pQ483WyHm8piEuhPtbI"
-        },
-        {
-          "group": "realizations",
-          "number": 14,
-          "src": "assets/realizations/14.webp",
-          "width": 1206,
-          "height": 1608,
-          "display_width": 825,
-          "source": "IMG_20250819_170845_508.jpg",
-          "id": "1bULgqNvQKwoJSB4NNcRUPVLefKzurh_9"
-        },
-        {
-          "group": "realizations",
-          "number": 15,
-          "src": "assets/realizations/15.webp",
-          "width": 1024,
-          "height": 1364,
-          "display_width": 826,
-          "source": "IMG_20250819_170855_917.jpg",
-          "id": "1ABobA1ZU2x-L_mM_NWyXKkAzTsYrWISz"
-        },
-        {
-          "group": "realizations",
-          "number": 18,
-          "src": "assets/realizations/18.webp",
-          "width": 1600,
-          "height": 1200,
-          "display_width": 1100,
-          "source": "IMG-20250822-WA0006.jpg",
-          "id": "17tgW2Y7pw2c9Cmsmok6Cf9gTBj_rbqye"
-        },
-        {
-          "group": "realizations",
-          "number": 19,
-          "src": "assets/realizations/19.webp",
-          "width": 1600,
-          "height": 1200,
-          "display_width": 1100,
-          "source": "IMG-20250822-WA0009.jpg",
-          "id": "1X51BzfgXBM7O3Xg12EL2x-PVQzT2HQd-"
-        },
-        {
-          "group": "realizations",
-          "number": 20,
-          "src": "assets/realizations/20.webp",
-          "width": 563,
-          "height": 751,
-          "display_width": 563,
-          "source": "IMG_20250908_201843_191.jpg",
-          "id": "1pUkPe68H-_ezeKU1i0F2KwPJErE6wEt5"
-        },
-        {
-          "group": "realizations",
-          "number": 21,
-          "src": "assets/realizations/21.webp",
-          "width": 480,
-          "height": 640,
-          "display_width": 480,
-          "source": "IMG_3261.jpg",
-          "id": "1Gt9ppb4C6tvLwcASxA1j1E9zVhxla18t"
-        },
-        {
-          "group": "realizations",
-          "number": 22,
-          "src": "assets/realizations/22.webp",
-          "width": 480,
-          "height": 640,
-          "display_width": 480,
-          "source": "IMG_3253.jpg",
-          "id": "1pcRwcMHob8mgiGmi-Xd0VA3OW8VwLS50"
-        },
-        {
-          "group": "realizations",
-          "number": 23,
-          "src": "assets/realizations/23.webp",
-          "width": 480,
-          "height": 640,
-          "display_width": 480,
-          "source": "IMG_4311.jpg",
-          "id": "1b3RC1SlWkYCvsbxi4Oy5xtJAmlN9e2Wh"
-        },
-        {
-          "group": "realizations",
-          "number": 25,
-          "src": "assets/realizations/25.webp",
-          "width": 640,
-          "height": 480,
-          "display_width": 640,
-          "source": "IMG_4348.jpg",
-          "id": "1j0leqgOgifzU_cuxNau_E_HwyfpU8-Cr"
-        },
-        {
-          "group": "realizations",
-          "number": 27,
-          "src": "assets/realizations/27.webp",
-          "width": 1200,
-          "height": 1600,
-          "display_width": 825,
-          "source": "IMG-20250822-WA0004.jpg",
-          "id": "1iVp4g8yFDnZy5rR64ExmkZg7RpX_xWXZ"
-        },
-        {
-          "group": "realizations",
-          "number": 28,
-          "src": "assets/realizations/28.webp",
-          "width": 1351,
-          "height": 2400,
-          "display_width": 619,
-          "source": "20250919_102642.jpg",
-          "id": "1ay9ZJgZ3EyBJO2cpPXuZ_QamfhSRqWO6"
-        },
-        {
-          "group": "realizations",
-          "number": 30,
-          "src": "assets/realizations/30.webp",
-          "width": 1351,
-          "height": 2400,
-          "display_width": 619,
-          "source": "20250919_103028.jpg",
-          "id": "1dUD8ZQk1nAvOAeo9rzBcWdXENgmKtfYB"
-        },
-        {
-          "group": "realizations",
-          "number": 31,
-          "src": "assets/realizations/31.webp",
-          "width": 1351,
-          "height": 2400,
-          "display_width": 619,
-          "source": "20250919_103133.jpg",
-          "id": "1NZd-ZNjO8IzFfZiuwPDteLwxRzXzqTrD"
-        },
-        {
-          "group": "realizations",
-          "number": 32,
-          "src": "assets/realizations/32.webp",
-          "width": 1351,
-          "height": 2400,
-          "display_width": 619,
-          "source": "20250919_101846.jpg",
-          "id": "1GELqYjbs_6BeLCt4yUN6B_0Bg_HvxCUx"
-        },
-        {
-          "group": "realizations",
-          "number": 33,
-          "src": "assets/realizations/33.webp",
-          "width": 1351,
-          "height": 2400,
-          "display_width": 619,
-          "source": "20250919_101936.jpg",
-          "id": "1Kk4_G_MEec2nY-7SPoXJDmRS_aGGBwop"
-        },
-        {
-          "group": "realizations",
-          "number": 34,
-          "src": "assets/realizations/34.webp",
-          "width": 1351,
-          "height": 2400,
-          "display_width": 619,
-          "source": "20250919_102035.jpg",
-          "id": "1yq_GzLnSLX0_Eq0zpWnehs9N6pxAOyRM"
-        },
-        {
-          "group": "realizations",
-          "number": 35,
-          "src": "assets/realizations/35.webp",
-          "width": 1351,
-          "height": 2400,
-          "display_width": 619,
-          "source": "20250919_102533.jpg",
-          "id": "1NRf_hz189QoZeP4HwrCIaIVaRd8XmQ4K"
-        },
-        {
-          "group": "realizations",
-          "number": 36,
-          "src": "assets/realizations/36.webp",
-          "width": 1351,
-          "height": 2400,
-          "display_width": 619,
-          "source": "20250919_102055.jpg",
-          "id": "1f9SY7xyq7w2udKSenoKKlaTI1mOfrBdV"
-        },
-        {
-          "group": "realizations",
-          "number": 37,
-          "src": "assets/realizations/37.webp",
-          "width": 1351,
-          "height": 2400,
-          "display_width": 619,
-          "source": "20250919_103159.jpg",
-          "id": "1P9QdHIV2pviISzswkQQRuNS7VMWO_Xga"
-        },
-        {
-          "group": "realizations",
-          "number": 39,
-          "src": "assets/realizations/39.webp",
-          "width": 1943,
-          "height": 1457,
-          "display_width": 1100,
-          "source": "IMG-20251029-WA0011.jpg",
-          "id": "1Tj0TEag4ALI2GALR0HF9MKAN7k4S9wWR"
-        },
-        {
-          "group": "realizations",
-          "number": 40,
-          "src": "assets/realizations/40.webp",
-          "width": 2000,
-          "height": 1500,
-          "display_width": 1100,
-          "source": "IMG-20251029-WA0013.jpg",
-          "id": "1BBzez8wbZxDR5JYvcWBreahmUCXhAo3u"
-        },
-        {
-          "group": "realizations",
-          "number": 41,
-          "src": "assets/realizations/41.webp",
-          "width": 1500,
-          "height": 2000,
-          "display_width": 825,
-          "source": "IMG-20251029-WA0027.jpg",
-          "id": "1d6_SfuLCFhdxgTk5aEwPL62XXKj5YBL3"
-        },
-        {
-          "group": "realizations",
-          "number": 42,
-          "src": "assets/realizations/42.webp",
-          "width": 2000,
-          "height": 1500,
-          "display_width": 1100,
-          "source": "IMG-20251029-WA0014.jpg",
-          "id": "1NmeMZutwJMDptUoiIkOT8oMpa4WWrRme"
-        },
-        {
-          "group": "realizations",
-          "number": 43,
-          "src": "assets/realizations/43.webp",
-          "width": 1500,
-          "height": 2000,
-          "display_width": 825,
-          "source": "IMG-20251029-WA0019.jpg",
-          "id": "1FN33ngCA89ozqTIZ8SrR9_0mbKBgErL8"
-        },
-        {
-          "group": "realizations",
-          "number": 44,
-          "src": "assets/realizations/44.webp",
-          "width": 1500,
-          "height": 2000,
-          "display_width": 825,
-          "source": "IMG-20251029-WA0018.jpg",
-          "id": "1zfYUhFvqUgHa1FFbYKfsVpsRoK0umbT3"
-        },
-        {
-          "group": "realizations",
-          "number": 46,
-          "src": "assets/realizations/46.webp",
-          "width": 1440,
-          "height": 1920,
-          "display_width": 825,
-          "source": "IMG_20260103_230341_894.jpg",
-          "id": "13s-pOzk58PKL2VYtI6sbSEWMjGsGKedk"
-        },
-        {
-          "group": "realizations",
-          "number": 48,
-          "src": "assets/realizations/48.webp",
-          "width": 1440,
-          "height": 1920,
-          "display_width": 825,
-          "source": "IMG_20260103_230355_495.jpg",
-          "id": "1f-JKZLGin9owtqMzRSyFdbyI0AMspPeN"
-        },
-        {
-          "group": "realizations",
-          "number": 49,
-          "src": "assets/realizations/49.webp",
-          "width": 1440,
-          "height": 1920,
-          "display_width": 825,
-          "source": "IMG_20260103_230352_423.jpg",
-          "id": "1rcAXNIVtdZdoHHm4ToFKMJ6AXimhVCxZ"
-        },
-        {
-          "group": "realizations",
-          "number": 50,
-          "src": "assets/realizations/50.webp",
-          "width": 1440,
-          "height": 1920,
-          "display_width": 825,
-          "source": "IMG_20260103_230358_175.jpg",
-          "id": "1guZFKu3a7lAvbsikgaczD_QyKfV-eAaN"
-        },
-        {
-          "group": "realizations",
-          "number": 51,
-          "src": "assets/realizations/51.webp",
-          "width": 1440,
-          "height": 1920,
-          "display_width": 825,
-          "source": "IMG_20260103_230401_130.jpg",
-          "id": "11YZ3q7qmUBgclN4t13w2EFcK8rWaAVjZ"
-        },
-        {
-          "group": "realizations",
-          "number": 52,
-          "src": "assets/realizations/52.webp",
-          "width": 1131,
-          "height": 848,
-          "display_width": 1100,
-          "source": "image000001 (1).jpg",
-          "id": "1Y70gKhCpT8ThpGHAkkQLVeGiD3jOEsPg"
-        },
-        {
-          "group": "realizations",
-          "number": 53,
-          "src": "assets/realizations/53.webp",
-          "width": 1080,
-          "height": 810,
-          "display_width": 1080,
-          "source": "IMG_20260717_181207_471.jpg",
-          "id": "1yg43aIq8u4cqZ81h6qg4q34L8tN2SPf3"
-        },
-        {
-          "group": "realizations",
-          "number": 54,
-          "src": "assets/realizations/54.webp",
-          "width": 1080,
-          "height": 810,
-          "display_width": 1080,
-          "source": "IMG_20260717_181209_786.jpg",
-          "id": "1mj0sltDX3M8iqz-vdRVgE9qwCLXsmOpx"
-        },
-        {
-          "group": "realizations",
-          "number": 55,
-          "src": "assets/realizations/55.webp",
-          "width": 1126,
-          "height": 1500,
-          "display_width": 826,
-          "source": "IMG_20260821_180712_338.jpg",
-          "id": "1GIiAooeSjY2nXPbS_Rn7YSidK-m01P15"
-        },
-        {
-          "group": "realizations",
-          "number": 57,
-          "src": "assets/realizations/57.webp",
-          "width": 1126,
-          "height": 1500,
-          "display_width": 826,
-          "source": "IMG_20260821_180708_669.jpg",
-          "id": "1lxKjdrvmFWbzE8klN_hMgDygTxVyxCEy"
-        },
-        {
-          "group": "realizations",
-          "number": 58,
-          "src": "assets/realizations/58.webp",
-          "width": 1126,
-          "height": 1500,
-          "display_width": 826,
-          "source": "IMG_20260821_180724_903.jpg",
-          "id": "1e8QBUZDZ0LNnz5598UqlIQFyEqF3gnwG"
-        },
-        {
-          "group": "realizations",
-          "number": 60,
-          "src": "assets/realizations/60.webp",
-          "width": 1125,
-          "height": 844,
-          "display_width": 1100,
-          "source": "IMG_20260821_180734_087 (1).jpg",
-          "id": "10U36g03kgszI31TdG_taqXNQErZOSqJU"
-        },
-        {
-          "group": "realizations",
-          "number": 61,
-          "src": "assets/realizations/61.webp",
-          "width": 1204,
-          "height": 1606,
-          "display_width": 825,
-          "source": "IMG_20260827_164017_615.jpg",
-          "id": "15artvdOrRCn56v9tgOLzD7iwpR7nMjxu"
-        },
-        {
-          "group": "realizations",
-          "number": 63,
-          "src": "assets/realizations/63.webp",
-          "width": 1204,
-          "height": 1606,
-          "display_width": 825,
-          "source": "IMG_20260827_164025_765.jpg",
-          "id": "1y3HSHfqCHCLr8kZX-tZKBsA9zNiAVtXr"
-        },
-        {
-          "group": "realizations",
-          "number": 64,
-          "src": "assets/realizations/64.webp",
-          "width": 1204,
-          "height": 1606,
-          "display_width": 825,
-          "source": "IMG_20260827_164014_501.jpg",
-          "id": "1uFbm-c-Rt1bah4FM1mT8epqkXfHGUFmj"
-        },
-        {
-          "group": "realizations",
-          "number": 65,
-          "src": "assets/realizations/65.webp",
-          "width": 1204,
-          "height": 1606,
-          "display_width": 825,
-          "source": "IMG_20260827_164023_182.jpg",
-          "id": "1Gs8JiC5VMpSLwQq9FjLS3CNbtmZ3xGxc"
-        }
-      ],
-      "description": [
-        "Największą radość sprawia mi moment, kiedy ogród, który wcześniej istniał tylko na rysunkach i wizualizacjach, zaczyna nabierać realnych kształtów.",
-        "Niektóre ogrody moi klienci tworzą samodzielnie, krok po kroku, inne powstają dzięki profesjonalnym firmom wykonawczym, m.in. współpracującej ze mną firmie AK Garden Adriana Kwaśniaka.",
-        "W tej galerii dzielę się zdjęciami ogrodów zrealizowanych na podstawie moich projektów. Każdy jest inny, każdy ma swoją historię, ale wszystkie łączy jedno - z pomysłów zapisanych na papierze stały się prawdziwymi miejscami do życia, odpoczynku i cieszenia się zielenią."
-      ],
-      "type": "photographs",
-      "display_order": 11,
-      "id": "project-10",
-      "slug": "projekt-ogrodu-10",
-      "legacy": true,
-      "seoTitle": "Realizacje ogrodów - zdjęcia | Effkowe Ogrody",
-      "seoDescription": "Zobacz zdjęcia zrealizowanych ogrodów Effkowe Ogrody: rabaty, tarasy, miejsca wypoczynku i detale. Poznaj przestrzenie pokazane na rzeczywistych fotografiach.",
-      "updatedAt": "2026-10-27T00:00:00Z",
-      "featured": true
-    },
-    {
-      "number": 11,
-      "name": "Ogród leśny z nutą romantyzmu",
-      "place": "Stanięcice",
-      "cover": "assets/projects/11-19.webp",
-      "images": [
-        {
-          "group": "project",
-          "number": 3,
-          "src": "assets/projects/11-03.webp",
-          "width": 3000,
-          "height": 1688,
-          "display_width": 1400,
-          "source": "1.jpg",
-          "id": "1YkGzjznZ2OgOz3fXG_iAOSQpxJieyRG9",
-          "is_top": true
-        },
-        {
-          "group": "project",
-          "number": 1,
-          "src": "assets/projects/11-01.webp",
-          "width": 1672,
-          "height": 941,
-          "display_width": 1400,
-          "source": "Fotorealistyczny ogród z lotu ptaka.png",
-          "id": "1Y6YvJt0i2-b_DtbDV9UZRj_LHCpsbjgZ",
-          "is_top": false
-        },
-        {
-          "group": "project",
-          "number": 2,
-          "src": "assets/projects/11-02.webp",
-          "width": 1672,
-          "height": 941,
-          "display_width": 1400,
-          "source": "Przytulny ogród z paleniskiem pod pergolą.png",
-          "id": "11wT2MrEoKEuufLDFRhHYNIouzm3tGtuP",
-          "is_top": false
-        },
-        {
-          "group": "project",
-          "number": 4,
-          "src": "assets/projects/11-04.webp",
-          "width": 1672,
-          "height": 941,
-          "display_width": 1400,
-          "source": "Spokojny ogród przy nowoczesnym domu.png",
-          "id": "1DmnoXe8dn060N2pj1E2NamCvmK2er25S",
-          "is_top": false
-        },
-        {
-          "group": "project",
-          "number": 5,
-          "src": "assets/projects/11-05.webp",
-          "width": 1672,
-          "height": 941,
-          "display_width": 1400,
-          "source": "Słoneczny ogród z pergolą i szklarnią.png",
-          "id": "1a-rPb1hgQXO-q4iGKSeRwgQFTeB1cr3i",
-          "is_top": false
-        },
-        {
-          "group": "project",
-          "number": 6,
-          "src": "assets/projects/11-06.webp",
-          "width": 1672,
-          "height": 941,
-          "display_width": 1400,
-          "source": "Słoneczny ogród z pergolą i spa.png",
-          "id": "1XJXF4c208RL4KBbUaY3DTmeoBn_qiuHE",
-          "is_top": false
-        },
-        {
-          "group": "project",
-          "number": 7,
-          "src": "assets/projects/11-07.webp",
-          "width": 1672,
-          "height": 941,
-          "display_width": 1400,
-          "source": "Słoneczny ogród z pergolą i ogniskiem.png",
-          "id": "1cHdZWdYPIlJp2GluAu8SsWXM-dy2i8Wo",
-          "is_top": false
-        },
-        {
-          "group": "project",
-          "number": 8,
-          "src": "assets/projects/11-08.webp",
-          "width": 1672,
-          "height": 941,
-          "display_width": 1400,
-          "source": "Słoneczny ogród z głęboką szklarnią.png",
-          "id": "1f98qEHqk88oGOiMxjTlArG1qZxffhWlE",
-          "is_top": false
-        },
-        {
-          "group": "project",
-          "number": 9,
-          "src": "assets/projects/11-09.webp",
-          "width": 1672,
-          "height": 941,
-          "display_width": 1400,
-          "source": "Słoneczny ogród przy nowoczesnym domu.png",
-          "id": "1S0tvBUSKjk5-Cm7wn9uDcOs0-5y4e23Q",
-          "is_top": false
-        },
-        {
-          "group": "project",
-          "number": 10,
-          "src": "assets/projects/11-10.webp",
-          "width": 1672,
-          "height": 941,
-          "display_width": 1400,
-          "source": "Sielski zakątek ogrodowy z pergolą.png",
-          "id": "1Md02FPjMig27tfDgidRqCEuE56gpXuEF",
-          "is_top": false
-        },
-        {
-          "group": "project",
-          "number": 11,
-          "src": "assets/projects/11-11.webp",
-          "width": 1672,
-          "height": 941,
-          "display_width": 1400,
-          "source": "Sielankowy ogród przy nowoczesnym domu.png",
-          "id": "1BJfijoXoC4KpTRcJiR227TtkRDeV6ahs",
-          "is_top": false
-        },
-        {
-          "group": "project",
-          "number": 12,
-          "src": "assets/projects/11-12.webp",
-          "width": 1672,
-          "height": 941,
-          "display_width": 1400,
-          "source": "Rustykalny domek wśród bujnego ogrodu.png",
-          "id": "18SE377a94G27VTHbpC2gWs9Rg8ukNdzN",
-          "is_top": false
-        },
-        {
-          "group": "project",
-          "number": 13,
-          "src": "assets/projects/11-13.webp",
-          "width": 1672,
-          "height": 941,
-          "display_width": 1400,
-          "source": "Rustykalny dom wśród kwitnącego ogrodu.png",
-          "id": "1vA_h7qWN9DSA14SOD6TYxgCHm37Bzy_C",
-          "is_top": false
-        },
-        {
-          "group": "project",
-          "number": 14,
-          "src": "assets/projects/11-14.webp",
-          "width": 1672,
-          "height": 941,
-          "display_width": 1400,
-          "source": "Rustykalny dom w leśnym ogrodzie.png",
-          "id": "1Ib9VKahxuPNLM8y28PgzN1-A7HH1K3d7",
-          "is_top": false
-        },
-        {
-          "group": "project",
-          "number": 15,
-          "src": "assets/projects/11-15.webp",
-          "width": 1671,
-          "height": 941,
-          "display_width": 1400,
-          "source": "Ogród z drewnianą pergolą w słońcu.png",
-          "id": "1IhaqzHmLmnpN-zryIdU1au1KsRwM_k4h",
-          "is_top": false
-        },
-        {
-          "group": "project",
-          "number": 16,
-          "src": "assets/projects/11-16.webp",
-          "width": 1672,
-          "height": 941,
-          "display_width": 1400,
-          "source": "Nowoczesny dom z ogrodzeniem i ogrodem.png",
-          "id": "19ckFmV71dIYquujxQAZnRtyxqTv33jI4",
-          "is_top": false
-        },
-        {
-          "group": "project",
-          "number": 17,
-          "src": "assets/projects/11-17.webp",
-          "width": 1672,
-          "height": 941,
-          "display_width": 1400,
-          "source": "Nowoczesny dom wśród kwitnącego ogrodu (1).png",
-          "id": "1tfq04KHb3J9WmR5MoXPBWf6sLnEFHpr3",
-          "is_top": false
-        },
-        {
-          "group": "project",
-          "number": 18,
-          "src": "assets/projects/11-18.webp",
-          "width": 1672,
-          "height": 941,
-          "display_width": 1400,
-          "source": "Nowoczesny dom wśród bujnego ogrodu2.png",
-          "id": "1UVEJbqHgT6fPLi9ctsHpKuSPsOsMBi4t",
-          "is_top": false
-        },
-        {
-          "group": "project",
-          "number": 19,
-          "src": "assets/projects/11-19.webp",
-          "width": 1672,
-          "height": 941,
-          "display_width": 1400,
-          "source": "Naturalistyczny ogród z pergolą i kamienną ścieżką.png",
-          "id": "179fB5_a6IT33rWsxx0pzikds7Yphb4nS",
-          "is_top": false
-        },
-        {
-          "group": "project",
-          "number": 20,
-          "src": "assets/projects/11-20.webp",
-          "width": 1672,
-          "height": 941,
-          "display_width": 1400,
-          "source": "Luksusowy ogród z pergolą i jacuzzi.png",
-          "id": "1VmQXktyim35yf5FPAnGOWZ5WsuoDVUVg",
-          "is_top": false
-        },
-        {
-          "group": "project",
-          "number": 21,
-          "src": "assets/projects/11-21.webp",
-          "width": 1672,
-          "height": 941,
-          "display_width": 1400,
-          "source": "Leśny ogród z drewnianym jacuzzi.png",
-          "id": "13Fv6WUie5yWI6MUQHTEb4cJzg9lg2QW_",
-          "is_top": false
-        },
-        {
-          "group": "project",
-          "number": 22,
-          "src": "assets/projects/11-22.webp",
-          "width": 1672,
-          "height": 941,
-          "display_width": 1400,
-          "source": "Fotorealistyczny ogród przy leśnym domku.png",
-          "id": "1G0Y2dGmFKSush2eyIP8lgJG_36XezlA0",
-          "is_top": false
-        },
-        {
-          "group": "project",
-          "number": 23,
-          "src": "assets/projects/11-23.webp",
-          "width": 1672,
-          "height": 941,
-          "display_width": 1400,
-          "source": "E2.png",
-          "id": "13FbSaHc5DJDjGM_-ztR8h023jQXZ2OZF",
-          "is_top": false
-        }
-      ],
-      "has_top": true,
-      "area": "1200 m²",
-      "description": [
-        "Ogród otulony zielenią, w którym leśny krajobraz przenika się z bujnymi, kwitnącymi rabatami. Zależało mi, aby zachować naturalny charakter tego miejsca, wykorzystać istniejące brzozy, sosny i wierzby, a jednocześnie stworzyć wygodną przestrzeń do codziennego życia i odpoczynku.",
-        "Miękkie, falujące linie rabat i ścieżek prowadzą do kolejnych zakątków ogrodu. Wśród drzew zaplanowałam kompozycje z hortensji, miskantów, rododendronów, azalii i bylin, które wprowadzają kolor oraz nadają nasadzeniom nieco angielskiego charakteru. Zieleń, biel, delikatne róże i fiolety pięknie współgrają z otaczającym lasem.",
-        "W ogrodzie znalazło się kilka miejsc do wypoczynku - żwirowy plac z paleniskiem, drewniany podest pod sosnami, zaciszna ławka wśród zieleni oraz taras z pergolą i jacuzzi. Nie zabrakło także klasycznej szklarni na ceglanej podmurówce, która razem z drewnianymi elementami małej architektury dodaje ogrodowi przytulności.",
-        "Istotną częścią projektu było również zachowanie otwartej przestrzeni trawnika, z której mogą swobodnie korzystać domowe psy, oraz zaplanowanie wygodnej komunikacji między wszystkimi częściami ogrodu.",
-        "To ogród, który nie próbuje konkurować z otaczającą przyrodą. Powoli wtapia się w leśny krajobraz, oferując jednocześnie wiele miejsc, w których można usiąść, odpocząć i po prostu nacieszyć się zielenią."
-      ],
-      "facts": {
-        "Lokalizacja": "Stanięcice",
-        "Powierzchnia działki": "1200 m²",
-        "Styl": "leśny, naturalistyczny z elementami romantycznego ogrodu bylinowego",
-        "Główne elementy": "zagajniki brzozowo-sosnowe, palenisko cortenowe, taras z jacuzzi, drewniane pergole, szklarnia, strefy wypoczynkowe, bujne rabaty bylinowe"
-      },
-      "display_order": 1,
-      "id": "project-11",
-      "slug": "projekt-ogrodu-11",
-      "legacy": true,
-      "seoTitle": "Ogród leśny - Stanięcice | Effkowe Ogrody",
-      "seoDescription": "Ogród leśny w Stanięcicach na działce 1200 m²: brzozy, sosny, bujne rabaty, palenisko, taras i szklarnia. Zobacz wizualizacje projektu Ewy Katrycz.",
-      "updatedAt": "2026-10-27T00:00:00Z",
-      "featured": true
-    }
-  ],
-  "articles": [
-    {
-      "id": "article-jak-przygotowac-sie-do-projektu-ogrodu",
-      "slug": "jak-przygotowac-sie-do-projektu-ogrodu",
-      "title": "Jak przygotować się do projektu ogrodu?",
-      "summary": "Plan działki, kilka zdjęć i własne potrzeby. Od tych rzeczy warto zacząć pierwszą rozmowę.",
-      "category": "Ogrodowy notatnik",
-      "cover": "",
-      "blocks": [
-        {
-          "type": "heading",
-          "text": "Zacznij od codzienności"
-        },
-        {
-          "type": "paragraph",
-          "text": "Pomyśl, jak chcesz spędzać czas wokół domu. Czy potrzebujesz przestrzeni na rodzinne spotkania, spokojnego zakątka do czytania, miejsca do zabawy lub uprawy roślin? Zapisz te potrzeby przed rozmową z projektantką."
-        },
-        {
-          "type": "paragraph",
-          "text": "Zastanów się również, ile czasu chcesz poświęcać pielęgnacji. Ta informacja jest równie przydatna jak zdjęcia ogrodów, które Ci się podobają."
-        },
-        {
-          "type": "heading",
-          "text": "Zbierz informacje o miejscu"
-        },
-        {
-          "type": "paragraph",
-          "text": "Przygotuj lokalizację, przybliżoną powierzchnię oraz plan działki z usytuowaniem domu. Zrób kilka aktualnych zdjęć pokazujących całą przestrzeń, istniejące rośliny i widoki z okien."
-        },
-        {
-          "type": "paragraph",
-          "text": "Po ustaleniu zakresu współpracy otrzymasz informację, jakie dodatkowe materiały i pomiary będą potrzebne."
-        },
-        {
-          "type": "heading",
-          "text": "Opowiedz, co lubisz w swoich inspiracjach"
-        },
-        {
-          "type": "paragraph",
-          "text": "Przy kilku inspiracjach zanotuj, co przyciąga Twoją uwagę: miękka linia rabaty, sposób osłonięcia tarasu czy charakter roślinności. To ułatwia rozmowę o stylu ogrodu."
-        },
-        {
-          "type": "paragraph",
-          "text": "W pierwszej wiadomości podaj także planowany termin. Kalendarz projektowy zapełnia się z wyprzedzeniem, dlatego dobrze zgłosić się co najmniej sześć miesięcy przed oczekiwanym terminem otrzymania projektu. W sprawie wcześniejszego terminu warto zapytać o aktualną dostępność."
-        }
-      ],
-      "legacy": true,
-      "seoTitle": "Jak przygotować się do projektu ogrodu? | Effkowe Ogrody",
-      "seoDescription": "Co przygotować przed rozmową o projekcie ogrodu? Ewa Katrycz wyjaśnia, jak zebrać plan działki, zdjęcia, inspiracje i informacje o potrzebach domowników.",
-      "updatedAt": "2026-10-27T00:00:00Z",
-      "date": "2026-10-27"
-    },
-    {
-      "id": "article-co-zawiera-projekt-ogrodu",
-      "slug": "co-zawiera-projekt-ogrodu",
-      "title": "Co zawiera indywidualny projekt ogrodu?",
-      "summary": "Od koncepcji przestrzeni po dokumentację, z którą można zaplanować kolejne prace w ogrodzie.",
-      "category": "Ogrodowy notatnik",
-      "cover": "",
-      "blocks": [
-        {
-          "type": "heading",
-          "text": "Koncepcja pokazuje całość"
-        },
-        {
-          "type": "paragraph",
-          "text": "Kolorowy rzut 2D przedstawia rozmieszczenie roślin, małej architektury, utwardzeń i najważniejszych elementów aranżacji. Pozwala omówić wzajemne położenie stref, komunikację i miejsca odpoczynku."
-        },
-        {
-          "type": "heading",
-          "text": "Dokumentacja porządkuje szczegóły"
-        },
-        {
-          "type": "paragraph",
-          "text": "Projekt wykonawczy może obejmować szczegółowy plan nasadzeń, wymiary i odległości, oświetlenie ogrodowe oraz utwardzenia. Zestawienie roślin i materiałów, instrukcja sadzenia i pielęgnacji oraz opis techniczny pomagają przejść do kolejnych działań."
-        },
-        {
-          "type": "paragraph",
-          "text": "Ostateczny zakres znajduje się w indywidualnej ofercie. Przed rozpoczęciem pracy warto ustalić, które rysunki i zestawienia są potrzebne do Twojego ogrodu."
-        },
-        {
-          "type": "heading",
-          "text": "Dodatkowe opracowania dobieramy do potrzeb"
-        },
-        {
-          "type": "paragraph",
-          "text": "Wizualizacje 3D całego ogrodu i projekt systemu nawadniania są opracowaniami opcjonalnymi. Zakres może także uwzględniać projekt ogrodzenia."
-        },
-        {
-          "type": "paragraph",
-          "text": "Cena zależy od powierzchni, warunków działki, złożoności rozwiązań i dokumentacji. Podstawowe informacje o przestrzeni pozwalają przygotować ofertę dopasowaną do konkretnego ogrodu."
-        }
-      ],
-      "legacy": true,
-      "seoTitle": "Co zawiera projekt ogrodu? Zakres | Effkowe Ogrody",
-      "seoDescription": "Koncepcja 2D, projekt wykonawczy, plan nasadzeń i zestawienia: sprawdź, co może obejmować projekt ogrodu oraz kiedy warto dodać wizualizacje i nawadnianie.",
-      "updatedAt": "2026-10-27T00:00:00Z",
-      "date": "2026-10-27"
-    },
-    {
-      "id": "article-projekt-ogrodu-zdalnie",
-      "slug": "projekt-ogrodu-zdalnie",
-      "title": "Jak wygląda projektowanie ogrodu zdalnie?",
-      "summary": "Dobra współpraca zaczyna się od informacji o działce i ustalenia sposobu kontaktu.",
-      "category": "Ogrodowy notatnik",
-      "cover": "",
-      "blocks": [
-        {
-          "type": "heading",
-          "text": "Materiały pokazują rzeczywiste warunki"
-        },
-        {
-          "type": "paragraph",
-          "text": "Współpraca zdalna wymaga planu, zdjęć i potrzebnych pomiarów. Powinny one pokazywać rzeczywiste warunki miejsca, usytuowanie domu oraz istniejącą roślinność."
-        },
-        {
-          "type": "paragraph",
-          "text": "Sposób zebrania tych informacji ustalamy przed rozpoczęciem pracy. Dzięki temu wiadomo, jakie dane trzeba przygotować, zanim powstanie koncepcja."
-        },
-        {
-          "type": "heading",
-          "text": "Rozmawiamy o rozwiązaniach i uwagach"
-        },
-        {
-          "type": "paragraph",
-          "text": "Podczas projektowania omawiamy propozycje i to, jak odpowiadają Twoim potrzebom. Informacje o codziennym korzystaniu z ogrodu pomagają dopracować układ przestrzeni."
-        },
-        {
-          "type": "paragraph",
-          "text": "Harmonogram i sposób konsultacji są częścią ustaleń na początku współpracy. Jeśli planujesz urządzenie ogrodu w konkretnym sezonie, napisz o tym w pierwszej wiadomości."
-        },
-        {
-          "type": "heading",
-          "text": "Otrzymujesz uzgodnione opracowanie"
-        },
-        {
-          "type": "paragraph",
-          "text": "Dokumentacja jest przygotowana w zakresie opisanym w ofercie. Pozwala zaplanować dalsze działania związane z tworzeniem ogrodu."
-        },
-        {
-          "type": "paragraph",
-          "text": "Projekt i wykonanie ogrodu to odrębne etapy. We Wrocławiu i okolicach pracownia może pomóc nawiązać kontakt z firmą wykonawczą; zakres prac, wycenę i termin uzgadnia się bezpośrednio z wykonawcą."
-        }
-      ],
-      "legacy": true,
-      "seoTitle": "Projektowanie ogrodu zdalnie - jak to działa? | Effkowe Ogrody",
-      "seoDescription": "Jak wygląda zdalne projektowanie ogrodu? Poznaj rolę zdjęć, planu działki i rozmowy o potrzebach. Ewa Katrycz wyjaśnia, jak przygotować materiały do współpracy.",
-      "updatedAt": "2026-10-27T00:00:00Z",
-      "date": "2026-10-27"
-    }
-  ]
+    ]
 }
