@@ -2,7 +2,7 @@
 
 ## Obsługa
 
-Adres: https://panel.effkoweogrody.pl/ (także https://effkoweogrody.pl/admin/).
+Adres: https://www.effkoweogrody.pl/panel/ (także https://effkoweogrody.pl/admin/).
 Login: ewa. Hasło startowe przekazywane osobno; przy pierwszym logowaniu trzeba ustawić własne.
 
 1. Wybierz Projekty ogrodów albo Artykuły i kliknij Dodaj.

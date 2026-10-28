@@ -6,7 +6,7 @@ return [
  'github_token'=>'REPLACE_WITH_REPOSITORY_CONTENTS_WRITE_TOKEN',
  'repo'=>'effkoweogrody/ogrody',
  'branch'=>'main',
- 'public_url'=>'https://panel.effkoweogrody.pl',
+ 'public_url'=>'https://www.effkoweogrody.pl/panel',
  'site_url'=>'https://effkoweogrody.pl',
  'testing'=>false,
 ];
