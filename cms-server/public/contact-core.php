@@ -17,7 +17,7 @@ function contact_submit(array $input,array $files,string $ip,int $now,?callable 
  foreach($files as $file){if(($file['error']??UPLOAD_ERR_NO_FILE)===UPLOAD_ERR_NO_FILE)continue;if(($file['error']??1)!==UPLOAD_ERR_OK||!is_file($file['tmp_name']??''))throw new InvalidArgumentException('Nie udało się przesłać zdjęcia. Spróbuj z mniejszym plikiem.');$size=filesize($file['tmp_name']);$total+=$size;if($size>1800000||$total>6000000)throw new InvalidArgumentException('Zdjęcia są zbyt duże. Wybierz je ponownie, aby przygotować mniejsze pliki.');$info=@getimagesize($file['tmp_name']);$mime=$info['mime']??'';$ext=['image/jpeg'=>'jpg','image/png'=>'png','image/webp'=>'webp'][$mime]??null;if(!$ext||$info[0]*$info[1]>12000000)throw new InvalidArgumentException('Wybierz prawidłowe zdjęcia JPG, PNG lub WebP.');$attachments[]=['mime'=>$mime,'name'=>'zdjecie-'.(count($attachments)+1).'.'.$ext,'path'=>$file['tmp_name']];}
  $dir=contact_store();$lock=fopen($dir.'/sending.lock','c+');if(!$lock||!flock($lock,LOCK_EX))throw new RuntimeException('Spróbuj ponownie za chwilę.');
  try {
-  $receipt='EO-'.gmdate('Ymd',$now).'-'.strtoupper(substr($id,0,10));$record=$dir.'/'.$id.'.json';$hash=hash('sha256',json_encode($data,JSON_UNESCAPED_UNICODE|JSON_THROW_ON_ERROR));
+  $old=[];$receipt='EO-'.gmdate('Ymd',$now).'-'.strtoupper(substr($id,0,10));$record=$dir.'/'.$id.'.json';$hash=hash('sha256',json_encode($data,JSON_UNESCAPED_UNICODE|JSON_THROW_ON_ERROR));
   if(is_file($record)){$old=json_decode(file_get_contents($record),true,512,JSON_THROW_ON_ERROR);if(($old['hash']??'')!==$hash)throw new InvalidArgumentException('Poprzednie zgłoszenie zostało już wysłane. Odśwież stronę przed kolejnym.');if($old['status']==='accepted')return ['success'=>true,'receipt'=>$old['receipt'],'duplicate'=>true];if($old['status']==='pending')throw new RuntimeException('Zgłoszenie jest zapisane, ale nie potwierdzono wysyłki. Podaj nam numer '.$old['receipt'].' telefonicznie lub e-mailem.');}
   $ipHash=hash_hmac('sha256',$ip,contact_key());$rateFile=$dir.'/rate.json';$rate=is_file($rateFile)?json_decode(file_get_contents($rateFile),true,512,JSON_THROW_ON_ERROR):[];$rate=array_values(array_filter($rate,fn($row)=>$row['at']>$now-86400));$hour=array_filter($rate,fn($row)=>$row['at']>$now-3600);$own=array_filter($hour,fn($row)=>$row['ip']===$ipHash);if(count($hour)>=30||count($own)>=4)throw new OverflowException('Wysłano już kilka zgłoszeń. Spróbuj później albo napisz bezpośrednio na e-mail.');
   $bytes=0;foreach(glob($dir.'/*.json') as $path)$bytes+=filesize($path);if($bytes>8000000)throw new RuntimeException('Formularz jest chwilowo niedostępny. Napisz bezpośrednio na e-mail.');
@@ -26,8 +26,23 @@ function contact_submit(array $input,array $files,string $ip,int $now,?callable 
   $boundary='effkowe_'.bin2hex(random_bytes(16));$message='--'.$boundary."\r\nContent-Type: text/plain; charset=UTF-8\r\nContent-Transfer-Encoding: base64\r\n\r\n".chunk_split(base64_encode($body),76,"\r\n");foreach($attachments as $a)$message.='--'.$boundary."\r\nContent-Type: ".$a['mime'].'; name="'.$a['name']."\"\r\nContent-Disposition: attachment; filename=\"".$a['name']."\"\r\nContent-Transfer-Encoding: base64\r\n\r\n".chunk_split(base64_encode(file_get_contents($a['path'])),76,"\r\n");$message.='--'.$boundary."--\r\n";
   $subject=(str_starts_with($data['imie'],'TEST TECHNICZNY')?'TEST TECHNICZNY - formularz effkoweogrody.pl':'Nowe zapytanie - Effkowe Ogrody').' ['.$receipt.']';
   $config=contact_config();$headers=['From'=>'Effkowe Ogrody <'.$config['sender'].'>','Cc'=>$config['copy'],'Reply-To'=>$data['email'],'MIME-Version'=>'1.0','Content-Type'=>'multipart/mixed; boundary="'.$boundary.'"','X-Effkowe-Receipt'=>$receipt];
-  $stored=['receipt'=>$receipt,'hash'=>$hash,'createdAt'=>gmdate('c',$now),'status'=>'pending','data'=>$data,'attachmentCount'=>count($attachments)];contact_write($record,$stored);$rate[]=['at'=>$now,'ip'=>$ipHash];contact_write($rateFile,$rate);
+  $stored=['receipt'=>$receipt,'hash'=>$hash,'createdAt'=>gmdate('c',$now),'status'=>'pending','data'=>$data,'attachmentCount'=>count($attachments),'leadStatus'=>$old['leadStatus']??'new','notes'=>$old['notes']??'','version'=>$old['version']??1];contact_write($record,$stored);$stored=[...$stored,...contact_save_photos($id,$attachments)];contact_write($record,$stored);$rate[]=['at'=>$now,'ip'=>$ipHash];contact_write($rateFile,$rate);
   $send=$transport??static fn($to,$subject,$message,$headers)=>mail($to,$subject,$message,$headers);$ok=$send($config['recipient'],mb_encode_mimeheader($subject,'UTF-8','B',"\r\n"),$message,$headers);$stored['status']=$ok?'accepted':'failed';contact_write($record,$stored);if(!$ok)throw new RuntimeException('Serwer nie przyjął wiadomości do wysyłki. Dane są zapisane pod numerem '.$receipt.'. Napisz bezpośrednio na e-mail.');
   return ['success'=>true,'receipt'=>$receipt];
  }finally{flock($lock,LOCK_UN);fclose($lock);}
+}
+
+function contact_save_photos(string $id,array $attachments): array {
+ $photos=[];$note='';if(!$attachments)return ['photos'=>$photos,'photoNote'=>$note];
+ try{
+  $root=contact_store().'/files';if(!is_dir($root)&&!mkdir($root,0700,true))throw new RuntimeException('photo storage');
+  $used=0;foreach(glob($root.'/*/*.jpg') as $file)$used+=filesize($file);
+  $dir=$root.'/'.$id;if(!is_dir($dir)&&!mkdir($dir,0700,true))throw new RuntimeException('photo directory');
+  foreach($attachments as $i=>$attachment){
+   if($used>=35000000){$note='Część zdjęć jest dostępna tylko w wiadomości e-mail. Miejsce na zdjęcia w panelu jest pełne.';break;}
+   $image=imagecreatefromstring(file_get_contents($attachment['path']));if(!$image)throw new RuntimeException('photo decode');
+   $w=imagesx($image);$h=imagesy($image);$scale=min(1,1600/max($w,$h));$tw=max(1,(int)round($w*$scale));$th=max(1,(int)round($h*$scale));$preview=imagecreatetruecolor($tw,$th);imagefill($preview,0,0,imagecolorallocate($preview,255,255,255));imagecopyresampled($preview,$image,0,0,0,0,$tw,$th,$w,$h);$number=$i+1;$path=$dir.'/'.$number.'.jpg';$ok=imagejpeg($preview,$path,85);imagedestroy($preview);imagedestroy($image);if(!$ok)throw new RuntimeException('photo write');chmod($path,0600);$used+=filesize($path);$photos[]=['number'=>$number,'width'=>$tw,'height'=>$th];
+  }
+ }catch(Throwable $e){error_log('Contact preview: '.$e->getMessage());$note='Zdjęcia są dostępne w wiadomości e-mail. Nie udało się zachować wszystkich podglądów w panelu.';}
+ return ['photos'=>$photos,'photoNote'=>$note];
 }
