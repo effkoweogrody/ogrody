@@ -1,6 +1,6 @@
 <?php
 require __DIR__.'/../cms-server/public/leads.php';
-file_put_contents(contact_store().'/config.php',"<?php return ['recipient'=>'owner@example.com','copy'=>'support@example.com','sender'=>'form@example.com'];");
+file_put_contents(contact_store().'/config.php',"<?php return ['recipient'=>'owner@example.com','sender'=>'form@example.com'];");
 $now=time();$input=['_token'=>contact_challenge($now-3),'imie'=>'Zapytanie testowe','email'=>'test@example.com','telefon'=>'123456789','powierzchnia'=>'300','lokalizacja'=>'Wrocław','wiadomosc'=>'Przykładowa wiadomość do sprawdzenia zapytań w panelu.','zgoda_rodo'=>'on'];$sends=0;$transport=function()use(&$sends){$sends++;return true;};
 $r=contact_submit($input,[],'test-ip',$now,$transport);$list=lead_list();assert(count($list['items'])===1&&$list['counts']['new']===1);$id=$list['items'][0]['id'];$lead=lead_load($id);assert($lead['receipt']===$r['receipt']&&$lead['data']['wiadomosc']===$input['wiadomosc']);
 $saved=lead_update($id,['leadStatus'=>'contacted','notes'=>'Rozmowa w poniedziałek.','version'=>1]);assert($saved['version']===2&&lead_load($id)['notes']==='Rozmowa w poniedziałek.');

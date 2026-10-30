@@ -43,7 +43,7 @@ Testy sprawdzają nowe projekty i artykuły, bezpieczne wyświetlanie tekstów, 
 
 ## Formularz kontaktowy
 
-Oba formularze używają contact.php na hostingu OVH, bez FormSubmit. Odbiorca, kopia i nadawca znajdują się wyłącznie w prywatnym pliku /home/effkowv/cms-private/inquiries/config.php. Nie publikuj tego pliku ani adresów z konfiguracji w repozytorium.
+Oba formularze używają contact.php na hostingu OVH, bez FormSubmit. Odbiorca i nadawca znajdują się wyłącznie w prywatnym pliku /home/effkowv/cms-private/inquiries/config.php. Nie publikuj tego pliku ani adresów z konfiguracji w repozytorium.
 
 Treść i status zgłoszenia zapisują się w tym samym prywatnym katalogu poza WWW. Zdjęcia trafiają do maila, a ich podglądy są zapisywane prywatnie do obsługi zapytań w panelu. Podpisany token zapobiega podwójnej wysyłce; obowiązują walidacja pól, limity żądań i rozmiaru zdjęć. Potwierdzenie przyjęcia przez serwer nie jest samo w sobie potwierdzeniem doręczenia do skrzynki. Retencję zapisów stosuje opiekun zgodnie z polityką pracowni.
 
@@ -55,3 +55,5 @@ Zakładka Zapytania pokazuje zgłoszenia z formularza, również zapisane przed 
 Szczegóły i zdjęcia wymagają aktywnego logowania; zmiany dodatkowo poprawnego tokenu CSRF. Dane zapytań nie są eksportowane do GitHub Pages. Nowe zdjęcia mają prywatne podglądy do 1600 px; wcześniejsze załączniki pozostają w mailach. Przy wyczerpaniu miejsca na podglądy formularz nadal zapisuje treść i wysyła mail z załącznikami, a panel informuje, gdzie znaleźć zdjęcia. Nie ma automatycznego usuwania zgłoszeń ani zdjęć.
 
 Przycisk Usuń zapytanie przenosi je do kosza i usuwa z głównej listy oraz liczników aktywnych zgłoszeń. Filtr Kosz pozwala obejrzeć zapytanie i przywrócić je wraz z notatkami, statusem i zdjęciami. Nie usuwa wiadomości ze skrzynki e-mail ani nie kasuje trwale danych.
+
+Wysyłka formularza jest skierowana wyłącznie do odbiorcy pracowni. Nie ma kopii Cc ani Bcc do opiekuna technicznego.
