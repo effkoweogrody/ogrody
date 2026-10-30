@@ -39,3 +39,10 @@ python -m unittest discover -s tests -v
 python scripts/build_seo.py --origin https://effkoweogrody.pl --output ../public-site --copy-assets --write-cname
 
 Testy sprawdzają nowe projekty i artykuły, bezpieczne wyświetlanie tekstów, galerie, czyste adresy, sitemapę i metadane.
+
+
+## Formularz kontaktowy
+
+Oba formularze używają contact.php na hostingu OVH, bez FormSubmit. Odbiorca, kopia i nadawca znajdują się wyłącznie w prywatnym pliku /home/effkowv/cms-private/inquiries/config.php. Nie publikuj tego pliku ani adresów z konfiguracji w repozytorium.
+
+Treść i status zgłoszenia zapisują się w tym samym prywatnym katalogu poza WWW. Zdjęcia trafiają do maila bez dodatkowego archiwum plików na hostingu. Podpisany token zapobiega podwójnej wysyłce; obowiązują walidacja pól, limity żądań i rozmiaru zdjęć. Potwierdzenie przyjęcia przez serwer nie jest samo w sobie potwierdzeniem doręczenia do skrzynki. Retencję zapisów stosuje opiekun zgodnie z polityką pracowni.

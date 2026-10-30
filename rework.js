@@ -12,6 +12,8 @@
  document.addEventListener('keydown',event=>{if(event.key==='Escape'&&document.body.classList.contains('menu-active')){document.querySelector('.menu-toggle').click();document.querySelector('.menu-toggle').focus({preventScroll:true});}});
  const form=document.querySelector('.contact-form');if(!form)return;
  const files=form.querySelector('[type=file]'),status=form.querySelector('.form-status'),submit=form.querySelector('[type=submit]'),uploadStatus=form.querySelector('.upload-status');
+ async function contactToken(){const response=await fetch(form.action,{headers:{Accept:'application/json'},cache:'no-store'});const value=await response.json();if(!response.ok||!value.token)throw Error(value.message||'Formularz jest chwilowo niedostępny.');return value.token;}
+ let tokenTask=contactToken().catch(()=>null);
  let photos=[],photoTask=Promise.resolve(),version=0,processing=false,sending=false;
  const syncButton=()=>{submit.disabled=processing||sending;};
  function validateSelection(selected){
@@ -35,9 +37,9 @@
     canvas.width=Math.max(1,Math.round(width*scale));canvas.height=Math.max(1,Math.round(height*scale));const ctx=canvas.getContext('2d');if(!ctx)throw Error('Ta przeglądarka nie może zmniejszyć zdjęć. Spróbuj w nowszej przeglądarce.');
     ctx.fillStyle='#fff';ctx.fillRect(0,0,canvas.width,canvas.height);ctx.drawImage(image,0,0,canvas.width,canvas.height);
     blob=await new Promise((resolve,reject)=>canvas.toBlob(value=>value?resolve(value):reject(Error('Nie udało się przygotować zdjęcia.')),'image/jpeg',quality));
-    if(blob.size<=1600000)break;scale*=.8;quality=Math.max(.66,quality-.06);
+    if(blob.size<=1050000)break;scale*=.8;quality=Math.max(.66,quality-.06);
    }
-   if(!blob||blob.size>1800000)throw Error('Nie udało się zmniejszyć jednego ze zdjęć. Wybierz mniejszy plik.');
+   if(!blob||blob.size>1150000)throw Error('Nie udało się zmniejszyć jednego ze zdjęć. Wybierz mniejszy plik.');
    return new File([blob],`zdjecie-${index+1}.jpg`,{type:'image/jpeg'});
   }catch(error){throw Error(error instanceof DOMException?'Nie można odczytać zdjęcia. Wybierz wersję JPG, PNG lub WebP.':error.message||'Nie można odczytać jednego ze zdjęć.');}
   finally{image?.close?.();canvas.width=canvas.height=0;}
@@ -50,7 +52,7 @@
   photoTask=(async()=>{
    const prepared=[];
    for(let i=0;i<selected.length;i++){if(id!==version)return;uploadStatus.textContent=`Przygotowuję zdjęcie ${i+1} z ${selected.length}…`;prepared.push(await shrinkPhoto(selected[i],i));}
-   if(id!==version)return;const total=prepared.reduce((sum,file)=>sum+file.size,0);if(total>9500000)throw Error('Zdjęcia po zmniejszeniu są zbyt duże. Wybierz mniej plików.');
+   if(id!==version)return;const total=prepared.reduce((sum,file)=>sum+file.size,0);if(total>6000000)throw Error('Zdjęcia po zmniejszeniu są zbyt duże. Wybierz mniej plików.');
    photos=prepared;uploadStatus.textContent=`Gotowe: ${prepared.length} zdjęć · ${(total/1000000).toFixed(1).replace('.',',')} MB po przygotowaniu.`;
   })().catch(error=>{if(id===version){files.setCustomValidity(error.message);uploadStatus.textContent=error.message;}}).finally(()=>{if(id===version){processing=false;syncButton();}});
  });
@@ -63,23 +65,22 @@
   files.disabled=true;
   const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),25000);
   try{
-   const response=await fetch(form.action.replace('formsubmit.co/','formsubmit.co/ajax/'),{method:'POST',body:data,headers:{Accept:'application/json'},signal:controller.signal});
+   const token=await tokenTask||await contactToken();data.set('_token',token);
+   const response=await fetch(form.action,{method:'POST',body:data,headers:{Accept:'application/json'},signal:controller.signal});
    const raw=await response.text();let result;
    try{result=JSON.parse(raw);}catch{throw Error('unconfirmed');}
    if(!(result.success===true||result.success==='true')||!response.ok){
     const message=String(result.message||'');
-    if(/needs? activation|activate (?:this |the )?form|form.{0,30}activat/i.test(message))throw Error('activation');
     if(response.status===429||/rate limit|too many/i.test(message))throw Error('rate-limit');
-    throw Error('rejected');
+    throw Error(message||'rejected');
    }
-   status.textContent='Zapytanie zostało przyjęte do wysyłki. Dziękuję za wiadomość.';form.reset();photos=[];version++;uploadStatus.textContent='';files.setCustomValidity('');window.dispatchEvent(new CustomEvent('effkowe:conversion',{detail:{name:'inquiry_accepted'}}));
+   status.textContent='Dziękuję! Zapytanie zostało zapisane i przekazane do wysyłki. Numer zgłoszenia: '+result.receipt+'.';tokenTask=contactToken().catch(()=>null);form.reset();photos=[];version++;uploadStatus.textContent='';files.setCustomValidity('');window.dispatchEvent(new CustomEvent('effkowe:conversion',{detail:{name:'inquiry_accepted'}}));
   }catch(error){
    const messages={
-    activation:'Formularz oczekuje na aktywację przez właścicielkę strony. Twoje dane pozostały w formularzu. W tej chwili ',
     'rate-limit':'Usługa wysyłkowa jest chwilowo przeciążona. Twoje dane pozostały w formularzu. Spróbuj później lub ',
     rejected:'Usługa nie przyjęła zapytania. Twoje dane pozostały w formularzu. '
    };
-   status.replaceChildren(document.createTextNode(messages[error.message]||'Nie otrzymaliśmy potwierdzenia wysyłki. Wiadomość mogła zostać przyjęta - unikaj ponownego wysyłania tego samego zgłoszenia. Twoje dane pozostały w formularzu. W razie potrzeby '));
+   const unknown=error.name==='AbortError'||error.message==='unconfirmed'||error instanceof TypeError;status.replaceChildren(document.createTextNode(messages[error.message]||(unknown?'Nie otrzymaliśmy potwierdzenia. Dane pozostały w formularzu. Możesz spróbować ponownie - to samo zgłoszenie nie zostanie wysłane dwukrotnie. W razie potrzeby ':error.message+' Dane pozostały w formularzu. W razie potrzeby ')));
    const mail=document.createElement('a');mail.href='mailto:ewa.katrycz@gmail.com';mail.textContent='napisz bezpośrednio e-mail';status.append(mail);
   }finally{clearTimeout(timeout);sending=false;files.disabled=false;syncButton();submit.removeAttribute('aria-busy');}
  });
