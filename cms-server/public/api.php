@@ -4,7 +4,7 @@ ini_set('display_errors','0');ini_set('log_errors','1');require __DIR__.'/core.p
 header('Cache-Control: no-store');header('X-Content-Type-Options: nosniff');header('X-Frame-Options: DENY');header('X-Robots-Tag: noindex, nofollow');header('Referrer-Policy: same-origin');
 try {
  $c=config();if(!testing()&&empty($_SERVER['HTTPS'])&&($_SERVER['SERVER_PORT']??0)!=443)fail('Panel wymaga bezpiecznego połączenia HTTPS.',403);
- $action=$_GET['action']??'me';$method=$_SERVER['REQUEST_METHOD'];$writes=['login','logout','password','create','save','upload','publish','archive','restore','lead_update'];if(in_array($action,$writes,true)&&$method!=='POST')fail('Niedozwolona metoda.',405);
+ $action=$_GET['action']??'me';$method=$_SERVER['REQUEST_METHOD'];$writes=['login','logout','password','create','save','upload','publish','archive','restore','lead_update','lead_trash','lead_restore'];if(in_array($action,$writes,true)&&$method!=='POST')fail('Niedozwolona metoda.',405);
  if($action==='login'){
   same_origin();$data=input();$key=hash('sha256',$_SERVER['REMOTE_ADDR']??'local');$blocked=state(function(&$s)use($key){$s['attempts']=array_filter($s['attempts']??[],fn($r)=>$r['at']>time()-3600);$a=$s['attempts'][$key]??['count'=>0,'at'=>time()];return $a['count']>=8&&$a['at']>time()-900;});if($blocked)fail('Za dużo prób. Spróbuj ponownie za 15 minut.',429);
   if(strlen((string)($data['password']??''))>128)fail('Nieprawidłowy login lub hasło.',401);
@@ -15,6 +15,7 @@ try {
  authenticated(in_array($action,$writes,true),in_array($action,['me','password','logout'],true));
  if($action==='lead_list')out(lead_list());
  if($action==='lead_item')out(['lead'=>lead_load(record_id())]);
+ if(in_array($action,['lead_trash','lead_restore'],true)){$body=input();out(['lead'=>lead_trash(record_id(),(int)($body['version']??0),$action==='lead_restore')]);}
  if($action==='lead_update')out(['lead'=>lead_update(record_id(),input())]);
  if($action==='lead_photo'){$number=filter_var($_GET['number']??'',FILTER_VALIDATE_INT);$path=lead_photo_path(record_id(),$number===false?0:$number);header('Content-Type: image/jpeg');header('Content-Length: '.filesize($path));header('Content-Disposition: inline; filename="zdjecie-dzialki.jpg"');readfile($path);exit;}
  if($action==='me'){session_open();$csrf=$_SESSION['csrf'];session_write_close();$d=state(fn(&$s)=>['mustChangePassword'=>$s['mustChangePassword'],'lastCommit'=>$s['lastCommit'],'publishing'=>!empty($s['publishing']),'history'=>$s['history']],false);out(['login'=>$c['login'],'csrf'=>$csrf,'siteUrl'=>$c['site_url'],...$d]);}

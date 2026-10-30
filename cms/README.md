@@ -53,3 +53,5 @@ Treść i status zgłoszenia zapisują się w tym samym prywatnym katalogu poza 
 Zakładka Zapytania pokazuje zgłoszenia z formularza, również zapisane przed jej wprowadzeniem. Można wyszukiwać po imieniu, e-mailu i miejscowości, ustawić status Nowe / W kontakcie / Zakończone oraz dodać prywatną notatkę. Zmiany zapisują się od razu na OVH, bez publikowania strony.
 
 Szczegóły i zdjęcia wymagają aktywnego logowania; zmiany dodatkowo poprawnego tokenu CSRF. Dane zapytań nie są eksportowane do GitHub Pages. Nowe zdjęcia mają prywatne podglądy do 1600 px; wcześniejsze załączniki pozostają w mailach. Przy wyczerpaniu miejsca na podglądy formularz nadal zapisuje treść i wysyła mail z załącznikami, a panel informuje, gdzie znaleźć zdjęcia. Nie ma automatycznego usuwania zgłoszeń ani zdjęć.
+
+Przycisk Usuń zapytanie przenosi je do kosza i usuwa z głównej listy oraz liczników aktywnych zgłoszeń. Filtr Kosz pozwala obejrzeć zapytanie i przywrócić je wraz z notatkami, statusem i zdjęciami. Nie usuwa wiadomości ze skrzynki e-mail ani nie kasuje trwale danych.
