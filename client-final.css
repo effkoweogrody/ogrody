@@ -151,3 +151,15 @@ body.page-scroll-locked{position:fixed;top:var(--locked-scroll-top);left:0;right
  .landing-v2 .social-paper-bottom strong{font-size:10px;letter-spacing:.02em;overflow-wrap:normal}
  .landing-v2 .social-paper-bottom>span{font-size:11px;white-space:nowrap;text-decoration:underline;text-underline-offset:4px}
 }
+
+/* Three clear menu strokes; the middle stroke fades when the menu closes into an X. */
+@media(max-width:780px){
+ .site-header .menu-toggle{position:relative}
+ .site-header .menu-toggle span,.site-header .menu-toggle::before{position:absolute;left:8px;right:8px;height:1px;margin:0;background:currentColor;transform-origin:center;transition:transform .25s ease,opacity .2s ease}
+ .site-header .menu-toggle span:first-child{top:14px}
+ .site-header .menu-toggle::before{content:"";top:22px}
+ .site-header .menu-toggle span:last-child{top:30px}
+ .site-header.menu-open .menu-toggle span:first-child{transform:translateY(8px) rotate(45deg)}
+ .site-header.menu-open .menu-toggle::before{opacity:0}
+ .site-header.menu-open .menu-toggle span:last-child{transform:translateY(-8px) rotate(-45deg)}
+}
