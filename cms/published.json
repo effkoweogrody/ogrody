@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "revision": 3,
+    "revision": 4,
     "projects": [
         {
             "number": 1,
@@ -2009,6 +2009,153 @@
             "seoDescription": "Ogród leśny w Stanięcicach na działce 1200 m²: brzozy, sosny, bujne rabaty, palenisko, taras i szklarnia. Zobacz wizualizacje projektu Ewy Katrycz.",
             "updatedAt": "2026-10-27T00:00:00Z",
             "featured": true
+        },
+        {
+            "id": "project-0139582be03d182b",
+            "slug": "niewielki-ogrod-pelen-motyli",
+            "legacy": false,
+            "cover": "assets/cms/3e1292a40e416d9ddfdb5acfd089f43d.webp",
+            "seoTitle": "Niewielki ogród pełen motyli | Effkowe Ogrody",
+            "seoDescription": "Niewielki ogród pełen motyli. Wąski ogród przy domu w zabudowie bliźniaczej w Stadnickiej Woli zaprojektowałam jako przestrzeń pełną zieleni i kameralnych miejsc do odpoczynku. Płynne linie rabat i ścieżek przełamują wydłużony kształt działki, a niewielki traw",
+            "updatedAt": "2026-11-16T18:48:40+00:00",
+            "number": 14,
+            "name": "Niewielki ogród pełen motyli",
+            "place": "Stadnicka Wola",
+            "area": "300 m²",
+            "facts": {
+                "Lokalizacja": "Stadnicka Wola",
+                "Powierzchnia": "300 m²",
+                "Styl": "Bylinowy, leśny",
+                "Główne elementy": "Taras, placyk z pergolą i wiszącymi kokonami, strefa ZEN z fontanną i ławką, część leśna z misą wodną, palenisko z ławkami"
+            },
+            "description": [
+                "Wąski ogród przy domu w zabudowie bliźniaczej w Stadnickiej Woli zaprojektowałam jako przestrzeń pełną zieleni i kameralnych miejsc do odpoczynku. Płynne linie rabat i ścieżek przełamują wydłużony kształt działki, a niewielki trawnik daje oddech bujnym nasadzeniom.\nŻwirowe alejki prowadzą od tarasu przy domu do placyku z paleniskiem i drewnianej pergoli z wiszącymi fotelami. Wśród brzóz, różaneczników i paproci kryje się misa wodna, a osobny zakątek ZEN z ławką pozwala odpocząć przy delikatnym szumie wody. Znalazło się tu również miejsce na niewielki warzywnik.\nByliny przyciągające motyle, lekkie trawy i drzewa o zróżnicowanych koronach tworzą naturalistyczną kompozycję, która zmienia się wraz z porami roku. Drewno, kamień i grys w odcieniu cappuccino dopełniają jej spokojny charakter, a wieczorem subtelne oświetlenie podkreśla wybrane fragmenty ogrodu."
+            ],
+            "images": [
+                {
+                    "src": "assets/cms/3e1292a40e416d9ddfdb5acfd089f43d.webp",
+                    "width": 1536,
+                    "height": 1024,
+                    "display": "assets/cms/3e1292a40e416d9ddfdb5acfd089f43d-display.webp",
+                    "card": "assets/cms/3e1292a40e416d9ddfdb5acfd089f43d-card.webp",
+                    "thumb": "assets/cms/3e1292a40e416d9ddfdb5acfd089f43d-thumb.webp",
+                    "alt": "Taras ogrodowy z widokiem na ogród",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/01cda583f593f0c78ae81c581a8c3aa3.webp",
+                    "width": 1536,
+                    "height": 1024,
+                    "display": "assets/cms/01cda583f593f0c78ae81c581a8c3aa3-display.webp",
+                    "card": "assets/cms/01cda583f593f0c78ae81c581a8c3aa3-card.webp",
+                    "thumb": "assets/cms/01cda583f593f0c78ae81c581a8c3aa3-thumb.webp",
+                    "alt": "Tqras ogrodowy z meblami rattanowymi",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/908632dd48a17d8c70def2a37ac09aae.webp",
+                    "width": 1536,
+                    "height": 1024,
+                    "display": "assets/cms/908632dd48a17d8c70def2a37ac09aae-display.webp",
+                    "card": "assets/cms/908632dd48a17d8c70def2a37ac09aae-card.webp",
+                    "thumb": "assets/cms/908632dd48a17d8c70def2a37ac09aae-thumb.webp",
+                    "alt": "Fontanna ogrodowa w strefie zen",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/c3257da52f7f2ea627c3dd50324ce5aa.webp",
+                    "width": 1445,
+                    "height": 1088,
+                    "display": "assets/cms/c3257da52f7f2ea627c3dd50324ce5aa-display.webp",
+                    "card": "assets/cms/c3257da52f7f2ea627c3dd50324ce5aa-card.webp",
+                    "thumb": "assets/cms/c3257da52f7f2ea627c3dd50324ce5aa-thumb.webp",
+                    "alt": "Palenisko z ławkami",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/4acb53225cb48ff1bbaf3ac7dde39895.webp",
+                    "width": 1536,
+                    "height": 1024,
+                    "display": "assets/cms/4acb53225cb48ff1bbaf3ac7dde39895-display.webp",
+                    "card": "assets/cms/4acb53225cb48ff1bbaf3ac7dde39895-card.webp",
+                    "thumb": "assets/cms/4acb53225cb48ff1bbaf3ac7dde39895-thumb.webp",
+                    "alt": "Pergola tarasiwa w leśnym ogrodzie",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/e341229aa803274eea98f53ce58b4f7b.webp",
+                    "width": 1536,
+                    "height": 1024,
+                    "display": "assets/cms/e341229aa803274eea98f53ce58b4f7b-display.webp",
+                    "card": "assets/cms/e341229aa803274eea98f53ce58b4f7b-card.webp",
+                    "thumb": "assets/cms/e341229aa803274eea98f53ce58b4f7b-thumb.webp",
+                    "alt": "Placyk z paleniskiem",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/d04f62591083d651587898bd9f850e51.webp",
+                    "width": 1445,
+                    "height": 1088,
+                    "display": "assets/cms/d04f62591083d651587898bd9f850e51-display.webp",
+                    "card": "assets/cms/d04f62591083d651587898bd9f850e51-card.webp",
+                    "thumb": "assets/cms/d04f62591083d651587898bd9f850e51-thumb.webp",
+                    "alt": "Ścieżka ogrodowa",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/04b1be3227e936cf46d14793a559e40d.webp",
+                    "width": 1536,
+                    "height": 1024,
+                    "display": "assets/cms/04b1be3227e936cf46d14793a559e40d-display.webp",
+                    "card": "assets/cms/04b1be3227e936cf46d14793a559e40d-card.webp",
+                    "thumb": "assets/cms/04b1be3227e936cf46d14793a559e40d-thumb.webp",
+                    "alt": "Ławka ogrodowa",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/2dfa45d093015232a2beee08fa1027f3.webp",
+                    "width": 1536,
+                    "height": 1024,
+                    "display": "assets/cms/2dfa45d093015232a2beee08fa1027f3-display.webp",
+                    "card": "assets/cms/2dfa45d093015232a2beee08fa1027f3-card.webp",
+                    "thumb": "assets/cms/2dfa45d093015232a2beee08fa1027f3-thumb.webp",
+                    "alt": "Rabaty bylinowe",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/992f54708893082d5c2a0d47a6d253d4.webp",
+                    "width": 1536,
+                    "height": 1024,
+                    "display": "assets/cms/992f54708893082d5c2a0d47a6d253d4-display.webp",
+                    "card": "assets/cms/992f54708893082d5c2a0d47a6d253d4-card.webp",
+                    "thumb": "assets/cms/992f54708893082d5c2a0d47a6d253d4-thumb.webp",
+                    "alt": "Kolisty trawnik w ogrodzie",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/aafa72c4ee7c5b893a2bf9b21eaf8da5.webp",
+                    "width": 1536,
+                    "height": 1024,
+                    "display": "assets/cms/aafa72c4ee7c5b893a2bf9b21eaf8da5-display.webp",
+                    "card": "assets/cms/aafa72c4ee7c5b893a2bf9b21eaf8da5-card.webp",
+                    "thumb": "assets/cms/aafa72c4ee7c5b893a2bf9b21eaf8da5-thumb.webp",
+                    "alt": "Rabaty bylinowe",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/5e337b1248a52c8c4450791fa6927e8c.webp",
+                    "width": 725,
+                    "height": 2169,
+                    "display": "assets/cms/5e337b1248a52c8c4450791fa6927e8c-display.webp",
+                    "card": "assets/cms/5e337b1248a52c8c4450791fa6927e8c-card.webp",
+                    "thumb": "assets/cms/5e337b1248a52c8c4450791fa6927e8c-thumb.webp",
+                    "alt": "Projekt ogrodu leśnego",
+                    "is_top": false
+                }
+            ],
+            "display_order": 3,
+            "featured": true,
+            "has_top": false
         }
     ],
     "articles": [
