@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "revision": 15,
+    "revision": 16,
     "projects": [
         {
             "number": 1,
@@ -768,93 +768,105 @@
         },
         {
             "number": 7,
-            "name": "Mały ogród z angielską nutą",
+            "name": "Mały ogród w Szwajcarii",
             "place": "Selzach",
-            "cover": "assets/projects/07-cover.webp",
+            "cover": "assets/projects/07-01.webp",
             "images": [
                 {
                     "src": "assets/projects/07-01.webp",
                     "width": 1672,
                     "height": 941,
                     "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (1).jpg",
-                    "is_top": true
+                    "is_top": true,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/07-02.webp",
                     "width": 1672,
                     "height": 941,
                     "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (2).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/07-03.webp",
                     "width": 1672,
                     "height": 941,
                     "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (3).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/07-04.webp",
                     "width": 1672,
                     "height": 941,
                     "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (4).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/07-05.webp",
                     "width": 1672,
                     "height": 941,
                     "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (5).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/07-06.webp",
                     "width": 1672,
                     "height": 941,
                     "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (6).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/07-07.webp",
                     "width": 1672,
                     "height": 941,
                     "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (7).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/07-08.webp",
                     "width": 1672,
                     "height": 941,
                     "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (8).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/07-09.webp",
                     "width": 1672,
                     "height": 941,
                     "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (9).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/07-10.webp",
                     "width": 1672,
                     "height": 941,
                     "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (10).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/07-11.webp",
                     "width": 1672,
                     "height": 941,
                     "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (11).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/07-12.webp",
                     "width": 1672,
                     "height": 941,
                     "source": "OGRÓD SELZACH - MAŁY SZWAJCARSKI (12).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 }
             ],
             "has_top": true,
@@ -868,18 +880,18 @@
                 "To ogród, w którym każdy fragment przestrzeni ma swoje zadanie, a różnorodne nasadzenia tworzą zielone otoczenie do codziennego wypoczynku."
             ],
             "facts": {
-                "Lokalizacja": "Selzach, Szwajcaria",
-                "Powierzchnia ogrodu": "200 m²",
+                "Lokalizacja": "Selzach",
+                "Powierzchnia": "200 m²",
                 "Styl": "nowoczesny z elementami angielskiego ogrodu bylinowego, akcentami japońskimi i śródziemnomorskimi",
                 "Główne elementy": "palmety grabowe, pergola z paleniskiem, cieniste rabaty, taras z donicami, zielnik, krzewy owocowe"
             },
             "display_order": 6,
             "id": "project-7",
             "slug": "projekt-ogrodu-07",
-            "legacy": true,
+            "legacy": false,
             "seoTitle": "Mały ogród - Selzach, Szwajcaria | Effkowe Ogrody",
             "seoDescription": "Projekt ogrodu 200 m² w Selzach w Szwajcarii: bylinowe rabaty, palmety grabowe, pergola i taras. Zobacz wizualizacje oraz opis projektu Ewy Katrycz.",
-            "updatedAt": "2026-10-27T00:00:00Z",
+            "updatedAt": "2026-11-17T17:38:26+00:00",
             "featured": true
         },
         {
