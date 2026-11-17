@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "revision": 14,
+    "revision": 15,
     "projects": [
         {
             "number": 1,
@@ -1166,8 +1166,8 @@
         {
             "number": 10,
             "name": "Realizacje",
-            "place": null,
-            "cover": "assets/realizations/59.webp",
+            "place": "",
+            "cover": "assets/realizations/26.webp",
             "images": [
                 {
                     "group": "realizations",
@@ -1177,7 +1177,9 @@
                     "height": 844,
                     "display_width": 1100,
                     "source": "IMG_20260821_180731_093 (1).jpg",
-                    "id": "16wquJ7_3w1Kz7cjP8BK0LxKFy5SvuFxp"
+                    "id": "16wquJ7_3w1Kz7cjP8BK0LxKFy5SvuFxp",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1187,7 +1189,9 @@
                     "height": 812,
                     "display_width": 1080,
                     "source": "IMG_20241025_103340_234.jpg",
-                    "id": "1WPh9yoZSbChz7xr5--L9ld12ge12jU3t"
+                    "id": "1WPh9yoZSbChz7xr5--L9ld12ge12jU3t",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1197,7 +1201,9 @@
                     "height": 812,
                     "display_width": 1080,
                     "source": "IMG_20241025_103344_437.jpg",
-                    "id": "1w3LaKXkNbYtt3gcRu6O6BvNS-FDIFOm4"
+                    "id": "1w3LaKXkNbYtt3gcRu6O6BvNS-FDIFOm4",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1207,7 +1213,9 @@
                     "height": 1200,
                     "display_width": 1100,
                     "source": "IMG-20250822-WA0007.jpg",
-                    "id": "1DIorEaI2Jdi-TEjxcz8OuE061UI82LAw"
+                    "id": "1DIorEaI2Jdi-TEjxcz8OuE061UI82LAw",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1217,7 +1225,9 @@
                     "height": 1200,
                     "display_width": 1100,
                     "source": "IMG-20250822-WA0005.jpg",
-                    "id": "1b01Lb14EuYqwgvUv3IC9d_BcOPy5WWmS"
+                    "id": "1b01Lb14EuYqwgvUv3IC9d_BcOPy5WWmS",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1227,7 +1237,9 @@
                     "height": 480,
                     "display_width": 640,
                     "source": "IMG_4346.jpg",
-                    "id": "1eY1nioU4hzu5nw89q_XScVxraPpYN388"
+                    "id": "1eY1nioU4hzu5nw89q_XScVxraPpYN388",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1237,7 +1249,9 @@
                     "height": 502,
                     "display_width": 640,
                     "source": "IMG_4548.jpg",
-                    "id": "18s3Dp7IUWVFwa2shYtUbykIHB1Qvr2tq"
+                    "id": "18s3Dp7IUWVFwa2shYtUbykIHB1Qvr2tq",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1247,7 +1261,9 @@
                     "height": 2400,
                     "display_width": 619,
                     "source": "20250919_102814.jpg",
-                    "id": "1DSujWarCCma_f9SISrxw5tLs6UUsy7yy"
+                    "id": "1DSujWarCCma_f9SISrxw5tLs6UUsy7yy",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1257,7 +1273,9 @@
                     "height": 1500,
                     "display_width": 1100,
                     "source": "IMG-20251029-WA0002.jpg",
-                    "id": "1bQl4cvbZ43MKXqtRYaPUs5BLKLrMrpii"
+                    "id": "1bQl4cvbZ43MKXqtRYaPUs5BLKLrMrpii",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1267,7 +1285,9 @@
                     "height": 1080,
                     "display_width": 1100,
                     "source": "IMG_20260103_230344_907.jpg",
-                    "id": "1vtMisFN_DrdheV3ByZcDa7ntdo6Hr93y"
+                    "id": "1vtMisFN_DrdheV3ByZcDa7ntdo6Hr93y",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1277,7 +1297,9 @@
                     "height": 844,
                     "display_width": 1100,
                     "source": "IMG_20260821_180705_438 (1).jpg",
-                    "id": "1WQCVgcZkr9DiKPlq5ZtWCmB3_YlTfH7C"
+                    "id": "1WQCVgcZkr9DiKPlq5ZtWCmB3_YlTfH7C",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1287,7 +1309,9 @@
                     "height": 904,
                     "display_width": 1100,
                     "source": "IMG_20260827_164020_607 (1).jpg",
-                    "id": "1_LnAJa4HZjFriWo2o5IFjKnlkTlSX-Wr"
+                    "id": "1_LnAJa4HZjFriWo2o5IFjKnlkTlSX-Wr",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1297,7 +1321,9 @@
                     "height": 1122,
                     "display_width": 826,
                     "source": "IMG_20240908_205718_522.jpg",
-                    "id": "17lm5f-WMfyqLLixm6PPeeQngb4dCX0wd"
+                    "id": "17lm5f-WMfyqLLixm6PPeeQngb4dCX0wd",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1307,7 +1333,9 @@
                     "height": 1122,
                     "display_width": 826,
                     "source": "IMG_20240908_205726_822.jpg",
-                    "id": "10agEUB0CNS4Pfe-wzq9VOHtNasCUq0o9"
+                    "id": "10agEUB0CNS4Pfe-wzq9VOHtNasCUq0o9",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1317,7 +1345,9 @@
                     "height": 1123,
                     "display_width": 826,
                     "source": "IMG_20240908_205738_071.jpg",
-                    "id": "1OBfPWDfz8Hc78sLf3cvRXoRw8P4tEwnj"
+                    "id": "1OBfPWDfz8Hc78sLf3cvRXoRw8P4tEwnj",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1327,7 +1357,9 @@
                     "height": 1560,
                     "display_width": 825,
                     "source": "IMG_20241025_102114_942.jpg",
-                    "id": "1mDERBH1XCmHvoOVs3iFOvxJAe3aWa7NK"
+                    "id": "1mDERBH1XCmHvoOVs3iFOvxJAe3aWa7NK",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1337,7 +1369,9 @@
                     "height": 958,
                     "display_width": 720,
                     "source": "IMG_20241025_103316_441.jpg",
-                    "id": "1gtazE27I8_u40w30-mTJ4Lfav7ROdo66"
+                    "id": "1gtazE27I8_u40w30-mTJ4Lfav7ROdo66",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1347,7 +1381,9 @@
                     "height": 812,
                     "display_width": 1080,
                     "source": "IMG_20241025_103338_479.jpg",
-                    "id": "1jd4tMsvZHkHMaif610laOaiYgNJ6m7wr"
+                    "id": "1jd4tMsvZHkHMaif610laOaiYgNJ6m7wr",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1357,7 +1393,9 @@
                     "height": 812,
                     "display_width": 1080,
                     "source": "IMG_20241025_103347_468.jpg",
-                    "id": "14odIQwaYiPcEo8ekHJyCBY10mK-v34fH"
+                    "id": "14odIQwaYiPcEo8ekHJyCBY10mK-v34fH",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1367,7 +1405,9 @@
                     "height": 780,
                     "display_width": 586,
                     "source": "IMG_20250525_184421_083.jpg",
-                    "id": "1cXiyFwMj_jXyo11xhIq_P4gFGqUPYZJb"
+                    "id": "1cXiyFwMj_jXyo11xhIq_P4gFGqUPYZJb",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1377,7 +1417,9 @@
                     "height": 1365,
                     "display_width": 825,
                     "source": "IMG_20250819_170859_603.jpg",
-                    "id": "1q1_2_OiEMy1s7pQ483WyHm8piEuhPtbI"
+                    "id": "1q1_2_OiEMy1s7pQ483WyHm8piEuhPtbI",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1387,7 +1429,9 @@
                     "height": 1608,
                     "display_width": 825,
                     "source": "IMG_20250819_170845_508.jpg",
-                    "id": "1bULgqNvQKwoJSB4NNcRUPVLefKzurh_9"
+                    "id": "1bULgqNvQKwoJSB4NNcRUPVLefKzurh_9",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1397,7 +1441,9 @@
                     "height": 1364,
                     "display_width": 826,
                     "source": "IMG_20250819_170855_917.jpg",
-                    "id": "1ABobA1ZU2x-L_mM_NWyXKkAzTsYrWISz"
+                    "id": "1ABobA1ZU2x-L_mM_NWyXKkAzTsYrWISz",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1407,7 +1453,9 @@
                     "height": 1200,
                     "display_width": 1100,
                     "source": "IMG-20250822-WA0006.jpg",
-                    "id": "17tgW2Y7pw2c9Cmsmok6Cf9gTBj_rbqye"
+                    "id": "17tgW2Y7pw2c9Cmsmok6Cf9gTBj_rbqye",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1417,7 +1465,9 @@
                     "height": 1200,
                     "display_width": 1100,
                     "source": "IMG-20250822-WA0009.jpg",
-                    "id": "1X51BzfgXBM7O3Xg12EL2x-PVQzT2HQd-"
+                    "id": "1X51BzfgXBM7O3Xg12EL2x-PVQzT2HQd-",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1427,7 +1477,9 @@
                     "height": 751,
                     "display_width": 563,
                     "source": "IMG_20250908_201843_191.jpg",
-                    "id": "1pUkPe68H-_ezeKU1i0F2KwPJErE6wEt5"
+                    "id": "1pUkPe68H-_ezeKU1i0F2KwPJErE6wEt5",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1437,7 +1489,9 @@
                     "height": 640,
                     "display_width": 480,
                     "source": "IMG_3261.jpg",
-                    "id": "1Gt9ppb4C6tvLwcASxA1j1E9zVhxla18t"
+                    "id": "1Gt9ppb4C6tvLwcASxA1j1E9zVhxla18t",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1447,7 +1501,9 @@
                     "height": 640,
                     "display_width": 480,
                     "source": "IMG_3253.jpg",
-                    "id": "1pcRwcMHob8mgiGmi-Xd0VA3OW8VwLS50"
+                    "id": "1pcRwcMHob8mgiGmi-Xd0VA3OW8VwLS50",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1457,7 +1513,9 @@
                     "height": 640,
                     "display_width": 480,
                     "source": "IMG_4311.jpg",
-                    "id": "1b3RC1SlWkYCvsbxi4Oy5xtJAmlN9e2Wh"
+                    "id": "1b3RC1SlWkYCvsbxi4Oy5xtJAmlN9e2Wh",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1467,7 +1525,9 @@
                     "height": 480,
                     "display_width": 640,
                     "source": "IMG_4348.jpg",
-                    "id": "1j0leqgOgifzU_cuxNau_E_HwyfpU8-Cr"
+                    "id": "1j0leqgOgifzU_cuxNau_E_HwyfpU8-Cr",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1477,7 +1537,9 @@
                     "height": 1600,
                     "display_width": 825,
                     "source": "IMG-20250822-WA0004.jpg",
-                    "id": "1iVp4g8yFDnZy5rR64ExmkZg7RpX_xWXZ"
+                    "id": "1iVp4g8yFDnZy5rR64ExmkZg7RpX_xWXZ",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1487,7 +1549,9 @@
                     "height": 2400,
                     "display_width": 619,
                     "source": "20250919_102642.jpg",
-                    "id": "1ay9ZJgZ3EyBJO2cpPXuZ_QamfhSRqWO6"
+                    "id": "1ay9ZJgZ3EyBJO2cpPXuZ_QamfhSRqWO6",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1497,7 +1561,9 @@
                     "height": 2400,
                     "display_width": 619,
                     "source": "20250919_103028.jpg",
-                    "id": "1dUD8ZQk1nAvOAeo9rzBcWdXENgmKtfYB"
+                    "id": "1dUD8ZQk1nAvOAeo9rzBcWdXENgmKtfYB",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1507,7 +1573,9 @@
                     "height": 2400,
                     "display_width": 619,
                     "source": "20250919_103133.jpg",
-                    "id": "1NZd-ZNjO8IzFfZiuwPDteLwxRzXzqTrD"
+                    "id": "1NZd-ZNjO8IzFfZiuwPDteLwxRzXzqTrD",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1517,7 +1585,9 @@
                     "height": 2400,
                     "display_width": 619,
                     "source": "20250919_101846.jpg",
-                    "id": "1GELqYjbs_6BeLCt4yUN6B_0Bg_HvxCUx"
+                    "id": "1GELqYjbs_6BeLCt4yUN6B_0Bg_HvxCUx",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1527,7 +1597,9 @@
                     "height": 2400,
                     "display_width": 619,
                     "source": "20250919_101936.jpg",
-                    "id": "1Kk4_G_MEec2nY-7SPoXJDmRS_aGGBwop"
+                    "id": "1Kk4_G_MEec2nY-7SPoXJDmRS_aGGBwop",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1537,7 +1609,9 @@
                     "height": 2400,
                     "display_width": 619,
                     "source": "20250919_102035.jpg",
-                    "id": "1yq_GzLnSLX0_Eq0zpWnehs9N6pxAOyRM"
+                    "id": "1yq_GzLnSLX0_Eq0zpWnehs9N6pxAOyRM",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1547,7 +1621,9 @@
                     "height": 2400,
                     "display_width": 619,
                     "source": "20250919_102533.jpg",
-                    "id": "1NRf_hz189QoZeP4HwrCIaIVaRd8XmQ4K"
+                    "id": "1NRf_hz189QoZeP4HwrCIaIVaRd8XmQ4K",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1557,7 +1633,9 @@
                     "height": 2400,
                     "display_width": 619,
                     "source": "20250919_102055.jpg",
-                    "id": "1f9SY7xyq7w2udKSenoKKlaTI1mOfrBdV"
+                    "id": "1f9SY7xyq7w2udKSenoKKlaTI1mOfrBdV",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1567,7 +1645,9 @@
                     "height": 2400,
                     "display_width": 619,
                     "source": "20250919_103159.jpg",
-                    "id": "1P9QdHIV2pviISzswkQQRuNS7VMWO_Xga"
+                    "id": "1P9QdHIV2pviISzswkQQRuNS7VMWO_Xga",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1577,7 +1657,9 @@
                     "height": 1457,
                     "display_width": 1100,
                     "source": "IMG-20251029-WA0011.jpg",
-                    "id": "1Tj0TEag4ALI2GALR0HF9MKAN7k4S9wWR"
+                    "id": "1Tj0TEag4ALI2GALR0HF9MKAN7k4S9wWR",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1587,7 +1669,9 @@
                     "height": 1500,
                     "display_width": 1100,
                     "source": "IMG-20251029-WA0013.jpg",
-                    "id": "1BBzez8wbZxDR5JYvcWBreahmUCXhAo3u"
+                    "id": "1BBzez8wbZxDR5JYvcWBreahmUCXhAo3u",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1597,7 +1681,9 @@
                     "height": 2000,
                     "display_width": 825,
                     "source": "IMG-20251029-WA0027.jpg",
-                    "id": "1d6_SfuLCFhdxgTk5aEwPL62XXKj5YBL3"
+                    "id": "1d6_SfuLCFhdxgTk5aEwPL62XXKj5YBL3",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1607,7 +1693,9 @@
                     "height": 1500,
                     "display_width": 1100,
                     "source": "IMG-20251029-WA0014.jpg",
-                    "id": "1NmeMZutwJMDptUoiIkOT8oMpa4WWrRme"
+                    "id": "1NmeMZutwJMDptUoiIkOT8oMpa4WWrRme",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1617,7 +1705,9 @@
                     "height": 2000,
                     "display_width": 825,
                     "source": "IMG-20251029-WA0019.jpg",
-                    "id": "1FN33ngCA89ozqTIZ8SrR9_0mbKBgErL8"
+                    "id": "1FN33ngCA89ozqTIZ8SrR9_0mbKBgErL8",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1627,7 +1717,9 @@
                     "height": 2000,
                     "display_width": 825,
                     "source": "IMG-20251029-WA0018.jpg",
-                    "id": "1zfYUhFvqUgHa1FFbYKfsVpsRoK0umbT3"
+                    "id": "1zfYUhFvqUgHa1FFbYKfsVpsRoK0umbT3",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1637,7 +1729,9 @@
                     "height": 1920,
                     "display_width": 825,
                     "source": "IMG_20260103_230341_894.jpg",
-                    "id": "13s-pOzk58PKL2VYtI6sbSEWMjGsGKedk"
+                    "id": "13s-pOzk58PKL2VYtI6sbSEWMjGsGKedk",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1647,7 +1741,9 @@
                     "height": 1920,
                     "display_width": 825,
                     "source": "IMG_20260103_230355_495.jpg",
-                    "id": "1f-JKZLGin9owtqMzRSyFdbyI0AMspPeN"
+                    "id": "1f-JKZLGin9owtqMzRSyFdbyI0AMspPeN",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1657,7 +1753,9 @@
                     "height": 1920,
                     "display_width": 825,
                     "source": "IMG_20260103_230352_423.jpg",
-                    "id": "1rcAXNIVtdZdoHHm4ToFKMJ6AXimhVCxZ"
+                    "id": "1rcAXNIVtdZdoHHm4ToFKMJ6AXimhVCxZ",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1667,7 +1765,9 @@
                     "height": 1920,
                     "display_width": 825,
                     "source": "IMG_20260103_230358_175.jpg",
-                    "id": "1guZFKu3a7lAvbsikgaczD_QyKfV-eAaN"
+                    "id": "1guZFKu3a7lAvbsikgaczD_QyKfV-eAaN",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1677,7 +1777,9 @@
                     "height": 1920,
                     "display_width": 825,
                     "source": "IMG_20260103_230401_130.jpg",
-                    "id": "11YZ3q7qmUBgclN4t13w2EFcK8rWaAVjZ"
+                    "id": "11YZ3q7qmUBgclN4t13w2EFcK8rWaAVjZ",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1687,7 +1789,9 @@
                     "height": 848,
                     "display_width": 1100,
                     "source": "image000001 (1).jpg",
-                    "id": "1Y70gKhCpT8ThpGHAkkQLVeGiD3jOEsPg"
+                    "id": "1Y70gKhCpT8ThpGHAkkQLVeGiD3jOEsPg",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1697,7 +1801,9 @@
                     "height": 810,
                     "display_width": 1080,
                     "source": "IMG_20260717_181207_471.jpg",
-                    "id": "1yg43aIq8u4cqZ81h6qg4q34L8tN2SPf3"
+                    "id": "1yg43aIq8u4cqZ81h6qg4q34L8tN2SPf3",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1707,7 +1813,9 @@
                     "height": 810,
                     "display_width": 1080,
                     "source": "IMG_20260717_181209_786.jpg",
-                    "id": "1mj0sltDX3M8iqz-vdRVgE9qwCLXsmOpx"
+                    "id": "1mj0sltDX3M8iqz-vdRVgE9qwCLXsmOpx",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1717,7 +1825,9 @@
                     "height": 1500,
                     "display_width": 826,
                     "source": "IMG_20260821_180712_338.jpg",
-                    "id": "1GIiAooeSjY2nXPbS_Rn7YSidK-m01P15"
+                    "id": "1GIiAooeSjY2nXPbS_Rn7YSidK-m01P15",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1727,7 +1837,9 @@
                     "height": 1500,
                     "display_width": 826,
                     "source": "IMG_20260821_180708_669.jpg",
-                    "id": "1lxKjdrvmFWbzE8klN_hMgDygTxVyxCEy"
+                    "id": "1lxKjdrvmFWbzE8klN_hMgDygTxVyxCEy",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1737,7 +1849,9 @@
                     "height": 1500,
                     "display_width": 826,
                     "source": "IMG_20260821_180724_903.jpg",
-                    "id": "1e8QBUZDZ0LNnz5598UqlIQFyEqF3gnwG"
+                    "id": "1e8QBUZDZ0LNnz5598UqlIQFyEqF3gnwG",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1747,7 +1861,9 @@
                     "height": 844,
                     "display_width": 1100,
                     "source": "IMG_20260821_180734_087 (1).jpg",
-                    "id": "10U36g03kgszI31TdG_taqXNQErZOSqJU"
+                    "id": "10U36g03kgszI31TdG_taqXNQErZOSqJU",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1757,7 +1873,9 @@
                     "height": 1606,
                     "display_width": 825,
                     "source": "IMG_20260827_164017_615.jpg",
-                    "id": "15artvdOrRCn56v9tgOLzD7iwpR7nMjxu"
+                    "id": "15artvdOrRCn56v9tgOLzD7iwpR7nMjxu",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1767,7 +1885,9 @@
                     "height": 1606,
                     "display_width": 825,
                     "source": "IMG_20260827_164025_765.jpg",
-                    "id": "1y3HSHfqCHCLr8kZX-tZKBsA9zNiAVtXr"
+                    "id": "1y3HSHfqCHCLr8kZX-tZKBsA9zNiAVtXr",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1777,7 +1897,9 @@
                     "height": 1606,
                     "display_width": 825,
                     "source": "IMG_20260827_164014_501.jpg",
-                    "id": "1uFbm-c-Rt1bah4FM1mT8epqkXfHGUFmj"
+                    "id": "1uFbm-c-Rt1bah4FM1mT8epqkXfHGUFmj",
+                    "alt": "",
+                    "is_top": false
                 },
                 {
                     "group": "realizations",
@@ -1787,7 +1909,9 @@
                     "height": 1606,
                     "display_width": 825,
                     "source": "IMG_20260827_164023_182.jpg",
-                    "id": "1Gs8JiC5VMpSLwQq9FjLS3CNbtmZ3xGxc"
+                    "id": "1Gs8JiC5VMpSLwQq9FjLS3CNbtmZ3xGxc",
+                    "alt": "",
+                    "is_top": false
                 }
             ],
             "description": [
@@ -1799,11 +1923,19 @@
             "display_order": 11,
             "id": "project-10",
             "slug": "projekt-ogrodu-10",
-            "legacy": true,
+            "legacy": false,
             "seoTitle": "Realizacje ogrodów - zdjęcia | Effkowe Ogrody",
             "seoDescription": "Zobacz zdjęcia zrealizowanych ogrodów Effkowe Ogrody: rabaty, tarasy, miejsca wypoczynku i detale. Poznaj przestrzenie pokazane na rzeczywistych fotografiach.",
-            "updatedAt": "2026-10-27T00:00:00Z",
-            "featured": true
+            "updatedAt": "2026-11-17T16:35:46+00:00",
+            "featured": true,
+            "area": "",
+            "facts": {
+                "Lokalizacja": "",
+                "Powierzchnia": "",
+                "Styl": "",
+                "Główne elementy": ""
+            },
+            "has_top": false
         },
         {
             "number": 11,
