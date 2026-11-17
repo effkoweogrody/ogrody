@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "revision": 8,
+    "revision": 9,
     "projects": [
         {
             "number": 1,
@@ -242,98 +242,111 @@
             "number": 3,
             "name": "Nowoczesny ogród rodzinny",
             "place": "Wrocław",
-            "cover": "assets/projects/03-cover.webp",
+            "cover": "assets/projects/03-01.webp",
             "images": [
                 {
                     "src": "assets/projects/03-01.webp",
                     "width": 3840,
                     "height": 2160,
                     "source": "OGRÓD WROCŁAW - NOWOCZESNY (1).jpg",
-                    "is_top": true
+                    "is_top": true,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/03-02.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD WROCŁAW - NOWOCZESNY (2).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/03-03.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD WROCŁAW - NOWOCZESNY (3).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/03-04.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD WROCŁAW - NOWOCZESNY (4).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/03-05.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD WROCŁAW - NOWOCZESNY (5).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/03-06.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD WROCŁAW - NOWOCZESNY (6).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/03-07.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD WROCŁAW - NOWOCZESNY (7).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/03-08.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD WROCŁAW - NOWOCZESNY (8).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/03-09.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD WROCŁAW - NOWOCZESNY (9).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/03-10.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD WROCŁAW - NOWOCZESNY (10).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/03-11.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD WROCŁAW - NOWOCZESNY (11).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/03-12.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD WROCŁAW - NOWOCZESNY (12).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/03-13.webp",
                     "width": 3840,
                     "height": 2160,
                     "source": "OGRÓD WROCŁAW - NOWOCZESNY (13).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 }
             ],
             "has_top": true,
@@ -345,7 +358,7 @@
                 "Całość łączy nowoczesne rozwiązania z naturalną, różnorodną zielenią, która z czasem osłoni istniejące betonowe ogrodzenie i zapewni domownikom więcej prywatności."
             ],
             "facts": {
-                "Lokalizacja": "Wrocław, woj. dolnośląskie",
+                "Lokalizacja": "Wrocław",
                 "Powierzchnia": "1000 m²",
                 "Styl": "nowoczesny z elementami naturalistycznymi",
                 "Główne elementy": "altana drewniana z jacuzzi, zadaszony taras z jadalnią, palenisko, strefa sportowa, mini sad, zagajnik brzozowy"
@@ -353,10 +366,10 @@
             "display_order": 3,
             "id": "project-3",
             "slug": "projekt-ogrodu-03",
-            "legacy": true,
+            "legacy": false,
             "seoTitle": "Projekt ogrodu rodzinnego Wrocław | Effkowe Ogrody",
             "seoDescription": "Nowoczesny ogród rodzinny we Wrocławiu: 1000 m², taras, altana z jacuzzi, palenisko i strefa sportowa. Poznaj projekt Ewy Katrycz i zobacz wizualizacje.",
-            "updatedAt": "2026-10-27T00:00:00Z",
+            "updatedAt": "2026-11-17T16:27:01+00:00",
             "featured": true
         },
         {
