@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "revision": 16,
+    "revision": 17,
     "projects": [
         {
             "number": 1,
@@ -374,7 +374,7 @@
         },
         {
             "number": 4,
-            "name": "Ogród w angielskim stylu",
+            "name": "Ogród pełen koloru z murowanym paleniskiem",
             "place": "Teklinów",
             "cover": "assets/projects/04-05.webp",
             "images": [
@@ -472,7 +472,7 @@
             "legacy": false,
             "seoTitle": "Ogród w angielskim stylu - Teklinów | Effkowe Ogrody",
             "seoDescription": "Projekt ogrodu w Teklinowie: 800 m², angielski charakter, naturalistyczne nasadzenia, ceglane palenisko i taras modrzewiowy. Poznaj koncepcję ogrodu.",
-            "updatedAt": "2026-11-17T16:35:05+00:00",
+            "updatedAt": "2026-11-17T17:39:15+00:00",
             "featured": true
         },
         {
