@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "revision": 13,
+    "revision": 14,
     "projects": [
         {
             "number": 1,
@@ -376,70 +376,79 @@
             "number": 4,
             "name": "Ogród w angielskim stylu",
             "place": "Teklinów",
-            "cover": "assets/projects/04-cover.webp",
+            "cover": "assets/projects/04-05.webp",
             "images": [
                 {
                     "src": "assets/projects/04-01.webp",
                     "width": 5120,
                     "height": 2880,
                     "source": "OGRÓD TEKLINÓW  (1).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/04-02.webp",
                     "width": 5120,
                     "height": 2880,
                     "source": "OGRÓD TEKLINÓW  (2).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/04-03.webp",
                     "width": 5120,
                     "height": 2880,
                     "source": "OGRÓD TEKLINÓW  (3).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/04-04.webp",
                     "width": 1280,
                     "height": 720,
                     "source": "OGRÓD TEKLINÓW  (4).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/04-05.webp",
                     "width": 5120,
                     "height": 2880,
                     "source": "OGRÓD TEKLINÓW  (5).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/04-06.webp",
                     "width": 5120,
                     "height": 2880,
                     "source": "OGRÓD TEKLINÓW  (6).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/04-07.webp",
                     "width": 1280,
                     "height": 720,
                     "source": "OGRÓD TEKLINÓW  (7).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/04-08.webp",
                     "width": 1280,
                     "height": 720,
                     "source": "OGRÓD TEKLINÓW  (8).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/04-09.webp",
                     "width": 5120,
                     "height": 2880,
                     "source": "OGRÓD TEKLINÓW  (9).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 }
             ],
             "has_top": false,
@@ -460,10 +469,10 @@
             "display_order": 9,
             "id": "project-4",
             "slug": "projekt-ogrodu-04",
-            "legacy": true,
+            "legacy": false,
             "seoTitle": "Ogród w angielskim stylu - Teklinów | Effkowe Ogrody",
             "seoDescription": "Projekt ogrodu w Teklinowie: 800 m², angielski charakter, naturalistyczne nasadzenia, ceglane palenisko i taras modrzewiowy. Poznaj koncepcję ogrodu.",
-            "updatedAt": "2026-10-27T00:00:00Z",
+            "updatedAt": "2026-11-17T16:35:05+00:00",
             "featured": true
         },
         {
