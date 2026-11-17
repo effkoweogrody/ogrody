@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "revision": 12,
+    "revision": 13,
     "projects": [
         {
             "number": 1,
@@ -1022,98 +1022,111 @@
             "number": 9,
             "name": "Ogród naturalistyczny z nutą śródziemnomorską",
             "place": "Dobczyn",
-            "cover": "assets/projects/09-cover.webp",
+            "cover": "assets/projects/09-01.webp",
             "images": [
                 {
                     "src": "assets/projects/09-01.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (15).jpg",
-                    "is_top": true
+                    "is_top": true,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/09-02.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (1).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/09-03.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (2).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/09-04.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (3).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/09-05.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (4).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/09-06.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (5).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/09-07.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (6).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/09-08.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (7).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/09-09.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (8).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/09-10.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (10).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/09-11.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (11).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/09-12.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (12).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/09-13.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD DOBCZYN - NATURALISTYCZNY (14).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 }
             ],
             "has_top": true,
@@ -1127,18 +1140,18 @@
                 "Ważnym elementem projektu było zachowanie widoku na otaczające działkę łąki i drzewa. Dlatego nasadzenia zapewniają prywatność od strony sąsiadów, ale jednocześnie otwierają ogród na piękny, naturalny krajobraz."
             ],
             "facts": {
-                "Lokalizacja": "Dobczyn, woj. mazowieckie",
-                "Powierzchnia działki": "800 m²",
+                "Lokalizacja": "Dobczyn",
+                "Powierzchnia": "800 m²",
                 "Styl": "naturalistyczny, śródziemnomorski z nutą wiejskiego romantyzmu",
                 "Główne elementy": "drewniane pergole, basen, palenisko, misa wodna, taras śródziemnomorski, szklarnia, warzywnik, strefa zabaw"
             },
             "display_order": 8,
             "id": "project-9",
             "slug": "projekt-ogrodu-09",
-            "legacy": true,
+            "legacy": false,
             "seoTitle": "Ogród naturalistyczny - Dobczyn | Effkowe Ogrody",
             "seoDescription": "Projekt ogrodu w Dobczynie na działce 800 m²: naturalistyczne nasadzenia, basen, pergole i śródziemnomorski taras. Zobacz wizualizacje i opis koncepcji.",
-            "updatedAt": "2026-10-27T00:00:00Z",
+            "updatedAt": "2026-11-17T16:29:57+00:00",
             "featured": true
         },
         {
