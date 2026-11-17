@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "revision": 7,
+    "revision": 8,
     "projects": [
         {
             "number": 1,
@@ -99,105 +99,119 @@
             "number": 2,
             "name": "Malowniczy ogród z leśną nutą",
             "place": "Wrocław",
-            "cover": "assets/projects/02-cover.webp",
+            "cover": "assets/projects/02-01.webp",
             "images": [
                 {
                     "src": "assets/projects/02-01.webp",
                     "width": 3840,
                     "height": 2160,
                     "source": "OGRÓD WROCŁAW - MALOWNICZY (1).jpg",
-                    "is_top": true
+                    "is_top": true,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/02-02.webp",
                     "width": 1672,
                     "height": 941,
                     "source": "OGRÓD WROCŁAW - MALOWNICZY (1).png",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/02-03.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD WROCŁAW - MALOWNICZY (2).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/02-04.webp",
                     "width": 1672,
                     "height": 941,
                     "source": "OGRÓD WROCŁAW - MALOWNICZY (2).png",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/02-05.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD WROCŁAW - MALOWNICZY (3).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/02-06.webp",
                     "width": 1672,
                     "height": 941,
                     "source": "OGRÓD WROCŁAW - MALOWNICZY (3).png",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/02-07.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD WROCŁAW - MALOWNICZY (4).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/02-08.webp",
                     "width": 1672,
                     "height": 941,
                     "source": "OGRÓD WROCŁAW - MALOWNICZY (4).png",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/02-09.webp",
                     "width": 3840,
                     "height": 2160,
                     "source": "OGRÓD WROCŁAW - MALOWNICZY (5).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/02-10.webp",
                     "width": 3840,
                     "height": 2160,
                     "source": "OGRÓD WROCŁAW - MALOWNICZY (6).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/02-11.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD WROCŁAW - MALOWNICZY (7).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/02-12.webp",
                     "width": 3840,
                     "height": 2160,
                     "source": "OGRÓD WROCŁAW - MALOWNICZY (8).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/02-13.webp",
                     "width": 1672,
                     "height": 941,
                     "source": "OGRÓD WROCŁAW - MALOWNICZY (9).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/02-14.webp",
                     "width": 1672,
                     "height": 941,
                     "source": "OGRÓD WROCŁAW - MALOWNICZY (10).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 }
             ],
             "has_top": true,
@@ -210,18 +224,18 @@
                 "Nie zabrakło też miejsca na dziecięce zabawy, niewielki warzywnik i krzewy owocowe. Zróżnicowane nasadzenia zapewniają prywatność, a obecność roślin zimozielonych sprawia, że ogród zachowuje swój charakter również poza sezonem."
             ],
             "facts": {
-                "Lokalizacja": "Wrocław, woj. dolnośląskie",
-                "Powierzchnia działki": "580 m²",
+                "Lokalizacja": "Wrocław",
+                "Powierzchnia": "580 m²",
                 "Styl": "naturalistyczny, lekko leśny z nowoczesnymi akcentami",
                 "Główne elementy": "zagajnik brzozowo-sosnowy, palenisko, misa wodna, fontanna, rabaty bylinowe, strefa zabaw, warzywnik"
             },
             "display_order": 2,
             "id": "project-2",
             "slug": "projekt-ogrodu-02",
-            "legacy": true,
+            "legacy": false,
             "seoTitle": "Projekt ogrodu Wrocław - leśna kompozycja | Effkowe Ogrody",
             "seoDescription": "Projekt ogrodu we Wrocławiu na działce 580 m²: naturalistyczne rabaty, zagajnik, palenisko i miejsca wypoczynku. Zobacz wizualizacje i opis koncepcji.",
-            "updatedAt": "2026-10-27T00:00:00Z",
+            "updatedAt": "2026-11-17T16:26:15+00:00",
             "featured": true
         },
         {
