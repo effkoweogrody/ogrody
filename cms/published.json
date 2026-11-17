@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "revision": 9,
+    "revision": 10,
     "projects": [
         {
             "number": 1,
@@ -593,126 +593,143 @@
             "number": 6,
             "name": "Podmiejski ogród z leśnym charakterem",
             "place": "Kębłowice",
-            "cover": "assets/projects/06-cover.webp",
+            "cover": "assets/projects/06-02.webp",
             "images": [
                 {
                     "src": "assets/projects/06-01.webp",
                     "width": 3840,
                     "height": 2160,
                     "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (2).jpg",
-                    "is_top": true
+                    "is_top": true,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/06-02.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (1).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/06-03.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (3).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/06-04.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (4).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/06-05.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (5).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/06-06.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (6).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/06-07.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (7).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/06-08.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (8).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/06-09.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (9).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/06-10.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (10).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/06-11.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (11).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/06-12.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (12).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/06-13.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (13).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/06-14.webp",
                     "width": 1672,
                     "height": 941,
                     "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (14).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/06-15.webp",
                     "width": 1672,
                     "height": 941,
                     "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (15).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/06-16.webp",
                     "width": 1672,
                     "height": 941,
                     "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (16).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/06-17.webp",
                     "width": 1672,
                     "height": 903,
                     "source": "OGRÓD KĘBŁOWICE - PODMIEJSKI DUŻY (17).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 }
             ],
             "has_top": true,
@@ -726,18 +743,18 @@
                 "Dużą uwagę poświęciłam również osłonięciu posesji od sąsiedniej zabudowy. Zróżnicowane żywopłoty, wysokie drzewa i szerokie rabaty z czasem stworzą zieloną osłonę, zapewniając domownikom prywatność. Dzięki obecności roślin zimozielonych ogród będzie atrakcyjny także zimą."
             ],
             "facts": {
-                "Lokalizacja": "Kębłowice, woj. dolnośląskie",
-                "Powierzchnia działki": "1100 m²",
+                "Lokalizacja": "Kębłowice",
+                "Powierzchnia": "1100 m²",
                 "Styl": "naturalistyczny, lekko leśny z nowoczesnymi akcentami",
                 "Główne elementy": "palenisko, zagajnik brzozowo-sosnowy, basen, misy wodne, trejaż z kokonami, strefa zabaw, warzywniki, rabaty bylinowe"
             },
             "display_order": 5,
             "id": "project-6",
             "slug": "projekt-ogrodu-06",
-            "legacy": true,
+            "legacy": false,
             "seoTitle": "Ogród naturalistyczny - Kębłowice | Effkowe Ogrody",
             "seoDescription": "Projekt ogrodu w Kębłowicach: 1100 m², naturalistyczne rabaty, zagajnik, basen i strefy wypoczynku. Zobacz układ i wizualizacje ogrodu.",
-            "updatedAt": "2026-10-27T00:00:00Z",
+            "updatedAt": "2026-11-17T16:27:45+00:00",
             "featured": true
         },
         {
