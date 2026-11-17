@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "revision": 4,
+    "revision": 5,
     "projects": [
         {
             "number": 1,
@@ -2017,14 +2017,14 @@
             "cover": "assets/cms/3e1292a40e416d9ddfdb5acfd089f43d.webp",
             "seoTitle": "Niewielki ogród pełen motyli | Effkowe Ogrody",
             "seoDescription": "Niewielki ogród pełen motyli. Wąski ogród przy domu w zabudowie bliźniaczej w Stadnickiej Woli zaprojektowałam jako przestrzeń pełną zieleni i kameralnych miejsc do odpoczynku. Płynne linie rabat i ścieżek przełamują wydłużony kształt działki, a niewielki traw",
-            "updatedAt": "2026-11-16T18:48:40+00:00",
+            "updatedAt": "2026-11-17T07:13:43+00:00",
             "number": 14,
             "name": "Niewielki ogród pełen motyli",
             "place": "Stadnicka Wola",
-            "area": "300 m²",
+            "area": "Powierzchnia 300 m²",
             "facts": {
                 "Lokalizacja": "Stadnicka Wola",
-                "Powierzchnia": "300 m²",
+                "Powierzchnia": "Powierzchnia 300 m²",
                 "Styl": "Bylinowy, leśny",
                 "Główne elementy": "Taras, placyk z pergolą i wiszącymi kokonami, strefa ZEN z fontanną i ławką, część leśna z misą wodną, palenisko z ławkami"
             },
