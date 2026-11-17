@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "revision": 19,
+    "revision": 20,
     "projects": [
         {
             "number": 1,
@@ -2410,7 +2410,7 @@
             "cover": "assets/cms/4422c98ee7e1487df47c81c45642fff1.webp",
             "seoTitle": "Rodzinny ogród na nowo | Effkowe Ogrody",
             "seoDescription": "Rodzinny ogród na nowo.  Poznaj inspiracje i projekty pracowni Effkowe Ogrody we Wrocławiu.",
-            "updatedAt": "2026-11-17T17:49:25+00:00",
+            "updatedAt": "2026-11-17T17:52:08+00:00",
             "number": 16,
             "name": "Rodzinny ogród na nowo",
             "place": "Osiek Wielki",
@@ -2418,7 +2418,7 @@
             "facts": {
                 "Lokalizacja": "Osiek Wielki",
                 "Powierzchnia": "Powierzchnia 500 m²",
-                "Styl": "",
+                "Styl": "Naturalistyczny",
                 "Główne elementy": "Palenisko, grill murowany, plac zabaw, kompostowniki, pergola tarasowa"
             },
             "description": [
