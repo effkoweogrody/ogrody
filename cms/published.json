@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "revision": 6,
+    "revision": 7,
     "projects": [
         {
             "number": 1,
@@ -1730,7 +1730,7 @@
             "number": 11,
             "name": "Ogród leśny z nutą romantyzmu",
             "place": "Stanięcice",
-            "cover": "assets/projects/11-19.webp",
+            "cover": "assets/projects/11-01.webp",
             "images": [
                 {
                     "group": "project",
@@ -1741,7 +1741,8 @@
                     "display_width": 1400,
                     "source": "1.jpg",
                     "id": "1YkGzjznZ2OgOz3fXG_iAOSQpxJieyRG9",
-                    "is_top": true
+                    "is_top": true,
+                    "alt": ""
                 },
                 {
                     "group": "project",
@@ -1752,7 +1753,8 @@
                     "display_width": 1400,
                     "source": "Fotorealistyczny ogród z lotu ptaka.png",
                     "id": "1Y6YvJt0i2-b_DtbDV9UZRj_LHCpsbjgZ",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "group": "project",
@@ -1763,7 +1765,8 @@
                     "display_width": 1400,
                     "source": "Przytulny ogród z paleniskiem pod pergolą.png",
                     "id": "11wT2MrEoKEuufLDFRhHYNIouzm3tGtuP",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "group": "project",
@@ -1774,7 +1777,8 @@
                     "display_width": 1400,
                     "source": "Spokojny ogród przy nowoczesnym domu.png",
                     "id": "1DmnoXe8dn060N2pj1E2NamCvmK2er25S",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "group": "project",
@@ -1785,7 +1789,8 @@
                     "display_width": 1400,
                     "source": "Słoneczny ogród z pergolą i szklarnią.png",
                     "id": "1a-rPb1hgQXO-q4iGKSeRwgQFTeB1cr3i",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "group": "project",
@@ -1796,7 +1801,8 @@
                     "display_width": 1400,
                     "source": "Słoneczny ogród z pergolą i spa.png",
                     "id": "1XJXF4c208RL4KBbUaY3DTmeoBn_qiuHE",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "group": "project",
@@ -1807,7 +1813,8 @@
                     "display_width": 1400,
                     "source": "Słoneczny ogród z pergolą i ogniskiem.png",
                     "id": "1cHdZWdYPIlJp2GluAu8SsWXM-dy2i8Wo",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "group": "project",
@@ -1818,7 +1825,8 @@
                     "display_width": 1400,
                     "source": "Słoneczny ogród z głęboką szklarnią.png",
                     "id": "1f98qEHqk88oGOiMxjTlArG1qZxffhWlE",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "group": "project",
@@ -1829,7 +1837,8 @@
                     "display_width": 1400,
                     "source": "Słoneczny ogród przy nowoczesnym domu.png",
                     "id": "1S0tvBUSKjk5-Cm7wn9uDcOs0-5y4e23Q",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "group": "project",
@@ -1840,7 +1849,8 @@
                     "display_width": 1400,
                     "source": "Sielski zakątek ogrodowy z pergolą.png",
                     "id": "1Md02FPjMig27tfDgidRqCEuE56gpXuEF",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "group": "project",
@@ -1851,7 +1861,8 @@
                     "display_width": 1400,
                     "source": "Sielankowy ogród przy nowoczesnym domu.png",
                     "id": "1BJfijoXoC4KpTRcJiR227TtkRDeV6ahs",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "group": "project",
@@ -1862,7 +1873,8 @@
                     "display_width": 1400,
                     "source": "Rustykalny domek wśród bujnego ogrodu.png",
                     "id": "18SE377a94G27VTHbpC2gWs9Rg8ukNdzN",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "group": "project",
@@ -1873,7 +1885,8 @@
                     "display_width": 1400,
                     "source": "Rustykalny dom wśród kwitnącego ogrodu.png",
                     "id": "1vA_h7qWN9DSA14SOD6TYxgCHm37Bzy_C",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "group": "project",
@@ -1884,7 +1897,8 @@
                     "display_width": 1400,
                     "source": "Rustykalny dom w leśnym ogrodzie.png",
                     "id": "1Ib9VKahxuPNLM8y28PgzN1-A7HH1K3d7",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "group": "project",
@@ -1895,7 +1909,8 @@
                     "display_width": 1400,
                     "source": "Ogród z drewnianą pergolą w słońcu.png",
                     "id": "1IhaqzHmLmnpN-zryIdU1au1KsRwM_k4h",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "group": "project",
@@ -1906,7 +1921,8 @@
                     "display_width": 1400,
                     "source": "Nowoczesny dom z ogrodzeniem i ogrodem.png",
                     "id": "19ckFmV71dIYquujxQAZnRtyxqTv33jI4",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "group": "project",
@@ -1917,7 +1933,8 @@
                     "display_width": 1400,
                     "source": "Nowoczesny dom wśród kwitnącego ogrodu (1).png",
                     "id": "1tfq04KHb3J9WmR5MoXPBWf6sLnEFHpr3",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "group": "project",
@@ -1928,7 +1945,8 @@
                     "display_width": 1400,
                     "source": "Nowoczesny dom wśród bujnego ogrodu2.png",
                     "id": "1UVEJbqHgT6fPLi9ctsHpKuSPsOsMBi4t",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "group": "project",
@@ -1939,7 +1957,8 @@
                     "display_width": 1400,
                     "source": "Naturalistyczny ogród z pergolą i kamienną ścieżką.png",
                     "id": "179fB5_a6IT33rWsxx0pzikds7Yphb4nS",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "group": "project",
@@ -1950,7 +1969,8 @@
                     "display_width": 1400,
                     "source": "Luksusowy ogród z pergolą i jacuzzi.png",
                     "id": "1VmQXktyim35yf5FPAnGOWZ5WsuoDVUVg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "group": "project",
@@ -1961,7 +1981,8 @@
                     "display_width": 1400,
                     "source": "Leśny ogród z drewnianym jacuzzi.png",
                     "id": "13Fv6WUie5yWI6MUQHTEb4cJzg9lg2QW_",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "group": "project",
@@ -1972,7 +1993,8 @@
                     "display_width": 1400,
                     "source": "Fotorealistyczny ogród przy leśnym domku.png",
                     "id": "1G0Y2dGmFKSush2eyIP8lgJG_36XezlA0",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "group": "project",
@@ -1983,7 +2005,8 @@
                     "display_width": 1400,
                     "source": "E2.png",
                     "id": "13FbSaHc5DJDjGM_-ztR8h023jQXZ2OZF",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 }
             ],
             "has_top": true,
@@ -1997,17 +2020,17 @@
             ],
             "facts": {
                 "Lokalizacja": "Stanięcice",
-                "Powierzchnia działki": "1200 m²",
+                "Powierzchnia": "1200 m²",
                 "Styl": "leśny, naturalistyczny z elementami romantycznego ogrodu bylinowego",
                 "Główne elementy": "zagajniki brzozowo-sosnowe, palenisko cortenowe, taras z jacuzzi, drewniane pergole, szklarnia, strefy wypoczynkowe, bujne rabaty bylinowe"
             },
             "display_order": 1,
             "id": "project-11",
             "slug": "projekt-ogrodu-11",
-            "legacy": true,
+            "legacy": false,
             "seoTitle": "Ogród leśny - Stanięcice | Effkowe Ogrody",
             "seoDescription": "Ogród leśny w Stanięcicach na działce 1200 m²: brzozy, sosny, bujne rabaty, palenisko, taras i szklarnia. Zobacz wizualizacje projektu Ewy Katrycz.",
-            "updatedAt": "2026-10-27T00:00:00Z",
+            "updatedAt": "2026-11-17T16:25:25+00:00",
             "featured": true
         },
         {
