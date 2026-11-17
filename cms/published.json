@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "revision": 11,
+    "revision": 12,
     "projects": [
         {
             "number": 1,
@@ -877,105 +877,119 @@
             "number": 8,
             "name": "Romantyczny ogród w angielskim stylu",
             "place": "Jaworzno",
-            "cover": "assets/projects/08-cover.webp",
+            "cover": "assets/projects/08-01.webp",
             "images": [
                 {
                     "src": "assets/projects/08-01.webp",
                     "width": 3840,
                     "height": 2160,
                     "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (1).jpg",
-                    "is_top": true
+                    "is_top": true,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/08-02.webp",
                     "width": 3840,
                     "height": 2160,
                     "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (2).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/08-03.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (3).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/08-04.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (4).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/08-05.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (5).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/08-06.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (6).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/08-07.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (7).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/08-08.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (8).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/08-09.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (9).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/08-10.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (10).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/08-11.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (11).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/08-12.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (12).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/08-13.webp",
                     "width": 1920,
                     "height": 1080,
                     "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (13).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 },
                 {
                     "src": "assets/projects/08-14.webp",
                     "width": 3840,
                     "height": 2160,
                     "source": "OGRÓD JAWORZNO - Z RZEŹBĄ (14).jpg",
-                    "is_top": false
+                    "is_top": false,
+                    "alt": ""
                 }
             ],
             "has_top": true,
@@ -990,19 +1004,18 @@
                 "To ogród z nutą angielskiego romantyzmu, w którym znajdzie się miejsce zarówno na rodzinne zabawy, jak i spokojne popołudnie wśród kwiatów."
             ],
             "facts": {
-                "Lokalizacja": "Jaworzno, woj. śląskie",
-                "Powierzchnia ogrodu": "550 m²",
-                "Powierzchnia działki": "830 m²",
+                "Lokalizacja": "Jaworzno",
+                "Powierzchnia": "550 m²",
                 "Styl": "angielski, naturalistyczny z romantycznymi akcentami",
                 "Główne elementy": "różanka, drewniane pergole, fontanny, ścieżki z ceglanymi obrzeżami, strefy wypoczynkowe, warzywnik, sad, miejsce na szklarnię"
             },
             "display_order": 7,
             "id": "project-8",
             "slug": "projekt-ogrodu-08",
-            "legacy": true,
+            "legacy": false,
             "seoTitle": "Ogród angielski - Jaworzno | Effkowe Ogrody",
             "seoDescription": "Romantyczny ogród w angielskim stylu w Jaworznie: różanka, pergole, fontanny, sad i warzywnik. Poznaj projekt ogrodu 550 m² i zobacz wizualizacje.",
-            "updatedAt": "2026-10-27T00:00:00Z",
+            "updatedAt": "2026-11-17T16:29:42+00:00",
             "featured": true
         },
         {
