@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "revision": 10,
+    "revision": 11,
     "projects": [
         {
             "number": 1,
@@ -99,7 +99,7 @@
             "number": 2,
             "name": "Malowniczy ogród z leśną nutą",
             "place": "Wrocław",
-            "cover": "assets/projects/02-01.webp",
+            "cover": "assets/projects/02-13.webp",
             "images": [
                 {
                     "src": "assets/projects/02-01.webp",
@@ -235,7 +235,7 @@
             "legacy": false,
             "seoTitle": "Projekt ogrodu Wrocław - leśna kompozycja | Effkowe Ogrody",
             "seoDescription": "Projekt ogrodu we Wrocławiu na działce 580 m²: naturalistyczne rabaty, zagajnik, palenisko i miejsca wypoczynku. Zobacz wizualizacje i opis koncepcji.",
-            "updatedAt": "2026-11-17T16:26:15+00:00",
+            "updatedAt": "2026-11-17T16:28:43+00:00",
             "featured": true
         },
         {
