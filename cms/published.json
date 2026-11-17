@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "revision": 18,
+    "revision": 19,
     "projects": [
         {
             "number": 1,
@@ -2400,6 +2400,208 @@
                 }
             ],
             "display_order": 3,
+            "featured": true,
+            "has_top": false
+        },
+        {
+            "id": "project-1453e04b3e2ac724",
+            "slug": "rodzinny-ogrod-na-nowo",
+            "legacy": false,
+            "cover": "assets/cms/4422c98ee7e1487df47c81c45642fff1.webp",
+            "seoTitle": "Rodzinny ogród na nowo | Effkowe Ogrody",
+            "seoDescription": "Rodzinny ogród na nowo.  Poznaj inspiracje i projekty pracowni Effkowe Ogrody we Wrocławiu.",
+            "updatedAt": "2026-11-17T17:49:25+00:00",
+            "number": 16,
+            "name": "Rodzinny ogród na nowo",
+            "place": "Osiek Wielki",
+            "area": "Powierzchnia 500 m²",
+            "facts": {
+                "Lokalizacja": "Osiek Wielki",
+                "Powierzchnia": "Powierzchnia 500 m²",
+                "Styl": "",
+                "Główne elementy": "Palenisko, grill murowany, plac zabaw, kompostowniki, pergola tarasowa"
+            },
+            "description": [
+                "Ten ogród przeszedł dużą metamorfozę. Punktem wyjścia była istniejąca przestrzeń z dojrzałą zielenią, żywopłotami i pojedynczymi nasadzeniami, które warto było zachować, ale brakowało jej spójności oraz wygodnego miejsca do wypoczynku. Nawierzchnie podjazdu pozostały nie zmienione.",
+                "Najważniejszym elementem projektu stała się kameralna strefa z paleniskiem, otoczona bujnymi rabatami. Zamiast klasycznego trawnika pojawiły się kompozycje z bylin, traw ozdobnych, hortensji i krzewów, które miękko wypełniają przestrzeń i sprawiają, że ogród jest dekoracyjny przez większą część roku.",
+                "Przy placyku zaplanowano również murowany grill, dzięki czemu powstała kompletna strefa spotkań i letniego wypoczynku. Czarna misa paleniskowa oraz drewniane ławki wprowadzają prostą, naturalną formę, dobrze wpisującą się w otaczającą zieleń.",
+                "Istniejący formowany jałowiec został wykorzystanemy jako charakterystyczny element kompozycji tworzący efektowne, zielone tło dla strefy wypoczynkowej. Nowe nasadzenia łączą je z pozostałą częścią ogrodu, dzięki czemu całość wygląda naturalnie i dojrzale.",
+                "Miękkie linie rabat, zróżnicowane wysokości roślin i przewaga zieleni przełamanej bielą, różem i fioletem tworzą swobodny, lekko angielski charakter. Wieczorem ogród zyskuje dodatkowy klimat dzięki subtelnemu oświetleniu podkreślającemu rośliny i miejsce przy ogniu.",
+                "To ogród zaprojektowany przede wszystkim do życia, na spokojne wieczory, spotkania z bliskimi i odpoczynek wśród zieleni."
+            ],
+            "images": [
+                {
+                    "src": "assets/cms/08200c75e6b175a2f76389566c5911b5.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display": "assets/cms/08200c75e6b175a2f76389566c5911b5-display.webp",
+                    "card": "assets/cms/08200c75e6b175a2f76389566c5911b5-card.webp",
+                    "thumb": "assets/cms/08200c75e6b175a2f76389566c5911b5-thumb.webp",
+                    "alt": "Pergola tarasowa, palenisko, ogród z hortensjami",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/dc6e21f1739cdf31e07e9929b0775f66.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display": "assets/cms/dc6e21f1739cdf31e07e9929b0775f66-display.webp",
+                    "card": "assets/cms/dc6e21f1739cdf31e07e9929b0775f66-card.webp",
+                    "thumb": "assets/cms/dc6e21f1739cdf31e07e9929b0775f66-thumb.webp",
+                    "alt": "Pergola tarasowa, palenisko, ogród z hortensjami",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/fb1fbbc69f00314b8d70c3e2aa60ba60.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display": "assets/cms/fb1fbbc69f00314b8d70c3e2aa60ba60-display.webp",
+                    "card": "assets/cms/fb1fbbc69f00314b8d70c3e2aa60ba60-card.webp",
+                    "thumb": "assets/cms/fb1fbbc69f00314b8d70c3e2aa60ba60-thumb.webp",
+                    "alt": "Chodnik ogrodowy, rabaty bylinowe",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/7d7f7ba5a4107d0cf6cf4be7614c5592.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display": "assets/cms/7d7f7ba5a4107d0cf6cf4be7614c5592-display.webp",
+                    "card": "assets/cms/7d7f7ba5a4107d0cf6cf4be7614c5592-card.webp",
+                    "thumb": "assets/cms/7d7f7ba5a4107d0cf6cf4be7614c5592-thumb.webp",
+                    "alt": "Pladyk z paleniskiem, grill murowany",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/4422c98ee7e1487df47c81c45642fff1.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display": "assets/cms/4422c98ee7e1487df47c81c45642fff1-display.webp",
+                    "card": "assets/cms/4422c98ee7e1487df47c81c45642fff1-card.webp",
+                    "thumb": "assets/cms/4422c98ee7e1487df47c81c45642fff1-thumb.webp",
+                    "alt": "Ławki wokół paleniska, misa wodna",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/188c5d4c571159ee5e2527d4aa3c6a2b.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display": "assets/cms/188c5d4c571159ee5e2527d4aa3c6a2b-display.webp",
+                    "card": "assets/cms/188c5d4c571159ee5e2527d4aa3c6a2b-card.webp",
+                    "thumb": "assets/cms/188c5d4c571159ee5e2527d4aa3c6a2b-thumb.webp",
+                    "alt": "Girlandy ogrodowe, ławki, palenisko",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/2f33412a1060067f25114c9e89975013.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display": "assets/cms/2f33412a1060067f25114c9e89975013-display.webp",
+                    "card": "assets/cms/2f33412a1060067f25114c9e89975013-card.webp",
+                    "thumb": "assets/cms/2f33412a1060067f25114c9e89975013-thumb.webp",
+                    "alt": "Świdosliwa lamarcka,  hortensje, śliwy wiśniowe Pissardi",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/6e90398df2a859afea24be976ad6f71b.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display": "assets/cms/6e90398df2a859afea24be976ad6f71b-display.webp",
+                    "card": "assets/cms/6e90398df2a859afea24be976ad6f71b-card.webp",
+                    "thumb": "assets/cms/6e90398df2a859afea24be976ad6f71b-thumb.webp",
+                    "alt": "Pergola tarasowa",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/72119b3c0d523d54d884b32461042afd.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display": "assets/cms/72119b3c0d523d54d884b32461042afd-display.webp",
+                    "card": "assets/cms/72119b3c0d523d54d884b32461042afd-card.webp",
+                    "thumb": "assets/cms/72119b3c0d523d54d884b32461042afd-thumb.webp",
+                    "alt": "",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/74320693793f7e5aabc6b563c57444d7.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display": "assets/cms/74320693793f7e5aabc6b563c57444d7-display.webp",
+                    "card": "assets/cms/74320693793f7e5aabc6b563c57444d7-card.webp",
+                    "thumb": "assets/cms/74320693793f7e5aabc6b563c57444d7-thumb.webp",
+                    "alt": "",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/ab2824fda5f9cbd5efe2560adfd857b2.webp",
+                    "width": 1350,
+                    "height": 2400,
+                    "display": "assets/cms/ab2824fda5f9cbd5efe2560adfd857b2-display.webp",
+                    "card": "assets/cms/ab2824fda5f9cbd5efe2560adfd857b2-card.webp",
+                    "thumb": "assets/cms/ab2824fda5f9cbd5efe2560adfd857b2-thumb.webp",
+                    "alt": "Projekt ogrodu",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/75d0f24cdf7af5e8f7ac06a4aef9d2b7.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display": "assets/cms/75d0f24cdf7af5e8f7ac06a4aef9d2b7-display.webp",
+                    "card": "assets/cms/75d0f24cdf7af5e8f7ac06a4aef9d2b7-card.webp",
+                    "thumb": "assets/cms/75d0f24cdf7af5e8f7ac06a4aef9d2b7-thumb.webp",
+                    "alt": "Plac zabaw, projekt ogrodu, drzewa",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/7f2f1e451e7525e90028d7f943d68785.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display": "assets/cms/7f2f1e451e7525e90028d7f943d68785-display.webp",
+                    "card": "assets/cms/7f2f1e451e7525e90028d7f943d68785-card.webp",
+                    "thumb": "assets/cms/7f2f1e451e7525e90028d7f943d68785-thumb.webp",
+                    "alt": "Kompostowniki w ogrodzie,  rabaty cieniste",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/fe84911dc4f1a377893ff27004315c88.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display": "assets/cms/fe84911dc4f1a377893ff27004315c88-display.webp",
+                    "card": "assets/cms/fe84911dc4f1a377893ff27004315c88-card.webp",
+                    "thumb": "assets/cms/fe84911dc4f1a377893ff27004315c88-thumb.webp",
+                    "alt": "Fintanna ogrodowa, grill murowany",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/b3eb0f6f18e996a41aad8039c60822cc.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display": "assets/cms/b3eb0f6f18e996a41aad8039c60822cc-display.webp",
+                    "card": "assets/cms/b3eb0f6f18e996a41aad8039c60822cc-card.webp",
+                    "thumb": "assets/cms/b3eb0f6f18e996a41aad8039c60822cc-thumb.webp",
+                    "alt": "Huśtawka ogrodowa",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/67674086aac4c9adc4a0ef4d936a37d5.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display": "assets/cms/67674086aac4c9adc4a0ef4d936a37d5-display.webp",
+                    "card": "assets/cms/67674086aac4c9adc4a0ef4d936a37d5-card.webp",
+                    "thumb": "assets/cms/67674086aac4c9adc4a0ef4d936a37d5-thumb.webp",
+                    "alt": "Ścieżka ogrodowa z płyt betonowych",
+                    "is_top": false
+                },
+                {
+                    "src": "assets/cms/2372ea90cdae7e3d218016827edf4b3a.webp",
+                    "width": 1672,
+                    "height": 941,
+                    "display": "assets/cms/2372ea90cdae7e3d218016827edf4b3a-display.webp",
+                    "card": "assets/cms/2372ea90cdae7e3d218016827edf4b3a-card.webp",
+                    "thumb": "assets/cms/2372ea90cdae7e3d218016827edf4b3a-thumb.webp",
+                    "alt": "",
+                    "is_top": false
+                }
+            ],
+            "display_order": 7,
             "featured": true,
             "has_top": false
         }
