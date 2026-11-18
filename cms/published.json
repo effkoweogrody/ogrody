@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "revision": 22,
+    "revision": 23,
     "projects": [
         {
             "number": 1,
@@ -363,13 +363,13 @@
                 "Styl": "nowoczesny z elementami naturalistycznymi",
                 "Główne elementy": "altana drewniana z jacuzzi, zadaszony taras z jadalnią, palenisko, strefa sportowa, mini sad, zagajnik brzozowy"
             },
-            "display_order": 3,
+            "display_order": 4,
             "id": "project-3",
             "slug": "projekt-ogrodu-03",
             "legacy": false,
             "seoTitle": "Projekt ogrodu rodzinnego Wrocław | Effkowe Ogrody",
             "seoDescription": "Nowoczesny ogród rodzinny we Wrocławiu: 1000 m², taras, altana z jacuzzi, palenisko i strefa sportowa. Poznaj projekt Ewy Katrycz i zobacz wizualizacje.",
-            "updatedAt": "2026-11-17T16:27:01+00:00",
+            "updatedAt": "2026-11-18T10:29:59+00:00",
             "featured": true
         },
         {
