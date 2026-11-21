@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "revision": 23,
+    "revision": 24,
     "projects": [
         {
             "number": 1,
@@ -242,7 +242,7 @@
             "number": 3,
             "name": "Nowoczesny ogród rodzinny",
             "place": "Wrocław",
-            "cover": "assets/projects/03-01.webp",
+            "cover": "assets/projects/03-08.webp",
             "images": [
                 {
                     "src": "assets/projects/03-01.webp",
@@ -369,7 +369,7 @@
             "legacy": false,
             "seoTitle": "Projekt ogrodu rodzinnego Wrocław | Effkowe Ogrody",
             "seoDescription": "Nowoczesny ogród rodzinny we Wrocławiu: 1000 m², taras, altana z jacuzzi, palenisko i strefa sportowa. Poznaj projekt Ewy Katrycz i zobacz wizualizacje.",
-            "updatedAt": "2026-11-18T10:29:59+00:00",
+            "updatedAt": "2026-11-21T11:16:15+00:00",
             "featured": true
         },
         {
